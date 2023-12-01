@@ -241,9 +241,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 201.8, y: 138.37}
+  m_AnchoredPosition: {x: 1478, y: 524}
   m_SizeDelta: {x: 153.99, y: 35.47}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 4.835261, y: 5.9738812}
 --- !u!114 &279963942
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1010,6 +1010,7 @@ GameObject:
   - component: {fileID: 772063536}
   - component: {fileID: 772063540}
   - component: {fileID: 772063543}
+  - component: {fileID: 772063544}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -1194,14 +1195,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 7
   jumpForce: 10
-  bulletPrefab: {fileID: 2125247216802248488, guid: 0bf698bcde1750448ad2a8067814f8d7, type: 3}
-  bulletSpawnPoint: {fileID: 1851272999}
+  bulletPrefab: {fileID: 5744392374598309951, guid: 189c464d254da184e9c40c8201946142, type: 3}
+  bulletSpawnPoint: {fileID: 772063539}
   bulletSpeed: 10
   maxBullets: 10
   bulletsInInventory: 10
   ammoTag: Ammo
   ammoRefillAmount: 5
   bulletCountText: {fileID: 279963942}
+--- !u!114 &772063544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 772063533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17d894f3080ccc346820224248bae35a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletSpawnPoint: {fileID: 0}
 --- !u!1 &804487622 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2996096523891701975, guid: 7d8790344d8e96749a04d2e70f7a0fe0, type: 3}
@@ -2021,9 +2035,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1851272998}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.11539055, y: -0.4072605, z: 0.048207883}
-  m_LocalScale: {x: 0.5047791, y: 0.5047791, z: 0.5047791}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.4072605, z: 0.048207883}
+  m_LocalScale: {x: 0.1, y: 0.5047791, z: 0.5047791}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 772063539}
