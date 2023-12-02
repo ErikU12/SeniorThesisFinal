@@ -22,19 +22,19 @@ public class Projectile : MonoBehaviour
         transform.Translate(Vector2.right * (projectileSpeed * Time.deltaTime));
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("Player"))
         {
             // Handle collision with the player (reduce player health by 1)
-            PlayerHealth playerHealth = collision.GetComponent<PlayerHealth>();
+            PlayerHealth playerHealth = collision.gameObject.GetComponent<PlayerHealth>();
             if (playerHealth != null)
             {
                 playerHealth.TakeDamage(1);
             }
-
-            // Destroy the projectile upon hitting the player
-            Destroy(gameObject);
         }
+
+        // Destroy the projectile upon hitting anything
+        Destroy(gameObject);
     }
 }

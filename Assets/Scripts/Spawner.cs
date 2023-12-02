@@ -13,11 +13,11 @@ public class Spawner : MonoBehaviour
     public SpawnOption[] spawnOptions; // Array of spawn options
     public float spawnRateInSeconds = 2.0f; // The time interval between spawns in seconds
 
-    private float nextSpawnTime = 0f;
+    private float _nextSpawnTime;
 
     private void Update()
     {
-        if (Time.time >= nextSpawnTime)
+        if (Time.time >= _nextSpawnTime)
         {
             // Calculate the total spawn chance
             float totalSpawnChance = 0f;
@@ -45,7 +45,8 @@ public class Spawner : MonoBehaviour
             // Instantiate the selected prefab at the spawner's position and rotation
             if (selectedPrefab != null)
             {
-                GameObject zombie = Instantiate(selectedPrefab, transform.position, transform.rotation);
+                var transform1 = transform;
+                GameObject zombie = Instantiate(selectedPrefab, transform1.position, transform1.rotation);
 
                 // Remove references to MoveX and MoveY
                 Wolf wolf = zombie.GetComponent<Wolf>();
@@ -62,7 +63,7 @@ public class Spawner : MonoBehaviour
             }
 
             // Calculate the next spawn time in seconds
-            nextSpawnTime = Time.time + spawnRateInSeconds;
+            _nextSpawnTime = Time.time + spawnRateInSeconds;
         }
     }
 }

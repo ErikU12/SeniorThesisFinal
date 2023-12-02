@@ -1,55 +1,52 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class PlayerHealthManager : MonoBehaviour
+public class PlayerHealth : MonoBehaviour
 {
     public int maxHealth = 100;
+    [SerializeField]
     private int currentHealth;
 
-    public int maxHP = 3;
-    private int currentHP;
     public float knockbackForce = 10f;
 
-    private Renderer playerRenderer;
-    private Rigidbody2D rb;
+    private Renderer _playerRenderer;
+    private Rigidbody2D _rb;
 
-    public Color normalColor = Color.blue;
     public Color damagedColor = new Color(1f, 0.5f, 0f); // Orange
     public Color criticalColor = Color.red;
 
     private void Start()
     {
-        playerRenderer = GetComponent<Renderer>(); // Access the Renderer component of the GameObject
-        rb = GetComponent<Rigidbody2D>(); // Access the Rigidbody2D component of the GameObject
+        _playerRenderer = GetComponent<Renderer>(); // Access the Renderer component of the GameObject
+        _rb = GetComponent<Rigidbody2D>(); // Access the Rigidbody2D component of the GameObject
 
         currentHealth = maxHealth;
-        currentHP = maxHP;
-
-        SetPlayerColor(normalColor);
     }
 
     private void Update()
     {
         if (currentHealth <= 0)
         {
-            SceneManager.LoadScene("GameOverLoadScene");
+            SceneManager.LoadScene("GameOver");
         }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        Debug.Log("Collision detected");
+
         if (collision.gameObject.CompareTag("Enemy"))
         {
-            TakeDamage();
+            Debug.Log("Enemy collision detected");
+            TakeDamage(1);
             Vector2 knockbackDirection = (transform.position - collision.transform.position).normalized;
-            rb.AddForce(knockbackDirection * knockbackForce, ForceMode2D.Impulse);
+            _rb.AddForce(knockbackDirection * knockbackForce, ForceMode2D.Impulse);
         }
     }
 
-    private void TakeDamage()
+    public void TakeDamage(int i)
     {
         currentHealth--;
-        currentHP--;
 
         UpdatePlayerColor();
     }
@@ -66,12 +63,12 @@ public class PlayerHealthManager : MonoBehaviour
         }
         else
         {
-            SetPlayerColor(normalColor);
+            SetPlayerColor(Color.white); // Set the color back to normal or any other desired color
         }
     }
 
     private void SetPlayerColor(Color color)
     {
-        playerRenderer.material.color = color; // Set the color of the Renderer component
+        _playerRenderer.material.color = color; // Set the color of the Renderer component
     }
 }

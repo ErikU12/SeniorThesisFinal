@@ -241,7 +241,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1478, y: 524}
+  m_AnchoredPosition: {x: 1478, y: 516}
   m_SizeDelta: {x: 153.99, y: 35.47}
   m_Pivot: {x: 4.835261, y: 5.9738812}
 --- !u!114 &279963942
@@ -655,7 +655,8 @@ Transform:
   m_LocalPosition: {x: -1.31, y: 2.04, z: -6.7876763}
   m_LocalScale: {x: 0.6787676, y: 0.6787676, z: 0.6787676}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1775242017}
   m_Father: {fileID: 772063539}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &548163376
@@ -1176,10 +1177,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68d759eb40764ae41b0641bc88ae008f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
-  maxHP: 100
+  maxHealth: 3
+  currentHealth: 3
   knockbackForce: 10
-  normalColor: {r: 0, g: 0, b: 1, a: 1}
   damagedColor: {r: 1, g: 0.5, b: 0, a: 1}
   criticalColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!114 &772063544
@@ -1217,7 +1217,6 @@ MonoBehaviour:
   ammoRefillAmount: 5
   bulletCountText: {fileID: 279963942}
   maxBullets: 10
-  bulletsInInventory: 10
 --- !u!114 &772063547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1605,7 +1604,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnOptions:
   - prefab: {fileID: 3277496288809880348, guid: b5fe4bad9bef72248b3b8d1992fdb817, type: 3}
-    spawnChance: 0
+    spawnChance: 100
   spawnRateInSeconds: 30
 --- !u!1001 &1624844433
 PrefabInstance:
@@ -1865,17 +1864,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1775242013}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 10}
   m_LocalScale: {x: 0.044673383, y: 0.044673383, z: 0.044673383}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 279963941}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 519420032}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.0119, y: 0.0766}
+  m_AnchoredPosition: {x: -27.458132, y: -8.358847}
   m_SizeDelta: {x: 557.6079, y: 312.2285}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &1813190687
@@ -2524,7 +2523,6 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 772063539}
-  - {fileID: 1775242017}
   - {fileID: 1817450389}
   - {fileID: 725988130}
   - {fileID: 2588390244726681445}

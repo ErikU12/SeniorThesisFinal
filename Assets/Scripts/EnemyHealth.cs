@@ -1,8 +1,8 @@
 using UnityEngine;
 
-public class ZombieHealth : MonoBehaviour
+public class EnemyHealth : MonoBehaviour
 {
-    public int maxHealth = 10; // Maximum health of the zombie
+    public int maxHealth = 1; // Maximum health of the zombie
     private int _currentHealth; // Current health of the zombie
 
     private void Start()

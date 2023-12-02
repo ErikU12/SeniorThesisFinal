@@ -8,29 +8,29 @@ public class Wolf : MonoBehaviour
     public float stoppingDistance = 1f; // The distance at which the enemy stops moving towards the player
     public float jumpForce = 5f; // Force for the enemy's jump
 
-    private Transform player;
-    private Rigidbody2D rb;
+    private Transform _player;
+    private Rigidbody2D _rb;
 
-    private bool _isJumping = false;
-    private bool _hasJumped = false; // Flag to track if the jump has occurred
+    private bool _isJumping;
+    private bool _hasJumped; // Flag to track if the jump has occurred
 
     void Start()
     {
         // Find the player GameObject based on the "Player" tag
-        player = GameObject.FindGameObjectWithTag("Player").transform;
+        _player = GameObject.FindGameObjectWithTag("Player").transform;
 
-        if (player == null)
+        if (_player == null)
         {
             Debug.LogError("Player not found. Make sure the player has the 'Player' tag.");
         }
 
-        rb = GetComponent<Rigidbody2D>();
+        _rb = GetComponent<Rigidbody2D>();
     }
 
     void Update()
     {
         // Calculate the distance between the enemy and the player
-        float distanceToPlayer = Vector2.Distance(transform.position, player.position);
+        float distanceToPlayer = Vector2.Distance(transform.position, _player.position);
 
         // Check if the player is in both detection and attack range, and the jump has not occurred
         if (distanceToPlayer <= detectionRange && distanceToPlayer <= attackRange && !_hasJumped)
@@ -42,20 +42,20 @@ public class Wolf : MonoBehaviour
         if (distanceToPlayer <= detectionRange)
         {
             // Calculate the direction from the enemy to the player
-            Vector2 moveDirection = (player.position - transform.position).normalized;
+            Vector2 moveDirection = (_player.position - transform.position).normalized;
 
             // If the player is not within stopping distance, move towards the player
             if (distanceToPlayer > stoppingDistance)
             {
                 _isJumping = false; // Player is out of stopping distance, reset jumping flag
-                transform.Translate(moveDirection * moveSpeed * Time.deltaTime);
+                transform.Translate(moveDirection * (moveSpeed * Time.deltaTime));
             }
         }
     }
 
     void Jump()
     {
-        rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+        _rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
         _isJumping = true;
         _hasJumped = true; // Set the flag to indicate that the jump has occurred
     }
