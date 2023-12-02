@@ -1009,8 +1009,9 @@ GameObject:
   - component: {fileID: 772063537}
   - component: {fileID: 772063536}
   - component: {fileID: 772063540}
-  - component: {fileID: 772063543}
   - component: {fileID: 772063544}
+  - component: {fileID: 772063546}
+  - component: {fileID: 772063547}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -1181,28 +1182,6 @@ MonoBehaviour:
   normalColor: {r: 0, g: 0, b: 1, a: 1}
   damagedColor: {r: 1, g: 0.5, b: 0, a: 1}
   criticalColor: {r: 1, g: 0, b: 0, a: 1}
---- !u!114 &772063543
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 772063533}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9028fbb96639d7e4299a51b7e3022130, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 7
-  jumpForce: 10
-  bulletPrefab: {fileID: 5744392374598309951, guid: 189c464d254da184e9c40c8201946142, type: 3}
-  bulletSpawnPoint: {fileID: 772063539}
-  bulletSpeed: 10
-  maxBullets: 10
-  bulletsInInventory: 10
-  ammoTag: Ammo
-  ammoRefillAmount: 5
-  bulletCountText: {fileID: 279963942}
 --- !u!114 &772063544
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1216,6 +1195,43 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletSpawnPoint: {fileID: 0}
+--- !u!114 &772063546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 772063533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2348ed069626da8478f25b569f437efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletPrefab: {fileID: 5744392374598309951, guid: 189c464d254da184e9c40c8201946142, type: 3}
+  bulletSpeed: 10
+  bulletLifetime: 3
+  playerTag: Player
+  enemyRange: 5
+  spawnDelay: 0.5
+  ammoTag: Ammo
+  ammoRefillAmount: 5
+  bulletCountText: {fileID: 279963942}
+  maxBullets: 10
+  bulletsInInventory: 10
+--- !u!114 &772063547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 772063533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49a7558817b4c134f833f1dd816e7ccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 5
+  jumpForce: 15
 --- !u!1 &804487622 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2996096523891701975, guid: 7d8790344d8e96749a04d2e70f7a0fe0, type: 3}
@@ -1590,7 +1606,7 @@ MonoBehaviour:
   spawnOptions:
   - prefab: {fileID: 3277496288809880348, guid: b5fe4bad9bef72248b3b8d1992fdb817, type: 3}
     spawnChance: 0
-  spawnRateInSeconds: 5
+  spawnRateInSeconds: 30
 --- !u!1001 &1624844433
 PrefabInstance:
   m_ObjectHideFlags: 0

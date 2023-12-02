@@ -11,8 +11,8 @@ public class Wolf : MonoBehaviour
     private Transform player;
     private Rigidbody2D rb;
 
-    private bool isJumping = false;
-    private bool hasJumped = false; // Flag to track if the jump has occurred
+    private bool _isJumping = false;
+    private bool _hasJumped = false; // Flag to track if the jump has occurred
 
     void Start()
     {
@@ -33,7 +33,7 @@ public class Wolf : MonoBehaviour
         float distanceToPlayer = Vector2.Distance(transform.position, player.position);
 
         // Check if the player is in both detection and attack range, and the jump has not occurred
-        if (distanceToPlayer <= detectionRange && distanceToPlayer <= attackRange && !hasJumped)
+        if (distanceToPlayer <= detectionRange && distanceToPlayer <= attackRange && !_hasJumped)
         {
             Jump();
         }
@@ -47,7 +47,7 @@ public class Wolf : MonoBehaviour
             // If the player is not within stopping distance, move towards the player
             if (distanceToPlayer > stoppingDistance)
             {
-                isJumping = false; // Player is out of stopping distance, reset jumping flag
+                _isJumping = false; // Player is out of stopping distance, reset jumping flag
                 transform.Translate(moveDirection * moveSpeed * Time.deltaTime);
             }
         }
@@ -56,8 +56,8 @@ public class Wolf : MonoBehaviour
     void Jump()
     {
         rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
-        isJumping = true;
-        hasJumped = true; // Set the flag to indicate that the jump has occurred
+        _isJumping = true;
+        _hasJumped = true; // Set the flag to indicate that the jump has occurred
     }
 
     // Detect when hit by a slow bullet
