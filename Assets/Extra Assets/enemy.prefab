@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 3580721695258363635}
   - component: {fileID: -471336859230202119}
   - component: {fileID: 532765241345652557}
+  - component: {fileID: 6112897823410426373}
   m_Layer: 0
   m_Name: enemy
   m_TagString: Enemy
@@ -191,7 +192,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc7c425dbc783934a98904ff55e17037, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 1
+  maxHealth: 5
 --- !u!111 &-471336859230202119
 Animation:
   m_ObjectHideFlags: 0
@@ -222,3 +223,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemPrefab: {fileID: 7390788862431895858, guid: db9d93cb5100db748babe6a7036b46b0, type: 3}
   dropChance: 100
+--- !u!114 &6112897823410426373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3277496288809880348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82de3b2b529385945adcff6ed1d518ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  knockbackForce: 6
+  flashDuration: 0.2
+  flashColor: {r: 1, g: 0, b: 0, a: 1}

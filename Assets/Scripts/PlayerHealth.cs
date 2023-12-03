@@ -6,19 +6,18 @@ public class PlayerHealth : MonoBehaviour
     public int maxHealth = 100;
     [SerializeField]
     private int currentHealth;
+    
 
-    public float knockbackForce = 10f;
-
-    private Renderer _playerRenderer;
     private Rigidbody2D _rb;
+    private SpriteRenderer _playerRenderer;
 
     public Color damagedColor = new Color(1f, 0.5f, 0f); // Orange
     public Color criticalColor = Color.red;
 
     private void Start()
     {
-        _playerRenderer = GetComponent<Renderer>(); // Access the Renderer component of the GameObject
-        _rb = GetComponent<Rigidbody2D>(); // Access the Rigidbody2D component of the GameObject
+        _rb = GetComponent<Rigidbody2D>();
+        _playerRenderer = GetComponent<SpriteRenderer>();
 
         currentHealth = maxHealth;
     }
@@ -39,16 +38,18 @@ public class PlayerHealth : MonoBehaviour
         {
             Debug.Log("Enemy collision detected");
             TakeDamage(1);
-            Vector2 knockbackDirection = (transform.position - collision.transform.position).normalized;
-            _rb.AddForce(knockbackDirection * knockbackForce, ForceMode2D.Impulse);
         }
     }
 
-    public void TakeDamage(int i)
+    public void TakeDamage(int damage)
     {
-        currentHealth--;
-
+        currentHealth -= damage;
         UpdatePlayerColor();
+
+        // Get the knockback direction (for example, away from the enemy)
+        var transform1 = transform;
+        var position = transform1.position;
+        
     }
 
     private void UpdatePlayerColor()

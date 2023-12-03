@@ -10,6 +10,7 @@ public class Wolf : MonoBehaviour
 
     private Transform _player;
     private Rigidbody2D _rb;
+    private SpriteRenderer _spriteRenderer;
 
     private bool _isJumping;
     private bool _hasJumped; // Flag to track if the jump has occurred
@@ -25,6 +26,7 @@ public class Wolf : MonoBehaviour
         }
 
         _rb = GetComponent<Rigidbody2D>();
+        _spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     void Update()
@@ -49,6 +51,9 @@ public class Wolf : MonoBehaviour
             {
                 _isJumping = false; // Player is out of stopping distance, reset jumping flag
                 transform.Translate(moveDirection * (moveSpeed * Time.deltaTime));
+
+                // Flip the sprite based on the relative position of the player
+                _spriteRenderer.flipX = (_player.position.x > transform.position.x);
             }
         }
     }
