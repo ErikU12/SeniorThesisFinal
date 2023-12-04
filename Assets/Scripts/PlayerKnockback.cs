@@ -13,7 +13,7 @@ public class PlayerKnockback : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Enemy"))
+        if (collision.gameObject.CompareTag("JumpPad"))
         {
             ApplyKnockback(collision.transform.position);
         }
@@ -22,7 +22,9 @@ public class PlayerKnockback : MonoBehaviour
     public void ApplyKnockback(Vector3 enemyPosition)
     {
         // Get the knockback direction (for example, away from the enemy)
-        Vector2 knockbackDirection = (transform.position - new Vector3(enemyPosition.x, enemyPosition.y, transform.position.z)).normalized;
+        var transform1 = transform;
+        var position = transform1.position;
+        Vector2 knockbackDirection = (position - new Vector3(enemyPosition.x, enemyPosition.y, position.z)).normalized;
 
         // Apply knockback force
         _rb.AddForce(knockbackDirection * knockbackForce, ForceMode2D.Impulse);
