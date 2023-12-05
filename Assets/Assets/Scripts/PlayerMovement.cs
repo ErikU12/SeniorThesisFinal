@@ -7,6 +7,8 @@ public class PlayerMovement : MonoBehaviour
     public float jumpForce = 7f;
     private bool _isJumping;
     private Rigidbody2D _rb;
+    public Animator Animator;
+    private static readonly int PlayerRunning1 = Animator.StringToHash("PlayerRunning1");
 
     private void Start()
     {
@@ -20,7 +22,9 @@ public class PlayerMovement : MonoBehaviour
         float moveX = Input.GetAxis("Horizontal");
         Vector2 movement = new Vector2(moveX * moveSpeed, _rb.velocity.y);
         _rb.velocity = movement;
-
+        {
+            Animator.SetFloat(PlayerRunning1, Mathf.Abs(movement.x));
+        }
         // Jumping
         if (Input.GetKeyDown(KeyCode.UpArrow) && !_isJumping)
         {

@@ -50,10 +50,11 @@ public class Wolf : MonoBehaviour
             if (distanceToPlayer > stoppingDistance)
             {
                 _isJumping = false; // Player is out of stopping distance, reset jumping flag
-                transform.Translate(moveDirection * (moveSpeed * Time.deltaTime));
+                (transform).Translate(moveDirection * (moveSpeed * Time.deltaTime));
 
                 // Flip the sprite based on the relative position of the player
-                _spriteRenderer.flipX = (_player.position.x > transform.position.x);
+                _spriteRenderer.flipX = (moveDirection.x < 0);
+
             }
         }
     }
