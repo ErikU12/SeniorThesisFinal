@@ -15,6 +15,7 @@ public class BulletSpawner : MonoBehaviour
     public TextMeshProUGUI bulletCountText;
     public int maxBullets = 10; 
     private int _bulletsInInventory;
+    public Animator Animator;
 
     private void Start()
     {
@@ -26,8 +27,14 @@ public class BulletSpawner : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space) && Time.time >= _lastSpawnTime + spawnDelay && _bulletsInInventory > 0)
         {
+           // Animator.SetBool("PlayerBowAction", true);
             SpawnBullet();
             _lastSpawnTime = Time.time;
+            
+        }
+        else
+        {
+           // Animator.SetBool("PlayerBowAction",false);
         }
     }
 
