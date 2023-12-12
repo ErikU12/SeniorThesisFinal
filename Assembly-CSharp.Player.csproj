@@ -67,10 +67,12 @@
      <Compile Include="Assets\Assets\TextMesh Pro\Examples _ Extras\Scripts\TMP_TextSelector_A.cs" />
      <Compile Include="Assets\Assets\TextMesh Pro\Examples _ Extras\Scripts\ObjectSpin.cs" />
      <Compile Include="Assets\Assets\Scripts\LaserEnemy.cs" />
+     <Compile Include="Assets\Assets\Scripts\StartButton.cs" />
      <Compile Include="Assets\Assets\TextMesh Pro\Examples _ Extras\Scripts\TMP_PhoneNumberValidator.cs" />
      <Compile Include="Assets\Assets\TextMesh Pro\Examples _ Extras\Scripts\TMP_TextSelector_B.cs" />
      <Compile Include="Assets\Assets\Scripts\EnemyReact.cs" />
      <Compile Include="Assets\Assets\TextMesh Pro\Examples _ Extras\Scripts\TMP_TextInfoDebugTool.cs" />
+     <Compile Include="Assets\Assets\Scripts\FallLose.cs" />
      <Compile Include="Assets\Assets\TextMesh Pro\Examples _ Extras\Scripts\Benchmark02.cs" />
      <Compile Include="Assets\Assets\TextMesh Pro\Examples _ Extras\Scripts\ShaderPropAnimator.cs" />
      <Compile Include="Assets\Assets\TextMesh Pro\Examples _ Extras\Scripts\TMP_FrameRateCounter.cs" />
