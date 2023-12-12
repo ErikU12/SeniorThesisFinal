@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Assets/Scenes/GameWin.unity
     guid: 9d0e730c3bfe4c043beab7dfe4646d94
+  - enabled: 1
+    path: Assets/Assets/Scenes/HomeScreen.unity
+    guid: cc3ec2b6290fd6448ae0ed7e58944867
   m_configObjects: {}
