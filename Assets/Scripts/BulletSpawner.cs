@@ -19,6 +19,9 @@ public class BulletSpawner : MonoBehaviour
     public Animator animator;
     private static readonly int PlayerBowAction = Animator.StringToHash("PlayerBowAction");
 
+    public AudioSource bulletSpawnSound; // Add this line
+    // Assign your sound effect to this variable in the Unity Editor
+
     private void Start()
     {
         _bulletsInInventory = maxBullets; // Set initial bullets in the inventory
@@ -84,6 +87,12 @@ public class BulletSpawner : MonoBehaviour
             {
                 // Set the normalized time of the animation to 0
                 animator.Play(PlayerBowAction, -1, 0f);
+            }
+
+            // Play the bullet spawn sound effect
+            if (bulletSpawnSound != null)
+            {
+                bulletSpawnSound.Play();
             }
 
             Destroy(bullet, bulletLifetime);
