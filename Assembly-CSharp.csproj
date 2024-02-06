@@ -62,6 +62,7 @@
     <Compile Include="Assets\Scripts\FallLose.cs" />
     <Compile Include="Assets\Scripts\Spawner.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples _ Extras\Scripts\Benchmark01_UGUI.cs" />
+    <Compile Include="Assets\Scripts\FISHMODE.cs" />
     <Compile Include="Assets\Scripts\PlayerKnockback.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples _ Extras\Scripts\TMP_TextInfoDebugTool.cs" />
     <Compile Include="Assets\Scripts\StartButton.cs" />
