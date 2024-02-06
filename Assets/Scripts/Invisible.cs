@@ -70,18 +70,10 @@ public class Invisible : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("SlowBullet"))
+        if (other.CompareTag("Player"))
         {
-            // Handle slow bullet collision
-        }
-        else if (other.CompareTag("Player"))
-        {
-            // Make the enemy visible on collision with the player
+            // Make the enemy visible when the player enters its trigger collider
             MakeVisible();
-        }
-        else if (other.CompareTag("Enemy"))
-        {
-            // Handle collision with another enemy
         }
     }
 
@@ -100,7 +92,5 @@ public class Invisible : MonoBehaviour
         _spriteRenderer.enabled = false;
     }
 }
-
-
 
 

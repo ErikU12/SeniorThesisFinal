@@ -19,6 +19,9 @@ public class FISHMODE : MonoBehaviour
     public GameObject playerCharacter;
     private Rigidbody2D playerRigidbody;
 
+    // Reference to your camera
+    public Camera mainCamera;
+
     void Start()
     {
         playerRigidbody = playerCharacter.GetComponent<Rigidbody2D>();
@@ -67,6 +70,7 @@ public class FISHMODE : MonoBehaviour
             float hue = Mathf.PingPong(Time.time * 0.5f, 1f);
             Color color = Color.HSVToRGB(hue, 1f, 1f);
             playerCharacter.GetComponent<Renderer>().material.color = color;
+            mainCamera.transform.rotation = Quaternion.identity; // Reset camera rotation
             yield return null;
         }
     }
