@@ -54,19 +54,24 @@ public class PlayerHealth : MonoBehaviour
 
     private void UpdatePlayerColor()
     {
-        if (currentHealth <= maxHealth * 0.2f)
+        // Check current health and set player color accordingly
+        if (currentHealth == 2)
         {
-            SetPlayerColor(criticalColor);
+            SetPlayerColor(damagedColor); // Change to orange when health is 2
         }
-        else if (currentHealth <= maxHealth * 0.5f)
+        else if (currentHealth == 1)
         {
-            SetPlayerColor(damagedColor);
+            SetPlayerColor(criticalColor); // Change to red when health is 1
         }
         else
         {
-            SetPlayerColor(Color.white); // Set the color back to normal or any other desired color
+            SetPlayerColor(Color.white); // Set the color back to normal for other cases
         }
     }
+
+
+
+
 
     private void SetPlayerColor(Color color)
     {

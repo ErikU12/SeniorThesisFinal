@@ -22,16 +22,16 @@ public class PlayerMovement : MonoBehaviour
         float moveX = Input.GetAxis("Horizontal");
         Vector2 movement = new Vector2(moveX * moveSpeed, _rb.velocity.y);
         _rb.velocity = movement;
-        {
-            Animator.SetFloat(PlayerRunning1, Mathf.Abs(movement.x));
-        }
+        Animator.SetFloat(PlayerRunning1, Mathf.Abs(movement.x));
+
         // Jumping
-        if (Input.GetKeyDown(KeyCode.UpArrow) && !_isJumping)
+        if ((Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W)) && !_isJumping)
         {
             _rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
             _isJumping = true;
         }
     }
+
 
     private void OnCollisionEnter2D(Collision2D collision)
     {

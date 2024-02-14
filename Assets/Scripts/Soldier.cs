@@ -46,6 +46,22 @@ public class Soldier : MonoBehaviour
     {
         float distanceToPlayer = Vector2.Distance(transform.position, _player.position);
 
+        // Check if the player is in range
+        if (distanceToPlayer <= detectionRange)
+        {
+            // Face the player when in range
+            Vector3 directionToPlayer = (_player.position - transform.position).normalized;
+            _spriteRenderer.flipX = (directionToPlayer.x < 0);
+
+            // Change color when in range
+            _spriteRenderer.color = Color.red;
+        }
+        else
+        {
+            // Reset the color to original when out of range
+            _spriteRenderer.color = _originalColor;
+        }
+
         // Check if the player is in charging range and the soldier is not slowed
         if (distanceToPlayer <= chargingDistance && !_isSlowed)
         {
@@ -164,3 +180,4 @@ public class Soldier : MonoBehaviour
         _isSlowed = false; // Reset the flag when the soldier is no longer slowed
     }
 }
+

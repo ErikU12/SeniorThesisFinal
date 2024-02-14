@@ -3,7 +3,6 @@ using UnityEngine;
 public class FlipSprite : MonoBehaviour
 {
     private SpriteRenderer _spriteRenderer;
-    
 
     void Start()
     {
@@ -12,12 +11,12 @@ public class FlipSprite : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.LeftArrow))
+        if (Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.A))
         {
             FlipCharacter(true);
         }
 
-        if (Input.GetKeyDown(KeyCode.RightArrow))
+        if (Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.D))
         {
             FlipCharacter(false);
         }
@@ -26,6 +25,5 @@ public class FlipSprite : MonoBehaviour
     private void FlipCharacter(bool flipX)
     {
         _spriteRenderer.flipX = flipX;
-        
-        }
     }
+}

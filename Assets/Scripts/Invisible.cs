@@ -14,6 +14,10 @@ public class Invisible : MonoBehaviour
     private float _visibilityDuration = 2f;
     private float _visibilityTimer;
 
+    private bool _isSlowed = false; // Added to keep track of whether the enemy is slowed down
+    private Color _originalColor; // Added to store the original color of the sprite
+    private float _originalMoveSpeed; // Added to store the original move speed
+
     void Start()
     {
         _player = GameObject.FindGameObjectWithTag("Player").transform;
@@ -24,6 +28,9 @@ public class Invisible : MonoBehaviour
         }
 
         _spriteRenderer = GetComponent<SpriteRenderer>();
+        _originalColor = _spriteRenderer.color; // Store the original color
+        _originalMoveSpeed = moveSpeed; // Store the original move speed
+
         _visibilityTimer = _visibilityDuration;
         MakeInvisible();
     }
@@ -52,7 +59,17 @@ public class Invisible : MonoBehaviour
 
                 if (distanceToPlayer > stoppingDistance)
                 {
-                    transform.Translate(moveDirection * (moveSpeed * Time.deltaTime));
+                    // Check if the enemy is slowed down
+                    if (!_isSlowed)
+                    {
+                        transform.Translate(moveDirection * (moveSpeed * Time.deltaTime));
+                    }
+                    else
+                    {
+                        // If slowed down, move at a slower speed
+                        transform.Translate(moveDirection * (moveSpeed * 0.5f * Time.deltaTime));
+                    }
+                    
                     _spriteRenderer.flipX = (moveDirection.x < 0);
                 }
             }
@@ -75,6 +92,19 @@ public class Invisible : MonoBehaviour
             // Make the enemy visible when the player enters its trigger collider
             MakeVisible();
         }
+        else if (other.CompareTag("SlowBullet") && !_isSlowed)
+        {
+            // Change the color of the enemy to blue
+            _spriteRenderer.color = Color.blue;
+
+            // Slow down the enemy
+            moveSpeed = 1f;
+
+            _isSlowed = true; // Set the flag to indicate that the enemy is slowed
+
+            // Invoke a method to reset the color and speed after a delay
+            Invoke("ResetEnemyState", 5f); // Adjust the delay as needed (5 seconds in this case)
+        }
     }
 
     void MakeVisible()
@@ -84,6 +114,9 @@ public class Invisible : MonoBehaviour
 
         // Reset the timer
         _visibilityTimer = _visibilityDuration;
+
+        // Reset the color and speed
+        ResetEnemyState();
     }
 
     void MakeInvisible()
@@ -91,6 +124,15 @@ public class Invisible : MonoBehaviour
         _isVisible = false;
         _spriteRenderer.enabled = false;
     }
+
+    private void ResetEnemyState()
+    {
+        // Change the color of the enemy back to normal
+        _spriteRenderer.color = _originalColor;
+
+        // Reset the enemy speed to normal
+        moveSpeed = _originalMoveSpeed;
+
+        _isSlowed = false; // Reset the flag when the enemy is no longer slowed
+    }
 }
-
-

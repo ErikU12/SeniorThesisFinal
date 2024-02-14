@@ -72,6 +72,7 @@
     <Compile Include="Assets\Scripts\Bullet.cs" />
     <Compile Include="Assets\Scripts\EnemyHealth.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples _ Extras\Scripts\EnvMapAnimator.cs" />
+    <Compile Include="Assets\Scripts\FloatingPlatform.cs" />
     <Compile Include="Assets\Scripts\Soldier.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples _ Extras\Scripts\TMPro_InstructionOverlay.cs" />
     <Compile Include="Assets\Scripts\Eye.cs" />
