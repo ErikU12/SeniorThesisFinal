@@ -52,6 +52,16 @@ public class PlayerHealth : MonoBehaviour
         
     }
 
+    public void IncreaseHealth(int amount)
+    {
+        currentHealth += amount;
+        if (currentHealth > maxHealth)
+        {
+            currentHealth = maxHealth; // Ensure health doesn't exceed maximum
+        }
+        UpdatePlayerColor();
+    }
+
     private void UpdatePlayerColor()
     {
         // Check current health and set player color accordingly
@@ -68,10 +78,6 @@ public class PlayerHealth : MonoBehaviour
             SetPlayerColor(Color.white); // Set the color back to normal for other cases
         }
     }
-
-
-
-
 
     private void SetPlayerColor(Color color)
     {

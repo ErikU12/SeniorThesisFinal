@@ -1,9 +1,10 @@
 using TMPro;
 using UnityEngine;
+using System.Collections.Generic;
 
-public class BulletSpawner : MonoBehaviour
+public class ArrowSpawner : MonoBehaviour
 {
-    public GameObject bulletPrefab;
+    public List<GameObject> arrowPrefabs; // Changed from bulletPrefab to arrowPrefabs
     public float bulletSpeed = 10f;
     public float bulletLifetime = 3f;
     public string playerTag = "Player";
@@ -22,6 +23,8 @@ public class BulletSpawner : MonoBehaviour
     public AudioSource bulletSpawnSound; // Add this line
     // Assign your sound effect to this variable in the Unity Editor
 
+    private int currentArrowIndex = 0; // Added index to keep track of current arrow
+
     private void Start()
     {
         _bulletsInInventory = maxBullets; // Set initial bullets in the inventory
@@ -34,6 +37,11 @@ public class BulletSpawner : MonoBehaviour
         {
             SpawnBullet();
             _lastSpawnTime = Time.time;
+        }
+
+        if (Input.GetKeyDown(KeyCode.Z)) // Check for key press to cycle arrows
+        {
+            CycleArrow();
         }
     }
 
@@ -57,7 +65,7 @@ public class BulletSpawner : MonoBehaviour
 
     private void SpawnBullet()
     {
-        GameObject bullet = Instantiate(bulletPrefab, transform.position + (Vector3)spawnOffset, Quaternion.identity);
+        GameObject bullet = Instantiate(arrowPrefabs[currentArrowIndex], transform.position + (Vector3)spawnOffset, Quaternion.identity);
         Rigidbody2D bulletRb = bullet.GetComponent<Rigidbody2D>();
 
         if (bulletRb != null)
@@ -96,6 +104,15 @@ public class BulletSpawner : MonoBehaviour
             }
 
             Destroy(bullet, bulletLifetime);
+        }
+    }
+
+    private void CycleArrow()
+    {
+        currentArrowIndex++;
+        if (currentArrowIndex >= arrowPrefabs.Count)
+        {
+            currentArrowIndex = 0; // Cycle back to the first arrow if reached the end
         }
     }
 }

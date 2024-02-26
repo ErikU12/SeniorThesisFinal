@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Bullet : MonoBehaviour
+public class Arrow : MonoBehaviour
 {
     public int damage = 1; // Damage dealt by the bullet
 
@@ -15,6 +15,11 @@ public class Bullet : MonoBehaviour
             {
                 enemyHealth.TakeDamage(damage);
             }
+            Destroy(gameObject);
+        }
+        else if (other.CompareTag("Ground"))
+        {
+            // Destroy the bullet when colliding with the ground
             Destroy(gameObject);
         }
     }
