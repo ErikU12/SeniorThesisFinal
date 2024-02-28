@@ -3710,6 +3710,7 @@ GameObject:
   - component: {fileID: 772063551}
   - component: {fileID: 772063552}
   - component: {fileID: 772063553}
+  - component: {fileID: 772063554}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -4033,6 +4034,20 @@ MonoBehaviour:
   immunityDuration: 1
   meleeCooldown: 30
   immuneAnimation: {fileID: 7400000, guid: cfaefd3574d71d64ab1fe2fd0c9349c8, type: 2}
+--- !u!114 &772063554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 772063533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e3fa08322cec894e8cba9b39b887f3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyPrefab: {fileID: 181533318163236230}
+  audioSource: {fileID: 785323782}
 --- !u!1 &785323781
 GameObject:
   m_ObjectHideFlags: 0
@@ -10325,6 +10340,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33d5a08c64e0b254db0e87aa958b6fad, type: 3}
+--- !u!1 &181533318163236230 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2460636699102589793, guid: 33d5a08c64e0b254db0e87aa958b6fad, type: 3}
+  m_PrefabInstance: {fileID: 181533318163236229}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &417681024970339979
 PrefabInstance:
   m_ObjectHideFlags: 0
