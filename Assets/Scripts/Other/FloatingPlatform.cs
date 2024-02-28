@@ -7,16 +7,27 @@ public class FloatingPlatform : MonoBehaviour
 
     private Vector3 _startPosition;
     private Vector3 _endPosition;
-    private Vector3 _moveDirection;
+    private Vector3 _previousPosition;
 
-    void Start()
+    private Collider2D _platformCollider; // Collider of the platform
+
+    private void Start()
     {
         _startPosition = transform.position;
         _endPosition = _startPosition + Vector3.up * moveDistance;
-        _moveDirection = Vector3.up;
+
+        // Get the collider component of the platform
+        _platformCollider = GetComponent<Collider2D>();
+        if (_platformCollider == null)
+        {
+            Debug.LogError("Collider component not found on the platform.");
+        }
+
+        // Initialize previous position
+        _previousPosition = transform.position;
     }
 
-    void Update()
+    private void Update()
     {
         float step = moveSpeed * Time.deltaTime;
 
@@ -29,7 +40,42 @@ public class FloatingPlatform : MonoBehaviour
             Vector3 temp = _startPosition;
             _startPosition = _endPosition;
             _endPosition = temp;
-            _moveDirection = -_moveDirection;
+        }
+
+        // Calculate the difference in position between current and previous frame
+        Vector3 movementDelta = transform.position - _previousPosition;
+
+        // Update the player position if it's on the platform
+        foreach (Collider2D collider in Physics2D.OverlapBoxAll(_platformCollider.bounds.center, _platformCollider.bounds.size, 0f))
+        {
+            if (collider.CompareTag("Player"))
+            {
+                collider.transform.position += movementDelta;
+            }
+        }
+
+        // Update previous position
+        _previousPosition = transform.position;
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        // Check if the collider belongs to the player
+        if (other.CompareTag("Player"))
+        {
+            // Ignore collisions between the platform and the player
+            Physics2D.IgnoreCollision(_platformCollider, other, true);
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        // Check if the collider belongs to the player
+        if (other.CompareTag("Player"))
+        {
+            // Re-enable collisions between the platform and the player
+            Physics2D.IgnoreCollision(_platformCollider, other, false);
         }
     }
 }
+

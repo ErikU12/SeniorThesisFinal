@@ -8,34 +8,33 @@ public class Slow : MonoBehaviour
     public LayerMask playerLayer;
     public Transform spawnPoint;
     public float moveSpeed = 5f; // Speed at which the prefab moves
+    public float throwForce = 10f; // Force with which the prefab is thrown
 
     private GameObject spawnedPrefab;
     private bool isPrefabSpawned = false; // Track if a prefab is currently spawned
-    private bool isCooldown = false; // Track cooldown state
+    private bool isThrown = false; // Track if the prefab has been thrown
 
     private void Update()
     {
         UpdatePrefabPosition();
 
-        // Check if the X button is pressed and no prefab is spawned and cooldown is not active
-        if (Input.GetKeyDown(KeyCode.X) && !isPrefabSpawned && !isCooldown)
+        // Check if the X button is pressed and no prefab is spawned
+        if (Input.GetKeyDown(KeyCode.X) && !isPrefabSpawned)
         {
             SpawnPrefab();
             Invoke("DespawnPrefab", despawnTime);
         }
 
         // Check if the X button is pressed and a prefab is spawned
-        if (Input.GetKeyDown(KeyCode.X) && isPrefabSpawned)
+        else if (Input.GetKeyDown(KeyCode.X) && isPrefabSpawned && !isThrown)
         {
-            MovePrefab();
-            isCooldown = true; // Set cooldown active
-            Invoke("ResetCooldown", despawnTime); // Start cooldown timer
+            ThrowPrefab();
         }
     }
 
     private void UpdatePrefabPosition()
     {
-        if (isPrefabSpawned && spawnedPrefab != null)
+        if (isPrefabSpawned && spawnedPrefab != null && !isThrown)
         {
             spawnedPrefab.transform.position = transform.position;
         }
@@ -75,30 +74,21 @@ public class Slow : MonoBehaviour
         {
             Destroy(spawnedPrefab);
             isPrefabSpawned = false; // Reset the flag when the prefab is despawned
+            isThrown = false; // Reset the thrown state
         }
     }
 
-    private void MovePrefab()
+    private void ThrowPrefab()
     {
         if (spawnedPrefab != null)
         {
-            // Get the input direction
-            float horizontalInput = Input.GetAxisRaw("Horizontal");
-            float verticalInput = Input.GetAxisRaw("Vertical");
-            Vector2 moveDirection = new Vector2(horizontalInput, verticalInput).normalized;
-
-            // Apply velocity to the prefab in the input direction
+            // Apply force to throw the prefab in a specified direction
             Rigidbody2D rb = spawnedPrefab.GetComponent<Rigidbody2D>();
             if (rb != null)
             {
-                rb.velocity = moveDirection * moveSpeed;
+                rb.velocity = transform.right * throwForce; // Adjust direction if needed
             }
+            isThrown = true; // Set the thrown state
         }
     }
-
-    private void ResetCooldown()
-    {
-        isCooldown = false; // Reset cooldown state
-    }
 }
-

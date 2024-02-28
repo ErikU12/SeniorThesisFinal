@@ -159,6 +159,13 @@ public class Soldier : MonoBehaviour
             // Invoke a method to reset the color and speed after a delay
             Invoke("ResetSoldierState", 5f); // Adjust the delay as needed (5 seconds in this case)
         }
+        else if (other.CompareTag("SlowBullet") && _isSlowed)
+        {
+            // Cancel any existing reset invocation
+            CancelInvoke("ResetSoldierState");
+            // Reinvoke the method to reset the color and speed after a delay
+            Invoke("ResetSoldierState", 5f); // Adjust the delay as needed (5 seconds in this case)
+        }
         else if (other.CompareTag("Enemy"))
         {
             // If colliding with an object tagged as "Enemy", reverse the patrol direction
@@ -169,7 +176,8 @@ public class Soldier : MonoBehaviour
         }
     }
 
-    private void ResetSoldierState()
+
+    void ResetSoldierState()
     {
         // Change the color of the soldier back to normal
         _spriteRenderer.color = _originalColor;

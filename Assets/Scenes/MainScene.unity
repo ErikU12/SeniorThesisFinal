@@ -3635,6 +3635,7 @@ MonoBehaviour:
     m_Bits: 4294967295
   spawnPoint: {fileID: 772063539}
   moveSpeed: 1000
+  throwForce: 10
 --- !u!114 &772063551
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3696,7 +3697,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af30b833c93cf7d47b8f881cc5e0e665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  immunityDuration: 30
+  immunityDuration: 1
   meleeCooldown: 30
   immuneAnimation: {fileID: 7400000, guid: cfaefd3574d71d64ab1fe2fd0c9349c8, type: 2}
 --- !u!1 &785323781
@@ -4127,7 +4128,7 @@ Transform:
   m_GameObject: {fileID: 815988144}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 23.12, y: -75.67, z: 0}
+  m_LocalPosition: {x: 22.46, y: -89.69, z: 0}
   m_LocalScale: {x: 1.5568, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
