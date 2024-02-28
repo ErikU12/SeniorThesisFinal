@@ -1,26 +1,46 @@
 using UnityEngine;
 
+[System.Serializable]
+public class DropTableItem
+{
+    public GameObject itemPrefab;
+    [Range(0, 100)]
+    public float dropChance = 50f;
+}
+
 public class DropableItem : MonoBehaviour
 {
-    public GameObject itemPrefab; // The item to be dropped
-    [Range(0, 100)]
-    public float dropChance = 50f; // Drop chance percentage
+    public DropTableItem[] dropTable;
 
     void OnDestroy()
     {
-        // Check if the drop chance is successful
-        if (Random.Range(0f, 100f) <= dropChance)
+        // Calculate the total drop chance
+        float totalDropChance = 0f;
+        foreach (DropTableItem item in dropTable)
         {
-            DropItem();
+            totalDropChance += item.dropChance;
+        }
+
+        // Randomly select an item to drop
+        float randomValue = Random.Range(0f, totalDropChance);
+        float cumulativeChance = 0f;
+        foreach (DropTableItem item in dropTable)
+        {
+            cumulativeChance += item.dropChance;
+            if (randomValue <= cumulativeChance)
+            {
+                DropItem(item);
+                break;
+            }
         }
     }
 
-    void DropItem()
+    void DropItem(DropTableItem item)
     {
-        // Instantiate the item at the enemy's position
-        if (itemPrefab != null)
+        // Instantiate the selected item at the enemy's position
+        if (item.itemPrefab != null)
         {
-            Instantiate(itemPrefab, transform.position, Quaternion.identity);
+            Instantiate(item.itemPrefab, transform.position, Quaternion.identity);
         }
     }
 }
