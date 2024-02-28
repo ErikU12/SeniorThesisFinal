@@ -82,11 +82,12 @@ public class Slow : MonoBehaviour
     {
         if (spawnedPrefab != null)
         {
-            // Apply force to throw the prefab in a specified direction
             Rigidbody2D rb = spawnedPrefab.GetComponent<Rigidbody2D>();
             if (rb != null)
             {
-                rb.velocity = transform.right * throwForce; // Adjust direction if needed
+                // Get the player's current velocity and apply force in that direction
+                Vector2 throwDirection = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical")).normalized;
+                rb.velocity = throwDirection * throwForce;
             }
             isThrown = true; // Set the thrown state
         }

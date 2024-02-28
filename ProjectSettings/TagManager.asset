@@ -11,6 +11,11 @@ TagManager:
   - BulletSlow
   - SlowBullet
   - JumpPad
+  - FireAmmo
+  - IceAmmo
+  - LightningAmmo
+  - WindAmmo
+  - GhostAmmo
   layers:
   - Default
   - TransparentFX
