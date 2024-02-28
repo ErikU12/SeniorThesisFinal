@@ -5,19 +5,15 @@ namespace Player
     public class PlayerMelee : MonoBehaviour
     {
         public float immunityDuration = 5f; // Duration of immunity effect in seconds
-        public Sprite immuneSprite; // The sprite to use when immune
-        private SpriteRenderer _spriteRenderer;
+        public AnimationClip immuneAnimation; // The animation clip to play when immune
+        private Animator _animator; // Reference to the Animator component
         private bool _isImmune;
         private PlayerHealth _playerHealth;
-        private Sprite _regularSprite; // Reference to the regular sprite
-        private Animator _animator; // Reference to the Animator component
 
         private void Start()
         {
-            _spriteRenderer = GetComponent<SpriteRenderer>();
-            _playerHealth = GetComponent<PlayerHealth>(); // Get reference to PlayerHealth script
-            _regularSprite = _spriteRenderer.sprite; // Store reference to the regular sprite
             _animator = GetComponent<Animator>(); // Get reference to Animator component
+            _playerHealth = GetComponent<PlayerHealth>(); // Get reference to PlayerHealth script
         }
 
         private void Update()
@@ -42,8 +38,8 @@ namespace Player
         private void ActivateDamageEffect()
         {
             _isImmune = true;
-            _animator.enabled = false; // Disable Animator component
-            _spriteRenderer.sprite = immuneSprite;
+            _animator.enabled = true; // Enable Animator component
+            _animator.Play(immuneAnimation.name); // Play the immune animation
             Invoke("DeactivateDamageEffect", immunityDuration);
         }
 
@@ -51,8 +47,7 @@ namespace Player
         {
             _isImmune = false;
             _animator.enabled = true; // Re-enable Animator component
-            // Change sprite back to regular sprite
-            _spriteRenderer.sprite = _regularSprite;
         }
     }
 }
+

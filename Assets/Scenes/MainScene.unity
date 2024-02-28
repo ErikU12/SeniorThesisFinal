@@ -3597,7 +3597,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   immunityDuration: 5
-  immuneSprite: {fileID: 21300000, guid: d2927c26280bbdf4d8b2690bf76aecb2, type: 3}
+  immuneAnimation: {fileID: 0}
 --- !u!1 &796009321 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8802273580249181978, guid: 27146d836747f074fa0f16e0f9c10f60, type: 3}
