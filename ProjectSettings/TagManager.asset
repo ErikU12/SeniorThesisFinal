@@ -16,6 +16,7 @@ TagManager:
   - LightningAmmo
   - WindAmmo
   - GhostAmmo
+  - Laser
   layers:
   - Default
   - TransparentFX

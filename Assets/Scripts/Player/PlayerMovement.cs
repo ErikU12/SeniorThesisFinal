@@ -2,7 +2,8 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float moveSpeed = 5f;
+    public float walkSpeed = 5f;
+    public float sprintSpeed = 10f; // Speed when sprinting
     public float jumpForce = 7f;
     public float minJumpForce = 2f; // Minimum jump force for short jumps
     public float maxJumpTime = 0.2f; // Maximum time the jump button can be held for maximum jump height
@@ -27,7 +28,8 @@ public class PlayerMovement : MonoBehaviour
     {
         // Horizontal movement
         float moveX = Input.GetAxis("Horizontal");
-        Vector2 movement = new Vector2(moveX * moveSpeed, _rb.velocity.y);
+        float speed = Input.GetKey(KeyCode.LeftShift) ? sprintSpeed : walkSpeed; // Use sprint speed if Shift is held down
+        Vector2 movement = new Vector2(moveX * speed, _rb.velocity.y);
         _rb.velocity = movement;
         _animator.SetFloat(PlayerRunning1, Mathf.Abs(movement.x));
 
@@ -91,3 +93,4 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 }
+

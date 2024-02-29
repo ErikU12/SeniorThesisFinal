@@ -342,7 +342,7 @@ MonoBehaviour:
   m_text: In CyberSteel you play as a knight who must save the world from a futursitc
     threat. To move and jump you use the arrow keys and WASD. To use your various
     weapons you use C, X, and Z. And to fire your arrows you simply click using the
-    mouse.
+    mouse. Shift to run
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
