@@ -53,7 +53,7 @@ public class ArrowSpawner : MonoBehaviour
             _lastSpawnTime = Time.time;
         }
 
-        if (Input.GetKeyDown(KeyCode.Z))
+        if (Input.GetAxis("Mouse ScrollWheel") > 0)
         {
             CycleArrow();
         }
