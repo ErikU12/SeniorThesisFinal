@@ -101,7 +101,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 2189071717821308508, guid: e2f73dff108fcd247998efefd3409e53, type: 3}
   projectileSpeed: 10
-  detectionRange: 100
+  detectionRange: 10
   shootInterval: 2
 --- !u!114 &7785718702814105082
 MonoBehaviour:
