@@ -175,6 +175,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f83d6c0de56bf004ba11eb0cd54c76ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  originalMoveSpeed: 3
   moveSpeed: 3
   detectionRange: 7
   attackRange: 2
@@ -205,8 +206,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 800382801b831534f8f86033e154ef7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemPrefab: {fileID: 7390788862431895858, guid: db9d93cb5100db748babe6a7036b46b0, type: 3}
-  dropChance: 100
+  dropTable: []
 --- !u!114 &6112897823410426373
 MonoBehaviour:
   m_ObjectHideFlags: 0
