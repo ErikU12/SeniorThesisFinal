@@ -10923,6 +10923,10 @@ PrefabInstance:
       propertyPath: enemyPrefab
       value: 
       objectReference: {fileID: 181533318163236230}
+    - target: {fileID: 8263523899515450480, guid: 31b25850ff6fbf34fa881701dcbf4121, type: 3}
+      propertyPath: meleeCooldown
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
