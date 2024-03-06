@@ -4,6 +4,7 @@ public class EnemyHealth : MonoBehaviour
 {
     public int maxHealth = 1; // Maximum health of the zombie
     private int _currentHealth; // Current health of the zombie
+    public Animator Animator;
 
     private void Start()
     {
