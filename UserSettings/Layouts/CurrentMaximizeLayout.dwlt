@@ -193,8 +193,8 @@ MonoBehaviour:
     y: 0
     width: 358.4
     height: 459.2
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 6}
   m_Panes:
   - {fileID: 6}
@@ -236,10 +236,10 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: fc640000
-      m_LastClickedID: 0
-      m_ExpandedIDs: 8ef8ffff24faffff
+      scrollPos: {x: 0, y: 16}
+      m_SelectedIDs: 56aa0000
+      m_LastClickedID: 43606
+      m_ExpandedIDs: 944bffff1ef5ffff1afbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -659,9 +659,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 11.216017, y: -50.02547, z: -0.28954083}
+    m_Target: {x: 7.0972457, y: -68.02094, z: -0.04366682}
     speed: 2
-    m_Value: {x: 11.216017, y: -50.02547, z: -0.28954083}
+    m_Value: {x: 7.0972457, y: -68.02094, z: -0.04366682}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -711,9 +711,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 31.56185
+    m_Target: 5.232763
     speed: 2
-    m_Value: 31.56185
+    m_Value: 5.232763
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -820,10 +820,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 7.2000003
-    y: 540
-    width: 1103
-    height: 228.20001
+    x: 0
+    y: 573.60004
+    width: 1115
+    height: 249.79999
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -882,7 +882,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Sprites
+    - Assets/Prefab
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -890,16 +890,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 61
   m_LastFolders:
-  - Assets/Sprites
+  - Assets/Prefab
   m_LastFoldersGridSize: 61
   m_LastProjectPath: C:\Users\eriku\OneDrive\Desktop\ThesisFinal
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 02650000
-    m_LastClickedID: 25858
-    m_ExpandedIDs: 00000000e6640000e8640000
+    m_SelectedIDs: a4670000
+    m_LastClickedID: 26532
+    m_ExpandedIDs: 000000008667000088670000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -927,7 +927,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000e6640000e8640000
+    m_ExpandedIDs: 000000008667000088670000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -952,8 +952,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: fc640000
-    m_LastClickedInstanceID: 25852
+    m_SelectedInstanceIDs: 56aa0000
+    m_LastClickedInstanceID: 43606
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000386700003a6900001c6f000060620000867f0000a0640000ec66000000000000
     m_RenameOverlay:
@@ -979,7 +979,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 360}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 61
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 245.6
@@ -1049,15 +1049,16 @@ MonoBehaviour:
     - {fileID: 4321026883745297470, guid: 61356a8f7c9b34e48a59750615f44087, type: 2}
     - {fileID: -3075570287196439074, guid: 09973a6d4e0609348a16e983b5b7598c, type: 2}
     - {fileID: -3557364430939448858, guid: 5d21f67c15730ee47b757ea1f9d606bb, type: 2}
+    - {fileID: -1256602475005298357, guid: 6ad5353718aa5074c8baa52cfb104daa, type: 2}
     m_ValueSerializationHelper:
     - e00: 0.1
       e01: 0
       e02: 0
-      e03: -74.17525
+      e03: -57
       e10: 0
       e11: 0.1
       e12: 0
-      e13: 356.9
+      e13: 332.9
       e20: 0
       e21: 0
       e22: 1
@@ -1069,11 +1070,11 @@ MonoBehaviour:
     - e00: 0.1
       e01: 0
       e02: 0
-      e03: -30
+      e03: -48
       e10: 0
       e11: 0.1
       e12: 0
-      e13: 350.9
+      e13: 326.9
       e20: 0
       e21: 0
       e22: 1
@@ -1106,6 +1107,22 @@ MonoBehaviour:
       e11: 0.1
       e12: 0
       e13: 337.9
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.1
+      e01: 0
+      e02: 0
+      e03: -52.5
+      e10: 0
+      e11: 0.1
+      e12: 0
+      e13: 315.9
       e20: 0
       e21: 0
       e22: 1
@@ -1197,7 +1214,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 30
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:

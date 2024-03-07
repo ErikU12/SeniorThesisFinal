@@ -17,16 +17,24 @@ PrefabInstance:
       value: Wind Arrow Variant
       objectReference: {fileID: 0}
     - target: {fileID: 5747223076065621007, guid: 82e98ec67cf543a4aa9a4fe48b54abe9, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: a5b2258420c8b48488c86074c5628c4b, type: 3}
+    - target: {fileID: 5747223076065621007, guid: 82e98ec67cf543a4aa9a4fe48b54abe9, type: 3}
       propertyPath: m_Color.b
-      value: 0.22448754
+      value: 0.94716984
       objectReference: {fileID: 0}
     - target: {fileID: 5747223076065621007, guid: 82e98ec67cf543a4aa9a4fe48b54abe9, type: 3}
       propertyPath: m_Color.g
-      value: 1
+      value: 0.9409149
       objectReference: {fileID: 0}
     - target: {fileID: 5747223076065621007, guid: 82e98ec67cf543a4aa9a4fe48b54abe9, type: 3}
       propertyPath: m_Color.r
-      value: 0
+      value: 0.93466
+      objectReference: {fileID: 0}
+    - target: {fileID: 8323696803553897523, guid: 82e98ec67cf543a4aa9a4fe48b54abe9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.40725023
       objectReference: {fileID: 0}
     - target: {fileID: 8323696803553897523, guid: 82e98ec67cf543a4aa9a4fe48b54abe9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -34,7 +42,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8323696803553897523, guid: 82e98ec67cf543a4aa9a4fe48b54abe9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -76.851166
+      value: -76.8443
       objectReference: {fileID: 0}
     - target: {fileID: 8323696803553897523, guid: 82e98ec67cf543a4aa9a4fe48b54abe9, type: 3}
       propertyPath: m_LocalPosition.z
