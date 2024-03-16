@@ -1,0 +1,760 @@
+From 8272378c9f65c3398aad328bb3d124be9f81a10b Mon Sep 17 00:00:00 2001
+From: "JAMES\\james" <jamesbdog5@gmail.com>
+Date: Fri, 15 Mar 2024 22:53:00 -0400
+Subject: [PATCH] no message
+
+---
+ Assembly-CSharp.csproj                        |  94 +++++++-------
+ Assets/Scenes/MainScene.unity                 |   7 +-
+ Assets/Scripts/Enemy/EnemyHealth.cs           |  36 +++++-
+ Assets/Sprites/Animations/enemy.controller    |   2 +-
+ Assets/Sprites/Prefab/enemy.prefab            |   1 +
+ UserSettings/Layouts/default-2022.dwlt        | 118 +++++++++---------
+ ...mbly-CSharp.csproj.AssemblyReference.cache | Bin 148380 -> 129996 bytes
+ 7 files changed, 142 insertions(+), 116 deletions(-)
+
+diff --git a/Assembly-CSharp.csproj b/Assembly-CSharp.csproj
+index 6c387aa..4640639 100644
+--- a/Assembly-CSharp.csproj
++++ b/Assembly-CSharp.csproj
+@@ -12,7 +12,7 @@
+     <ProductVersion>10.0.20506</ProductVersion>
+     <SchemaVersion>2.0</SchemaVersion>
+     <RootNamespace></RootNamespace>
+-    <ProjectGuid>{c6a5ad41-d155-6104-9511-3d135cb751e0}</ProjectGuid>
++    <ProjectGuid>{50627a75-98f9-0812-d246-de2244ea0e32}</ProjectGuid>
+     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+     <OutputType>Library</OutputType>
+     <AppDesignerFolder>Properties</AppDesignerFolder>
+@@ -391,10 +391,10 @@
+       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.18f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Collections.LowLevel.ILSupport">
+-      <HintPath>C:\Users\eriku\OneDrive\Desktop\ThesisFinal\Library\PackageCache\com.unity.collections@1.2.4\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
++      <HintPath>C:\Users\james\Senior Thesis\Seniorr Thesus\Library\PackageCache\com.unity.collections@1.2.4\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+-      <HintPath>C:\Users\eriku\OneDrive\Desktop\ThesisFinal\Library\PackageCache\com.unity.visualscripting@1.9.1\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
++      <HintPath>C:\Users\james\Senior Thesis\Seniorr Thesus\Library\PackageCache\com.unity.visualscripting@1.9.1\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="netstandard">
+       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.18f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
+@@ -763,136 +763,136 @@
+       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.18f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.IK.Runtime">
+-      <HintPath>C:\Users\eriku\OneDrive\Desktop\ThesisFinal\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll</HintPath>
++      <HintPath>C:\Users\james\Senior Thesis\Seniorr Thesus\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="PsdPlugin">
+-      <HintPath>C:\Users\eriku\OneDrive\Desktop\ThesisFinal\Library\ScriptAssemblies\PsdPlugin.dll</HintPath>
++      <HintPath>C:\Users\james\Senior Thesis\Seniorr Thesus\Library\ScriptAssemblies\PsdPlugin.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Burst.Editor">
+-      <HintPath>C:\Users\eriku\OneDrive\Desktop\ThesisFinal\Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
++      <HintPath>C:\Users\james\Senior Thesis\Seniorr Thesus\Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Burst">
+-      <HintPath>C:\Users\eriku\OneDrive\Desktop\ThesisFinal\Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
++      <HintPath>C:\Users\james\Senior Thesis\Seniorr Thesus\Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.PlasticSCM.Editor">
+-      <HintPath>C:\Users\eriku\OneDrive\Desktop\ThesisFinal\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
++      <HintPath>C:\Users\james\Senior Thesis\Seniorr Thesus\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.Common.Path.Editor">
+-      <HintPath>C:\Users\eriku\OneDrive\Desktop\ThesisFinal\Library\ScriptAssemblies\Unity.2D.Common.Path.Editor.dll</HintPath>
++      <HintPath>C:\Users\james\Senior Thesis\Seniorr Thesus\Library\ScriptAssemblies\Unity.2D.Common.Path.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Timeline.Editor">
+-      <HintPath>C:\Users\eriku\OneDrive\Desktop\ThesisFinal\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
++      <HintPath>C:\Users\james\Senior Thesis\Seniorr Thesus\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Shared.Editor">
+-      <HintPath>C:\Users\eriku\OneDrive\Desktop\ThesisFinal\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
++      <HintPath>C:\Users\james\Senior Thesis\Seniorr Thesus\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualStudio.Editor">
+-      <HintPath>C:\Users\eriku\OneDrive\Desktop\ThesisFinal\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
++      <HintPath>C:\Users\james\Senior Thesis\Seniorr Thesus\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.UI">
+-      <HintPath>C:\Users\eriku\OneDrive\Desktop\ThesisFinal\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
++      <HintPath>C:\Users\james\Senior Thesis\Seniorr Thesus\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Core">
+-      <HintPath>C:\Users\eriku\OneDrive\Desktop\ThesisFinal\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
++      <HintPath>C:\Users\james\Senior Thesis\Seniorr Thesus\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.Animation.Runtime">
+-      <HintPath>C:\Users\eriku\OneDrive\Desktop\ThesisFinal\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll</HintPath>
++      <HintPath>C:\Users\james\Senior Thesis\Seniorr Thesus\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.Tilemap.Extras">
+-      <HintPath>C:\Users\eriku\OneDrive\Desktop\ThesisFinal\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll</HintPath>
++      <HintPath>C:\Users\james\Senior Thesis\Seniorr Thesus\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Core.Editor">
+-      <HintPath>C:\Users\eriku\OneDrive\Desktop\ThesisFinal\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
++      <HintPath>C:\Users\james\Senior Thesis\Seniorr Thesus\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Rider.Editor">
+-      <HintPath>C:\Users\eriku\OneDrive\Desktop\ThesisFinal\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
++      <HintPath>C:\Users\james\Senior Thesis\Seniorr Thesus\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.PixelPerfect.Editor">
+-      <HintPath>C:\Users\eriku\OneDrive\Desktop\ThesisFinal\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll</HintPath>
++      <HintPath>C:\Users\james\Senior Thesis\Seniorr Thesus\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.Aseprite.Common">
+-      <HintPath>C:\Users\eriku\OneDrive\Desktop\ThesisFinal\Library\ScriptAssemblies\Unity.2D.Aseprite.Common.dll</HintPath>
++      <HintPath>C:\Users\james\Senior Thesis\Seniorr Thesus\Library\ScriptAssemblies\Unity.2D.Aseprite.Common.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.Sprite.Editor">
+-      <HintPath>C:\Users\eriku\OneDrive\Desktop\ThesisFinal\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
++      <HintPath>C:\Users\james\Senior Thesis\Seniorr Thesus\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.InternalAPIEditorBridge.005">
+-      <HintPath>C:\Users\eriku\OneDrive\Desktop\ThesisFinal\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.005.dll</HintPath>
++      <HintPath>C:\Users\james\Senior Thesis\Seniorr Thesus\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.005.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Flow">
+-      <HintPath>C:\Users\eriku\OneDrive\Desktop\ThesisFinal\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
++      <HintPath>C:\Users\james\Senior Thesis\Seniorr Thesus\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Flow.Editor">
+-      <HintPath>C:\Users\eriku\OneDrive\Desktop\ThesisFinal\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
++      <HintPath>C:\Users\james\Senior Thesis\Seniorr Thesus\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.InternalAPIEngineBridge.001">
+-      <HintPath>C:\Users\eriku\OneDrive\Desktop\ThesisFinal\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll</HintPath>
++      <HintPath>C:\Users\james\Senior Thesis\Seniorr Thesus\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Mathematics.Editor">
+-      <HintPath>C:\Users\eriku\OneDrive\Desktop\ThesisFinal\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
++      <HintPath>C:\Users\james\Senior Thesis\Seniorr Thesus\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.Common.Runtime">
+-      <HintPath>C:\Users\eriku\OneDrive\Desktop\ThesisFinal\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll</HintPath>
++      <HintPath>C:\Users\james\Senior Thesis\Seniorr Thesus\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UI">
+-      <HintPath>C:\Users\eriku\OneDrive\Desktop\ThesisFinal\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
++      <HintPath>C:\Users\james\Senior Thesis\Seniorr Thesus\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.Tilemap.Extras.Editor">
+-      <HintPath>C:\Users\eriku\OneDrive\Desktop\ThesisFinal\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll</HintPath>
++      <HintPath>C:\Users\james\Senior Thesis\Seniorr Thesus\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Timeline">
+-      <HintPath>C:\Users\eriku\OneDrive\Desktop\ThesisFinal\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
++      <HintPath>C:\Users\james\Senior Thesis\Seniorr Thesus\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
+-      <HintPath>C:\Users\eriku\OneDrive\Desktop\ThesisFinal\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
++      <HintPath>C:\Users\james\Senior Thesis\Seniorr Thesus\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Collections">
+-      <HintPath>C:\Users\eriku\OneDrive\Desktop\ThesisFinal\Library\ScriptAssemblies\Unity.Collections.dll</HintPath>
++      <HintPath>C:\Users\james\Senior Thesis\Seniorr Thesus\Library\ScriptAssemblies\Unity.Collections.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.Psdimporter.Editor">
+-      <HintPath>C:\Users\eriku\OneDrive\Desktop\ThesisFinal\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll</HintPath>
++      <HintPath>C:\Users\james\Senior Thesis\Seniorr Thesus\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.InternalAPIEditorBridge.001">
+-      <HintPath>C:\Users\eriku\OneDrive\Desktop\ThesisFinal\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>
++      <HintPath>C:\Users\james\Senior Thesis\Seniorr Thesus\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.SpriteShape.Runtime">
+-      <HintPath>C:\Users\eriku\OneDrive\Desktop\ThesisFinal\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll</HintPath>
++      <HintPath>C:\Users\james\Senior Thesis\Seniorr Thesus\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.State.Editor">
+-      <HintPath>C:\Users\eriku\OneDrive\Desktop\ThesisFinal\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
++      <HintPath>C:\Users\james\Senior Thesis\Seniorr Thesus\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.PixelPerfect">
+-      <HintPath>C:\Users\eriku\OneDrive\Desktop\ThesisFinal\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll</HintPath>
++      <HintPath>C:\Users\james\Senior Thesis\Seniorr Thesus\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Mathematics">
+-      <HintPath>C:\Users\eriku\OneDrive\Desktop\ThesisFinal\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
++      <HintPath>C:\Users\james\Senior Thesis\Seniorr Thesus\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.Common.Editor">
+-      <HintPath>C:\Users\eriku\OneDrive\Desktop\ThesisFinal\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll</HintPath>
++      <HintPath>C:\Users\james\Senior Thesis\Seniorr Thesus\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.TextMeshPro">
+-      <HintPath>C:\Users\eriku\OneDrive\Desktop\ThesisFinal\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
++      <HintPath>C:\Users\james\Senior Thesis\Seniorr Thesus\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.TextMeshPro.Editor">
+-      <HintPath>C:\Users\eriku\OneDrive\Desktop\ThesisFinal\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
++      <HintPath>C:\Users\james\Senior Thesis\Seniorr Thesus\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.Aseprite.Editor">
+-      <HintPath>C:\Users\eriku\OneDrive\Desktop\ThesisFinal\Library\ScriptAssemblies\Unity.2D.Aseprite.Editor.dll</HintPath>
++      <HintPath>C:\Users\james\Senior Thesis\Seniorr Thesus\Library\ScriptAssemblies\Unity.2D.Aseprite.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.State">
+-      <HintPath>C:\Users\eriku\OneDrive\Desktop\ThesisFinal\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
++      <HintPath>C:\Users\james\Senior Thesis\Seniorr Thesus\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.SpriteShape.Editor">
+-      <HintPath>C:\Users\eriku\OneDrive\Desktop\ThesisFinal\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll</HintPath>
++      <HintPath>C:\Users\james\Senior Thesis\Seniorr Thesus\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.Tilemap.Editor">
+-      <HintPath>C:\Users\eriku\OneDrive\Desktop\ThesisFinal\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
++      <HintPath>C:\Users\james\Senior Thesis\Seniorr Thesus\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.Animation.Editor">
+-      <HintPath>C:\Users\eriku\OneDrive\Desktop\ThesisFinal\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll</HintPath>
++      <HintPath>C:\Users\james\Senior Thesis\Seniorr Thesus\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.IK.Editor">
+-      <HintPath>C:\Users\eriku\OneDrive\Desktop\ThesisFinal\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll</HintPath>
++      <HintPath>C:\Users\james\Senior Thesis\Seniorr Thesus\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll</HintPath>
+     </Reference>
+   </ItemGroup>
+   <ItemGroup>
+diff --git a/Assets/Scenes/MainScene.unity b/Assets/Scenes/MainScene.unity
+index d8a1c36..19fa159 100644
+--- a/Assets/Scenes/MainScene.unity
++++ b/Assets/Scenes/MainScene.unity
+@@ -375,6 +375,7 @@ MonoBehaviour:
+   m_Name: 
+   m_EditorClassIdentifier: 
+   maxHealth: 1
++  _animator: {fileID: 0}
+ --- !u!61 &69081119
+ BoxCollider2D:
+   m_ObjectHideFlags: 0
+@@ -3046,11 +3047,11 @@ PrefabInstance:
+     m_Modifications:
+     - target: {fileID: 163090216664498330, guid: b5fe4bad9bef72248b3b8d1992fdb817, type: 3}
+       propertyPath: m_LocalPosition.x
+-      value: 19.08
++      value: 6.56
+       objectReference: {fileID: 0}
+     - target: {fileID: 163090216664498330, guid: b5fe4bad9bef72248b3b8d1992fdb817, type: 3}
+       propertyPath: m_LocalPosition.y
+-      value: -70.26
++      value: -70.42
+       objectReference: {fileID: 0}
+     - target: {fileID: 163090216664498330, guid: b5fe4bad9bef72248b3b8d1992fdb817, type: 3}
+       propertyPath: m_LocalPosition.z
+@@ -9771,7 +9772,7 @@ Transform:
+   m_GameObject: {fileID: 1952870449}
+   serializedVersion: 2
+   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+-  m_LocalPosition: {x: 1.5, y: 2.839882, z: 10}
++  m_LocalPosition: {x: 1.5, y: 2.839882, z: 1}
+   m_LocalScale: {x: -0.5016437, y: 0.52359617, z: 0.8855}
+   m_ConstrainProportionsScale: 0
+   m_Children: []
+diff --git a/Assets/Scripts/Enemy/EnemyHealth.cs b/Assets/Scripts/Enemy/EnemyHealth.cs
+index d425988..c31a1ab 100644
+--- a/Assets/Scripts/Enemy/EnemyHealth.cs
++++ b/Assets/Scripts/Enemy/EnemyHealth.cs
+@@ -2,12 +2,20 @@ using UnityEngine;
+ 
+ public class EnemyHealth : MonoBehaviour
+ {
+-    public int maxHealth = 1; // Maximum health of the zombie
+-    private int _currentHealth; // Current health of the zombie
++    public int maxHealth = 1; // Maximum health of the enemy
++    private int _currentHealth; // Current health of the enemy
++    public Animator _animator; // Reference to the Animator component
+ 
+-    private void Start()
++    void Start()
+     {
+         _currentHealth = maxHealth;
++        // Find the parent GameObject which has the Animator component
++        _animator = transform.parent.GetComponent<Animator>();
++
++        if (_animator == null)
++        {
++            Debug.LogError("Animator component not found in the parent GameObject.");
++        }
+     }
+ 
+     public void TakeDamage(int damage)
+@@ -16,17 +24,33 @@ public class EnemyHealth : MonoBehaviour
+ 
+         if (_currentHealth <= 0)
+         {
+-            // Zombie is dead, destroy it
+-            Destroy(gameObject);
++            // Play death animation
++            PlayDeathAnimation();
++
++            // Disable enemy's collider to prevent further interaction
++            GetComponent<Collider2D>().enabled = false;
++
++            // Disable any scripts attached to the enemy to stop its behavior
++            // For example, you could disable movement scripts, shooting scripts, etc.
++            // GetComponent<YourScriptType>().enabled = false;
++
++            // Destroy the enemy GameObject after a delay
++            Destroy(gameObject, 1f); // Adjust the delay as needed
+         }
+     }
+ 
++    private void PlayDeathAnimation()
++    {
++        // Trigger the "Die" parameter in the animator controller to play the death animation
++        _animator.SetTrigger("EnemyDeath");
++    }
++
+     private void OnCollisionEnter2D(Collision2D collision)
+     {
+         // Check if the collision is with an object tagged as "Bullet"
+         if (collision.gameObject.CompareTag("Bullet"))
+         {
+-            // Apply damage to the zombie
++            // Apply damage to the enemy
+             TakeDamage(1); // Assuming each bullet deals 1 damage
+ 
+             // Destroy the bullet
+diff --git a/Assets/Sprites/Animations/enemy.controller b/Assets/Sprites/Animations/enemy.controller
+index 4cebd89..f69150c 100644
+--- a/Assets/Sprites/Animations/enemy.controller
++++ b/Assets/Sprites/Animations/enemy.controller
+@@ -70,7 +70,7 @@ AnimatorStateTransition:
+   m_Mute: 0
+   m_IsExit: 0
+   serializedVersion: 3
+-  m_TransitionDuration: 0.25
++  m_TransitionDuration: 0.2
+   m_TransitionOffset: 0
+   m_ExitTime: 0.42307693
+   m_HasExitTime: 1
+diff --git a/Assets/Sprites/Prefab/enemy.prefab b/Assets/Sprites/Prefab/enemy.prefab
+index aa8f090..6af8eb0 100644
+--- a/Assets/Sprites/Prefab/enemy.prefab
++++ b/Assets/Sprites/Prefab/enemy.prefab
+@@ -194,6 +194,7 @@ MonoBehaviour:
+   m_Name: 
+   m_EditorClassIdentifier: 
+   maxHealth: 3
++  _animator: {fileID: 6863652629305170239}
+ --- !u!114 &532765241345652557
+ MonoBehaviour:
+   m_ObjectHideFlags: 0
+diff --git a/UserSettings/Layouts/default-2022.dwlt b/UserSettings/Layouts/default-2022.dwlt
+index 62e1a74..21fef96 100644
+--- a/UserSettings/Layouts/default-2022.dwlt
++++ b/UserSettings/Layouts/default-2022.dwlt
+@@ -19,7 +19,7 @@ MonoBehaviour:
+     width: 1521.6
+     height: 806.4
+   m_ShowMode: 4
+-  m_Title: Project
++  m_Title: Game
+   m_RootView: {fileID: 3}
+   m_MinSize: {x: 875, y: 300}
+   m_MaxSize: {x: 10000, y: 10000}
+@@ -39,9 +39,9 @@ MonoBehaviour:
+   m_Children: []
+   m_Position:
+     serializedVersion: 2
+-    x: 1104
++    x: 721.6
+     y: 0
+-    width: 100.80005
++    width: 483.20007
+     height: 756.4
+   m_MinSize: {x: 100, y: 100}
+   m_MaxSize: {x: 4000, y: 4000}
+@@ -146,7 +146,7 @@ MonoBehaviour:
+   m_MinSize: {x: 400, y: 100}
+   m_MaxSize: {x: 32384, y: 16192}
+   vertical: 0
+-  controlID: 61
++  controlID: 174
+ --- !u!114 &7
+ MonoBehaviour:
+   m_ObjectHideFlags: 52
+@@ -166,12 +166,12 @@ MonoBehaviour:
+     serializedVersion: 2
+     x: 0
+     y: 0
+-    width: 1104
++    width: 721.6
+     height: 756.4
+   m_MinSize: {x: 200, y: 100}
+   m_MaxSize: {x: 16192, y: 16192}
+   vertical: 1
+-  controlID: 62
++  controlID: 74
+ --- !u!114 &8
+ MonoBehaviour:
+   m_ObjectHideFlags: 52
+@@ -191,7 +191,7 @@ MonoBehaviour:
+     serializedVersion: 2
+     x: 0
+     y: 0
+-    width: 1104
++    width: 721.6
+     height: 490.4
+   m_MinSize: {x: 200, y: 50}
+   m_MaxSize: {x: 16192, y: 8096}
+@@ -214,7 +214,7 @@ MonoBehaviour:
+     serializedVersion: 2
+     x: 0
+     y: 0
+-    width: 358.4
++    width: 233.6
+     height: 490.4
+   m_MinSize: {x: 200, y: 200}
+   m_MaxSize: {x: 4000, y: 4000}
+@@ -238,9 +238,9 @@ MonoBehaviour:
+   m_Children: []
+   m_Position:
+     serializedVersion: 2
+-    x: 358.4
++    x: 233.6
+     y: 0
+-    width: 745.6
++    width: 487.99997
+     height: 490.4
+   m_MinSize: {x: 202, y: 221}
+   m_MaxSize: {x: 4002, y: 4021}
+@@ -267,7 +267,7 @@ MonoBehaviour:
+     serializedVersion: 2
+     x: 0
+     y: 490.4
+-    width: 1104
++    width: 721.6
+     height: 266.00003
+   m_MinSize: {x: 231, y: 271}
+   m_MaxSize: {x: 10001, y: 10021}
+@@ -324,9 +324,9 @@ MonoBehaviour:
+     m_Tooltip: 
+   m_Pos:
+     serializedVersion: 2
+-    x: 365.6
++    x: 240.8
+     y: 80.8
+-    width: 743.6
++    width: 485.99997
+     height: 469.4
+   m_SerializedDataModeController:
+     m_DataMode: 0
+@@ -344,7 +344,7 @@ MonoBehaviour:
+   m_ShowGizmos: 0
+   m_TargetDisplay: 0
+   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
+-  m_TargetSize: {x: 717, y: 448.4}
++  m_TargetSize: {x: 485.99997, y: 304}
+   m_TextureFilterMode: 0
+   m_TextureHideFlags: 61
+   m_RenderIMGUI: 1
+@@ -359,10 +359,10 @@ MonoBehaviour:
+     m_VRangeLocked: 0
+     hZoomLockedByDefault: 0
+     vZoomLockedByDefault: 0
+-    m_HBaseRangeMin: -286.80002
+-    m_HBaseRangeMax: 286.80002
+-    m_VBaseRangeMin: -179.36
+-    m_VBaseRangeMax: 179.36
++    m_HBaseRangeMin: -194.4
++    m_HBaseRangeMax: 194.4
++    m_VBaseRangeMin: -121.6
++    m_VBaseRangeMax: 121.6
+     m_HAllowExceedBaseRangeMin: 1
+     m_HAllowExceedBaseRangeMax: 1
+     m_VAllowExceedBaseRangeMin: 1
+@@ -380,23 +380,23 @@ MonoBehaviour:
+       serializedVersion: 2
+       x: 0
+       y: 21
+-      width: 743.6
++      width: 485.99997
+       height: 448.4
+     m_Scale: {x: 1.25, y: 1.25}
+-    m_Translation: {x: 371.8, y: 224.2}
++    m_Translation: {x: 243, y: 224.2}
+     m_MarginLeft: 0
+     m_MarginRight: 0
+     m_MarginTop: 0
+     m_MarginBottom: 0
+     m_LastShownAreaInsideMargins:
+       serializedVersion: 2
+-      x: -297.44
++      x: -194.4
+       y: -179.36
+-      width: 594.88
++      width: 388.8
+       height: 358.72
+     m_MinimalGUI: 1
+   m_defaultScale: 1
+-  m_LastWindowPixelSize: {x: 929.5, y: 586.75}
++  m_LastWindowPixelSize: {x: 607.49994, y: 586.75}
+   m_ClearInEditMode: 1
+   m_NoCameraWarning: 1
+   m_LowResolutionForAspectRatios: 01000000000000000000
+@@ -424,7 +424,7 @@ MonoBehaviour:
+     serializedVersion: 2
+     x: 7.2000003
+     y: 80.8
+-    width: 357.4
++    width: 232.6
+     height: 469.4
+   m_SerializedDataModeController:
+     m_DataMode: 0
+@@ -439,9 +439,9 @@ MonoBehaviour:
+   m_SceneHierarchy:
+     m_TreeViewState:
+       scrollPos: {x: 0, y: 0}
+-      m_SelectedIDs: 
++      m_SelectedIDs: b2d90000
+       m_LastClickedID: 0
+-      m_ExpandedIDs: 06fbffff
++      m_ExpandedIDs: a8e9ffff7e6a0000
+       m_RenameOverlay:
+         m_UserAcceptedRename: 0
+         m_Name: 
+@@ -485,9 +485,9 @@ MonoBehaviour:
+     m_Tooltip: 
+   m_Pos:
+     serializedVersion: 2
+-    x: 365.6
++    x: 240.8
+     y: 80.8
+-    width: 743.6
++    width: 485.99997
+     height: 469.4
+   m_SerializedDataModeController:
+     m_DataMode: 0
+@@ -834,9 +834,9 @@ MonoBehaviour:
+   m_PlayAudio: 0
+   m_AudioPlay: 0
+   m_Position:
+-    m_Target: {x: 5.967074, y: -66.69316, z: 0.031454347}
++    m_Target: {x: -0.734773, y: -63.492237, z: 0.021250442}
+     speed: 2
+-    m_Value: {x: 5.967074, y: -66.69316, z: 0.031454347}
++    m_Value: {x: -0.734773, y: -63.492237, z: 0.021250442}
+   m_RenderMode: 0
+   m_CameraMode:
+     drawMode: 0
+@@ -886,9 +886,9 @@ MonoBehaviour:
+     speed: 2
+     m_Value: {x: 0, y: 0, z: 0, w: 1}
+   m_Size:
+-    m_Target: 6.9579806
++    m_Target: 7.8748856
+     speed: 2
+-    m_Value: 6.9579806
++    m_Value: 7.8748856
+   m_Ortho:
+     m_Target: 1
+     speed: 2
+@@ -933,9 +933,9 @@ MonoBehaviour:
+     m_Tooltip: 
+   m_Pos:
+     serializedVersion: 2
+-    x: 1111.2001
++    x: 728.8
+     y: 80.8
+-    width: 98.80005
++    width: 481.20007
+     height: 735.4
+   m_SerializedDataModeController:
+     m_DataMode: 0
+@@ -954,14 +954,14 @@ MonoBehaviour:
+     - {fileID: -3075570287196439074, guid: 09973a6d4e0609348a16e983b5b7598c, type: 2}
+     - {fileID: -3557364430939448858, guid: 5d21f67c15730ee47b757ea1f9d606bb, type: 2}
+     m_ValueSerializationHelper:
+-    - e00: 0.1
++    - e00: 0.15089655
+       e01: 0
+       e02: 0
+-      e03: -74.17525
++      e03: 27.071716
+       e10: 0
+-      e11: 0.1
++      e11: 0.15089655
+       e12: 0
+-      e13: 356.9
++      e13: 361.2262
+       e20: 0
+       e21: 0
+       e22: 1
+@@ -970,14 +970,14 @@ MonoBehaviour:
+       e31: 0
+       e32: 0
+       e33: 1
+-    - e00: 0.1
++    - e00: 0.6693141
+       e01: 0
+       e02: 0
+-      e03: -30
++      e03: -128.79256
+       e10: 0
+-      e11: 0.1
++      e11: 0.6693141
+       e12: 0
+-      e13: 350.9
++      e13: 345.72693
+       e20: 0
+       e21: 0
+       e22: 1
+@@ -1056,7 +1056,7 @@ MonoBehaviour:
+     serializedVersion: 2
+     x: 7.2000003
+     y: 571.2
+-    width: 1103
++    width: 720.6
+     height: 245.00003
+   m_SerializedDataModeController:
+     m_DataMode: 0
+@@ -1069,7 +1069,7 @@ MonoBehaviour:
+     m_SaveData: []
+     m_OverlaysVisible: 1
+   m_SearchFilter:
+-    m_NameFilter: robo
++    m_NameFilter: 
+     m_ClassNames: []
+     m_AssetLabels: []
+     m_AssetBundleNames: []
+@@ -1077,26 +1077,26 @@ MonoBehaviour:
+     m_SceneHandles: 
+     m_ShowAllHits: 0
+     m_SkipHidden: 0
+-    m_SearchArea: 1
++    m_SearchArea: 0
+     m_Folders:
+-    - Assets
++    - Assets/Sound FX
+     m_Globs: []
+-    m_OriginalText: robo
++    m_OriginalText: 
+     m_ImportLogFlags: 0
+     m_FilterByTypeIntersection: 0
+   m_ViewMode: 1
+   m_StartGridSize: 61
+   m_LastFolders:
+-  - Assets
++  - Assets/Sound FX
+   m_LastFoldersGridSize: 61
+   m_LastProjectPath: C:\Users\james\Senior Thesis\Seniorr Thesus
+   m_LockTracker:
+     m_IsLocked: 0
+   m_FolderTreeState:
+-    scrollPos: {x: 0, y: 62.99997}
+-    m_SelectedIDs: 66670000
+-    m_LastClickedID: 26470
+-    m_ExpandedIDs: 000000006667000000ca9a3bffffff7f
++    scrollPos: {x: 0, y: 127}
++    m_SelectedIDs: cc250000
++    m_LastClickedID: 9676
++    m_ExpandedIDs: 00000000fc6c0000106d0000126d000000ca9a3bffffff7f
+     m_RenameOverlay:
+       m_UserAcceptedRename: 0
+       m_Name: 
+@@ -1124,7 +1124,7 @@ MonoBehaviour:
+     scrollPos: {x: 0, y: 0}
+     m_SelectedIDs: 
+     m_LastClickedID: 0
+-    m_ExpandedIDs: 0000000066670000
++    m_ExpandedIDs: 00000000fc6c0000
+     m_RenameOverlay:
+       m_UserAcceptedRename: 0
+       m_Name: 
+@@ -1176,7 +1176,7 @@ MonoBehaviour:
+       m_Icon: {fileID: 0}
+       m_ResourceFile: 
+     m_NewAssetIndexInList: -1
+-    m_ScrollPosition: {x: 0, y: 0}
++    m_ScrollPosition: {x: 0, y: 92.99997}
+     m_GridSize: 61
+   m_SkipHiddenPackages: 0
+   m_DirectoriesAreaWidth: 245.6
+@@ -1281,10 +1281,10 @@ MonoBehaviour:
+     m_Tooltip: 
+   m_Pos:
+     serializedVersion: 2
+-    x: 0
+-    y: 573.60004
+-    width: 1115
+-    height: 249.79999
++    x: 7.2000003
++    y: 571.2
++    width: 720.6
++    height: 245.00003
+   m_SerializedDataModeController:
+     m_DataMode: 0
+     m_PreferredDataMode: 0
+@@ -1297,4 +1297,4 @@ MonoBehaviour:
+     m_OverlaysVisible: 1
+   m_LockTracker:
+     m_IsLocked: 0
+-  m_LastSelectedObjectID: 26718
++  m_LastSelectedObjectID: -6322
+diff --git a/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache b/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache
+index caba60d456be42f881ee81c5d800b617ae590da3..0a76a3ef9676b9292dd906f4a04cd3e4bceda59a 100644
+GIT binary patch
+delta 854
+zcmZ8fT}YEr7~TVVto&HAFsB<UOz}!e5*C%9H(|}ntHP_A{mjBpt6^XiQn(_bU>7ez
+z#ULt*pt`VQiJGkyl`@QKKNzc(QpTbzoMlPpoUeUJHy__~-t#{1bDrlt@0&lA&dFw&
+zF`4|~maYE!GUi`tS=8z6_F{hzJ9cAzmZyrRdawh`HM>EAE%&eqY^QId1lN1f2-crg
+z*DQT#06W~IDsBDf1bcQ@f$0JGpq11}Fgg!FKDh^x&jW*KGPuk^T!OZ`q$+c%kXl11
+zBxew1{P#mtf-SqLBsd>o7c^a*qAQ}B2o}?dA!P9fkFf_V)}bU-JV6&S&**z9R4`oy
+zt%<-c8*-^Jf>ZKuA^nQLp`VpT;i99%aI+bw)WgSzaX|F0b4jo*jMHGZy6Xg>yl=4b
+z1tai)oheo2_UAYb)?OjY94~MYn(oj)twlWa60HWI5OX=BnM8+`&qf7@mTZ<Bs?AF7
+zIIMK_D>`T(1&so6Fsht{g*<Wbi6(^N`ZPAvwNY4d0h7t}Hy86L4jLhycrEPFba9H<
+zL1z<ia9aYqk*(+5^#+GTT<WpvPC4D4KmjG*3X>bgQ0C98)u`@1YN`4a@@Q#N6k|!e
+z&ul{Q9a_MmQ_7B2WAKCJFHzBrj3WR|2a4KG=8v%Rb06S^w)~3hQ0K*RWHDbmF-QBI
+zPiQlk%2U`Y90;o!7e3FqR`3PQ|9MwEDLfV4i8a<^<03X;@SI$1a-fa(eizM|T`!-)
+gNn>Ng`dDfEG_rXtEw{dXpBi2B14j%|p`XaXA3<0pQ2+n{
+
+delta 5998
+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
+OPdd*GrC)so&wl~o=@g#;
+
+-- 
+2.38.1.windows.1
+

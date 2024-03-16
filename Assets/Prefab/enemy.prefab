@@ -194,7 +194,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 3
+<<<<<<< HEAD:Assets/Sprites/Prefab/enemy.prefab
+  _animator: {fileID: 6863652629305170239}
+=======
   Animator: {fileID: 0}
+>>>>>>> b9e1b2fd7f28544bb11fe2c6064e325187f9551c:Assets/Prefab/enemy.prefab
 --- !u!114 &532765241345652557
 MonoBehaviour:
   m_ObjectHideFlags: 0

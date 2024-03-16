@@ -1,0 +1,5 @@
+diff a/.gitignore b/.gitignore	(rejected hunks)
+@@ -1,3 +0,0 @@
+-Temp/
+-Library/
+-Logs/
