@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfaa4c39-e190-437e-b01b-582d3dc855fa" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/enemy.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/uiAssets-Sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/uiAssets-Sheet.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/crosshair.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/crosshair.png.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,6 +111,7 @@
       <workItem from="1702354533387" duration="1732000" />
       <workItem from="1709660166049" duration="5116000" />
       <workItem from="1709791135396" duration="3000" />
+      <workItem from="1711496076113" duration="37000" />
     </task>
     <servers />
   </component>

@@ -4,6 +4,13 @@ public class CrossHair : MonoBehaviour
 {
     [SerializeField] private float followSpeed = 5f; // Speed at which the object follows the mouse
 
+    public Texture2D C;
+    void Awake()
+    {
+        Cursor.SetCursor(C,new Vector2(0,0),CursorMode.Auto);
+        
+    }
+    
     void Update()
     {
         // Get the mouse position in world coordinates
