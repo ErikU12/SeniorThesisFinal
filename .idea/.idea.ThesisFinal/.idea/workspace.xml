@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfaa4c39-e190-437e-b01b-582d3dc855fa" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/crosshair.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/crosshair.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.Player.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.Player.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,6 +114,7 @@
       <workItem from="1709660166049" duration="5116000" />
       <workItem from="1709791135396" duration="3000" />
       <workItem from="1711496076113" duration="37000" />
+      <workItem from="1711496124580" duration="396000" />
     </task>
     <servers />
   </component>

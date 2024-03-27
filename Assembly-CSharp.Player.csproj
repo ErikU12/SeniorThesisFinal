@@ -59,6 +59,7 @@
     <Compile Include="Assets\Scripts\Player\CrossHair.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples _ Extras\Scripts\TeleType.cs" />
     <Compile Include="Assets\Scripts\Other\FloatingPlatform.cs" />
+    <Compile Include="Assets\Scripts\FloorSpawner.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples _ Extras\Scripts\VertexShakeB.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerHealth.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples _ Extras\Scripts\TMP_DigitValidator.cs" />
@@ -71,6 +72,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples _ Extras\Scripts\TMP_TextInfoDebugTool.cs" />
     <Compile Include="Assets\Scripts\Other\GoalController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples _ Extras\Scripts\ShaderPropAnimator.cs" />
+    <Compile Include="Assets\Scripts\Boss.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples _ Extras\Scripts\DropdownSample.cs" />
     <Compile Include="Assets\Scripts\Player\ArrowSpawner.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples _ Extras\Scripts\EnvMapAnimator.cs" />
@@ -91,6 +93,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples _ Extras\Scripts\TMP_TextEventCheck.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyReact.cs" />
     <Compile Include="Assets\Scripts\Player\ArrowTransparent.cs" />
+    <Compile Include="Assets\Scripts\Enemy\ArrowDraw.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples _ Extras\Scripts\WarpTextExample.cs" />
     <Compile Include="Assets\Scripts\Other\ResetGame.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples _ Extras\Scripts\TMP_ExampleScript_01.cs" />
@@ -104,6 +107,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples _ Extras\Scripts\CameraController.cs" />
     <Compile Include="Assets\Scripts\Player\Projectile.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples _ Extras\Scripts\TMP_TextSelector_B.cs" />
+    <Compile Include="Assets\Scripts\BossHealth.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples _ Extras\Scripts\VertexJitter.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples _ Extras\Scripts\TMP_FrameRateCounter.cs" />
     <Compile Include="Assets\Scripts\Enemy\Spawner.cs" />
@@ -114,6 +118,7 @@
     <Compile Include="Assets\Scripts\Player\FISHMODE.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples _ Extras\Scripts\TMP_UiFrameRateCounter.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples _ Extras\Scripts\TMP_TextSelector_A.cs" />
+    <Compile Include="Assets\Scripts\LaserDeflect.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples _ Extras\Scripts\VertexColorCycler.cs" />
     <Compile Include="Assets\Scripts\Other\StartButton.cs" />
     <Reference Include="UnityEngine">
