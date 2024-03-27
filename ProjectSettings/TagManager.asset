@@ -17,6 +17,8 @@ TagManager:
   - WindAmmo
   - GhostAmmo
   - Laser
+  - FlameSkull
+  - FlameShield
   layers:
   - Default
   - TransparentFX

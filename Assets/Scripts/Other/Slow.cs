@@ -92,4 +92,20 @@ public class Slow : MonoBehaviour
             isThrown = true; // Set the thrown state
         }
     }
+
+    private void OnTriggerEnter2D(Collider2D collider)
+    {
+        if (collider.gameObject.CompareTag("Enemy"))
+        {
+            // Check if a FlameShield is spawned and destroy it on collision with an enemy
+            if (isPrefabSpawned && spawnedPrefab.CompareTag("FlameShield"))
+            {
+                Destroy(spawnedPrefab);
+                isPrefabSpawned = false; // Reset the flag when the FlameShield is destroyed
+                isThrown = false; // Reset the thrown state
+            }
+        }
+    }
 }
+
+

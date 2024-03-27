@@ -73,7 +73,7 @@ public class BossHealth : MonoBehaviour
         Destroy(gameObject);
     }
 
-    // Method to handle collisions with bullets
+    // Method to handle collisions with bullets and Flameshield
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Bullet"))
@@ -84,8 +84,14 @@ public class BossHealth : MonoBehaviour
             {
                 TakeDamage(1); // Adjust damage as needed
             }
+
             // Destroy the bullet on collision
             Destroy(other.gameObject);
         }
+        else if (other.CompareTag("FlameShield"))
+        {
+            TakeDamage(3); // Apply 3 damage when colliding with Flameshield
+        }
     }
 }
+
