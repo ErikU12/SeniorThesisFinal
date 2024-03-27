@@ -48,6 +48,7 @@
     <Compile Include="Assets\Scripts\Player\MeleeUI.cs" />
     <Compile Include="Assets\Scripts\Player\ArrowWind.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples _ Extras\Scripts\Benchmark01.cs" />
+    <Compile Include="Assets\Scripts\Other\FlameShield.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples _ Extras\Scripts\Benchmark03.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples _ Extras\Scripts\Benchmark02.cs" />
     <Compile Include="Assets\Scripts\Player\ArrowLightning.cs" />
@@ -74,6 +75,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples _ Extras\Scripts\ShaderPropAnimator.cs" />
     <Compile Include="Assets\Scripts\Boss.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples _ Extras\Scripts\DropdownSample.cs" />
+    <Compile Include="Assets\Scripts\Other\ElevatorPlatform.cs" />
     <Compile Include="Assets\Scripts\Player\ArrowSpawner.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples _ Extras\Scripts\EnvMapAnimator.cs" />
     <Compile Include="Assets\Scripts\Enemy\LaserEnemy.cs" />
