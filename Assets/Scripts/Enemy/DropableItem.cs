@@ -40,7 +40,11 @@ public class DropableItem : MonoBehaviour
         // Instantiate the selected item at the enemy's position
         if (item.itemPrefab != null)
         {
-            Instantiate(item.itemPrefab, transform.position, Quaternion.identity);
+            GameObject droppedItem = Instantiate(item.itemPrefab, transform.position, Quaternion.identity);
+            // Detach dropped item from the enemy object
+            droppedItem.transform.parent = null;
+            // Ignore collision with enemy
+            Physics2D.IgnoreCollision(droppedItem.GetComponent<Collider2D>(), GetComponent<Collider2D>());
         }
     }
 }

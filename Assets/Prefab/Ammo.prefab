@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4778457848940636461}
   - component: {fileID: 5219625549976755910}
   - component: {fileID: 6231596105368537457}
-  - component: {fileID: 1051865582320584090}
+  - component: {fileID: 8199167924756718881}
   m_Layer: 0
   m_Name: Ammo
   m_TagString: Ammo
@@ -131,7 +131,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 2}
   m_EdgeRadius: 0
---- !u!50 &1051865582320584090
+--- !u!50 &8199167924756718881
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0

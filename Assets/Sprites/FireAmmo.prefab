@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1522491154094716886}
   - component: {fileID: 9144503495360620226}
   - component: {fileID: 3077855791945067726}
-  - component: {fileID: 5250333147652855963}
+  - component: {fileID: 5976540668788649500}
   m_Layer: 0
   m_Name: FireAmmo
   m_TagString: FireAmmo
@@ -131,7 +131,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 2}
   m_EdgeRadius: 0
---- !u!50 &5250333147652855963
+--- !u!50 &5976540668788649500
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
