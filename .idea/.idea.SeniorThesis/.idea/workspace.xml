@@ -4,10 +4,195 @@
     <list default="true" id="3f799f25-77f4-46d6-81db-4f7f940d2bd9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SeniorThesis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SeniorThesis/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/enemy.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/DropableItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/DropableItem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Floors.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Floors.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ice.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ice.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/RoboEye.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/RoboEye.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TESTING.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Boss.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Boss.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BossHealth.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BossHealth.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Capsule.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Capsule.png.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyHealth.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FloorSpawner.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FloorSpawner.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LaserDeflect.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LaserDeflect.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Arrow.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/ArrowStockUI.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/ArrowStockUI.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/ArrowUI.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/ArrowUI.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/ArrowUIBottomHalf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/ArrowUIBottomHalf.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/ArrowUIMiddlehalf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/ArrowUIMiddlehalf.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/ArrowUIStock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/ArrowUIStock.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/ArrowUITopHalf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/ArrowUITopHalf.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/BeginButton.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/BeginButton.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/BigCloud.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/BigCloud.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Blood Effect-Sheet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Blood Effect-Sheet.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Buttons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Buttons.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Cloud Sprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Cloud Sprite.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Clouds.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Clouds.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/CrackedRock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/CrackedRock.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Deer sprite-Sheet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Deer sprite-Sheet.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Dialogue Box.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Dialogue Box.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/End Button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/End Button.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/EnemyKnightSheet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/EnemyKnightSheet.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Fire Arrow Variant.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Fire Arrow Variant.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/FireAmmo.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/FireAmmo.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/FireArrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/FireArrow.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Floors.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Floors.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Floors.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Floors.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/GhostAmmo.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/GhostAmmo.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/GreenPlatForm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/GreenPlatForm.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Ice Arrow Variant.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Ice Arrow Variant.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/IceAmmo Variant.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/IceAmmo Variant.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/IceArrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/IceArrow.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/InfectedRock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/InfectedRock.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Knight player still img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Knight player still img.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Ladders.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Ladders.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Landscape.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Landscape.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Level 2(Background).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Level 2(Background).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/LevelUp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/LevelUp.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/LeverDown.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/LeverDown.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Lightning Arrow Variant.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Lightning Arrow Variant.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/LightningAmmo.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/LightningAmmo.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/LightningArrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/LightningArrow.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Lodge.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Lodge.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Log Piece1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Log Piece1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/LogPlatForm.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/LogPlatForm.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/LogPlatForm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/LogPlatForm.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/MediumCloud.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/MediumCloud.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/New Piskel (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/New Piskel (2).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/New Piskel-1.png (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/New Piskel-1.png (1).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Rick.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Rick.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/RoboEye2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/RoboEye2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Rock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Rock.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Rocks Assets.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Rocks Assets.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/SmInfRock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/SmInfRock.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/SmallCloud1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/SmallCloud1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/SmallCloud2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/SmallCloud2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/SmallCloud3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/SmallCloud3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Spawner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Spawner.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Special Effects2-Sheet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Special Effects2-Sheet.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Start Button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Start Button.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/SwordUI.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/SwordUI.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Tent Sprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Tent Sprite.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/TitleBackground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/TitleBackground.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/TitleScreenBackground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/TitleScreenBackground.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/TransparentArrow Variant.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/TransparentArrow Variant.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Tree.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Tree.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Wind Arrow Variant.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Wind Arrow Variant.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/WindAmmo.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/WindAmmo.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/WindArrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/WindArrow.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/WindowBkg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/WindowBkg.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/arrowsBiggerSize.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/arrowsBiggerSize.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/blue cube spawner-Sheet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/blue cube spawner-Sheet.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/campfire.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/campfire.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/crosshair.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/crosshair.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/dew8r9u-bea0dd3c-13ee-4112-a8e2-863693c7397a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/dew8r9u-bea0dd3c-13ee-4112-a8e2-863693c7397a.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/enemy Knight.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/enemy Knight.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/floor.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/floor.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/game logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/game logo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/logs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/logs.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/oblesikfloor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/oblesikfloor.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/oblesikwall.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/oblesikwall.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/output-onlinegiftools.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/output-onlinegiftools.gif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/player Knight-Sheet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/player Knight-Sheet.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/player health bar-Sheet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/player health bar-Sheet.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tilesets.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tilesets.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/uiAssets-Sheet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/uiAssets-Sheet.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/wall.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/wall.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/wolf_enemy-Sheet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/wolf_enemy-Sheet.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,6 +277,9 @@
       <workItem from="1711557029927" duration="914000" />
       <workItem from="1711569217690" duration="4177000" />
       <workItem from="1711574447702" duration="1469000" />
+      <workItem from="1711865779166" duration="1040000" />
+      <workItem from="1711911839289" duration="2648000" />
+      <workItem from="1711916738911" duration="1893000" />
     </task>
     <servers />
   </component>

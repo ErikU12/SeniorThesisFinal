@@ -19,6 +19,7 @@ TagManager:
   - Laser
   - FlameSkull
   - FlameShield
+  - Ladder
   layers:
   - Default
   - TransparentFX
