@@ -9,6 +9,8 @@ public class Boss : MonoBehaviour
     public float teleportInterval = 5f;
     public float fireballDelay = 1f;
     public float detectionRange = 10f; // Range within which the player is detected
+    public float normalMovementSpeed = 1f; // Normal movement speed of the boss
+    public float fastMovementSpeed = 2f; // Faster movement speed of the boss when low health
 
     private List<Transform> shuffledTeleportPoints = new List<Transform>();
     private int currentIndex = 0;
@@ -51,6 +53,15 @@ public class Boss : MonoBehaviour
 
             // Teleport to the next point
             TeleportToNextPoint();
+        }
+
+        // Check for low health
+        if (bossHealth.currentHealth <= 5 && !isLowHealth)
+        {
+            // Activate low health mode
+            isLowHealth = true;
+            // Increase movement speed when low health
+            GetComponent<Rigidbody2D>().velocity *= fastMovementSpeed / normalMovementSpeed;
         }
     }
 

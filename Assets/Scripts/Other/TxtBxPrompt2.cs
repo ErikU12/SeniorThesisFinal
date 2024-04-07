@@ -11,7 +11,7 @@ public class TxtBxPrompt2 : MonoBehaviour
     void Update()
     {
         // Check if the "N" key is pressed
-        if (Input.GetKeyDown(KeyCode.N))
+        if (Input.GetKeyDown(KeyCode.V))
         {
             // Check if the player is within the specified distance
             GameObject player = GameObject.FindGameObjectWithTag("Player");
