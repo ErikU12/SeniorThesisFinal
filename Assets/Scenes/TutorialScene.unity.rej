@@ -1,0 +1,9 @@
+diff a/Assets/Scenes/TutorialScene.unity b/Assets/Scenes/TutorialScene.unity	(rejected hunks)
+@@ -4316,6 +4316,7 @@
+     m_RemovedGameObjects: []
+     m_AddedGameObjects: []
+     m_AddedComponents: []
++<<<<<<< HEAD
+   m_SourcePrefab: {fileID: 100100000, guid: 8cf5fff77cfd1a04db0bb40cc40da4d6, type: 3}
+ --- !u!1 &869714735
+ GameObject:
