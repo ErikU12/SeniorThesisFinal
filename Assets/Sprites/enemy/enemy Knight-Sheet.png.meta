@@ -121,7 +121,1057 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: enemy Knight-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1530
+        width: 80
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 098cf8a95a988ca419df88282acd295a
+      internalID: -1467241406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy Knight-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 1530
+        width: 90
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f1a0746814fbcd4ab7b21fa35190624
+      internalID: -1666548148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy Knight-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 1530
+        width: 105
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3010f0a560e0b14698ccb7b77fa474f
+      internalID: 664936671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy Knight-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 1530
+        width: 100
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b27a58cb09824449a8968dbd1c2008a
+      internalID: 2099216037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy Knight-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1530
+        width: 85
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3138f3f299b3c44a88be2cebed416e2
+      internalID: -1808880368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy Knight-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 1530
+        width: 80
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a053c99a44bf8f4484f4a062511a2dd
+      internalID: -480099685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy Knight-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 1580
+        y: 1535
+        width: 80
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8739e8e66cc7ab42a2fb8decef13348
+      internalID: 2049849319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy Knight-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1830
+        y: 1535
+        width: 80
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1102b94fc4615fc4c8e1e06cdac831cc
+      internalID: -1274290000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy Knight-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1280
+        width: 80
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ced00aa84f89f2540be883369c0eb7d3
+      internalID: 1454492209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy Knight-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1280
+        width: 90
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8550b7f2c88599b47b28604c043e9fa6
+      internalID: 1530526583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy Knight-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 1285
+        width: 90
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd125b5a43e6acb4ba449773ade6a974
+      internalID: -1882976064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy Knight-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 1285
+        width: 85
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b80c1bddb6326141b7caff357151f31
+      internalID: -1042035722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy Knight-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 1280
+        width: 80
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1137e0866c2528742b9bdd2dd9928a60
+      internalID: -1401320428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy Knight-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 1280
+        width: 90
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ce974329eef1ac4b842c0d3b3f4d9f6
+      internalID: 780349237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy Knight-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1580
+        y: 1280
+        width: 75
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a66f705bbe82d449bd947e40c9d816b
+      internalID: -788512234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy Knight-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1825
+        y: 1280
+        width: 80
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c10476098bc7310488182efb214f5ad5
+      internalID: 1387383758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy Knight-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1030
+        width: 165
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c861411b11db024a8cdb5d81a0f3ca7
+      internalID: 771372090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy Knight-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1030
+        width: 175
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55a656a542334394893bae5606e35919
+      internalID: 81705653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy Knight-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 1040
+        width: 145
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88605ec3745617841a9e77149830b83a
+      internalID: 1400066643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy Knight-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 1035
+        width: 145
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fe80d137b7078840bb4cb258d15b7f0
+      internalID: 2047510403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy Knight-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 1025
+        width: 140
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afdcf137cef5ed3498fe9c5214d5e084
+      internalID: -324613950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy Knight-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 1015
+        width: 140
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dc0b4afc55c19444938b258576e580d
+      internalID: 117139658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy Knight-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 1580
+        y: 1030
+        width: 110
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33293d1d150ab9f4c9851cd0cfae5bf1
+      internalID: -1323886058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy Knight-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 1825
+        y: 1030
+        width: 115
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aff6245329fcb8499398887dad8fb82
+      internalID: -647241142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy Knight-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 780
+        width: 115
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f53781a984df240458cccb4ebafa24f2
+      internalID: -40735687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy Knight-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 780
+        width: 110
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ebf46f3e657abb46905125732741fd7
+      internalID: -1095132554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy Knight-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 780
+        width: 110
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6857ace7e4feb1499b8fb302ea2eec5
+      internalID: 569277791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy Knight-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 780
+        width: 110
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b02cbeae6e54bb64f96c87d86a79ba5b
+      internalID: 1162201572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy Knight-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 785
+        width: 110
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60fd95f17e5cc0f41a03a8f08a166d8d
+      internalID: -1795999860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy Knight-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 785
+        width: 110
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0c72e58c0a8e4142803d45333c53963
+      internalID: -162111335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy Knight-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 780
+        width: 105
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04d2211b2cdc2d24ab47d2734cc07dee
+      internalID: -687339676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy Knight-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 1835
+        y: 780
+        width: 100
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2419d3dcd774c584d8a92b18d9801083
+      internalID: 1425758179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy Knight-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 535
+        width: 115
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3500fc2618de7164fac962ef3ca79491
+      internalID: 1072799902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy Knight-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 535
+        width: 115
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d318860bc5b3db74a942a3e71a157fb1
+      internalID: -710960258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy Knight-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 530
+        width: 105
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bda0b11f8aa9cc4284fc515dad00e97
+      internalID: -777651323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy Knight-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 530
+        width: 100
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fabc07678712b94baed38321c1f1a64
+      internalID: 362533130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy Knight-Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 530
+        width: 110
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e4928565a3451b418743feddc7e8c93
+      internalID: -22523653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy Knight-Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 530
+        width: 115
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4518e3e2c8957d45acbcca25bd73c58
+      internalID: 963495977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy Knight-Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 530
+        width: 115
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c44d6d9a4db8ed943bcd984a0b039664
+      internalID: -163338961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy Knight-Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 1830
+        y: 530
+        width: 110
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e0ee79c8f987d44e86570785407b163
+      internalID: -1653746672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy Knight-Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 280
+        width: 110
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d22713b1bf6d20d42b7d41a4ce50cef5
+      internalID: -1968434636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy Knight-Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 280
+        width: 110
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57f249955f747c74f97a324542c856db
+      internalID: 162502283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy Knight-Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 285
+        width: 110
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3354a7abd0839ac4a85b613ed726295b
+      internalID: -1250185851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy Knight-Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 285
+        width: 110
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7d00ca94c6917449be04cda901300a1
+      internalID: -1990843602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy Knight-Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 280
+        width: 105
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 205e922844bb4b3409521a54516b956d
+      internalID: 1083548747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy Knight-Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 280
+        width: 100
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32e67515368cf114f871ccba3bf4849c
+      internalID: -1778608468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy Knight-Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 285
+        width: 115
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f317cd13f028cfc4eb66fc0b935aa5e7
+      internalID: 317392819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy Knight-Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 1825
+        y: 285
+        width: 115
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b278b612192deae4fb7cd58ed60834da
+      internalID: 2128757032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy Knight-Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 30
+        width: 105
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb48770d41ede6a439bc04d4e4940ac1
+      internalID: -2035458805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy Knight-Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 30
+        width: 100
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28e2bfb612fc92348b51d8d75a64bbca
+      internalID: -851868482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +1182,57 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      enemy Knight-Sheet_0: -1467241406
+      enemy Knight-Sheet_1: -1666548148
+      enemy Knight-Sheet_10: -1882976064
+      enemy Knight-Sheet_11: -1042035722
+      enemy Knight-Sheet_12: -1401320428
+      enemy Knight-Sheet_13: 780349237
+      enemy Knight-Sheet_14: -788512234
+      enemy Knight-Sheet_15: 1387383758
+      enemy Knight-Sheet_16: 771372090
+      enemy Knight-Sheet_17: 81705653
+      enemy Knight-Sheet_18: 1400066643
+      enemy Knight-Sheet_19: 2047510403
+      enemy Knight-Sheet_2: 664936671
+      enemy Knight-Sheet_20: -324613950
+      enemy Knight-Sheet_21: 117139658
+      enemy Knight-Sheet_22: -1323886058
+      enemy Knight-Sheet_23: -647241142
+      enemy Knight-Sheet_24: -40735687
+      enemy Knight-Sheet_25: -1095132554
+      enemy Knight-Sheet_26: 569277791
+      enemy Knight-Sheet_27: 1162201572
+      enemy Knight-Sheet_28: -1795999860
+      enemy Knight-Sheet_29: -162111335
+      enemy Knight-Sheet_3: 2099216037
+      enemy Knight-Sheet_30: -687339676
+      enemy Knight-Sheet_31: 1425758179
+      enemy Knight-Sheet_32: 1072799902
+      enemy Knight-Sheet_33: -710960258
+      enemy Knight-Sheet_34: -777651323
+      enemy Knight-Sheet_35: 362533130
+      enemy Knight-Sheet_36: -22523653
+      enemy Knight-Sheet_37: 963495977
+      enemy Knight-Sheet_38: -163338961
+      enemy Knight-Sheet_39: -1653746672
+      enemy Knight-Sheet_4: -1808880368
+      enemy Knight-Sheet_40: -1968434636
+      enemy Knight-Sheet_41: 162502283
+      enemy Knight-Sheet_42: -1250185851
+      enemy Knight-Sheet_43: -1990843602
+      enemy Knight-Sheet_44: 1083548747
+      enemy Knight-Sheet_45: -1778608468
+      enemy Knight-Sheet_46: 317392819
+      enemy Knight-Sheet_47: 2128757032
+      enemy Knight-Sheet_48: -2035458805
+      enemy Knight-Sheet_49: -851868482
+      enemy Knight-Sheet_5: -480099685
+      enemy Knight-Sheet_6: 2049849319
+      enemy Knight-Sheet_7: -1274290000
+      enemy Knight-Sheet_8: 1454492209
+      enemy Knight-Sheet_9: 1530526583
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
