@@ -544,7 +544,7 @@ MonoBehaviour:
   speedMultiplier: 2
   flashColor: {r: 1, g: 0, b: 0, a: 1}
   deathPrefab: {fileID: 255516464}
-  spawnLocation: {fileID: 35868413}
+  spawnLocation: {fileID: 1005655920}
 --- !u!114 &69081124
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6970,6 +6970,37 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b5fe4bad9bef72248b3b8d1992fdb817, type: 3}
+--- !u!1 &1005655919
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1005655920}
+  m_Layer: 0
+  m_Name: LvlFnshSpwn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1005655920
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1005655919}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -13.975445, y: -83.66, z: -0.026800847}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1829412096}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1008390145
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10336,7 +10367,7 @@ MonoBehaviour:
   detectionRange: 5
   chargingDistance: 5
   stoppingDistance: 1
-  chargeForce: 0
+  chargeForce: 0.3
   patrolRange: 5
 --- !u!4 &1531170381 stripped
 Transform:
@@ -12698,6 +12729,7 @@ Transform:
   - {fileID: 848686450}
   - {fileID: 772063539}
   - {fileID: 1035885772}
+  - {fileID: 1005655920}
   m_Father: {fileID: 1718799313}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1845900843
@@ -13829,17 +13861,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 234094703}
     m_Modifications:
+    - target: {fileID: 158750639773189554, guid: 96aaa9889935a194da51f5e9ac339fd3, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 158750639773189554, guid: 96aaa9889935a194da51f5e9ac339fd3, type: 3}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2745769435014246413, guid: 96aaa9889935a194da51f5e9ac339fd3, type: 3}
       propertyPath: m_Name
       value: RoboEye (3)
       objectReference: {fileID: 0}
     - target: {fileID: 8690539592396405869, guid: 96aaa9889935a194da51f5e9ac339fd3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 91.44296
+      value: 91.69
       objectReference: {fileID: 0}
     - target: {fileID: 8690539592396405869, guid: 96aaa9889935a194da51f5e9ac339fd3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.462593
+      value: 5.66
       objectReference: {fileID: 0}
     - target: {fileID: 8690539592396405869, guid: 96aaa9889935a194da51f5e9ac339fd3, type: 3}
       propertyPath: m_LocalPosition.z
@@ -14891,11 +14931,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3557000424283028402, guid: 31b25850ff6fbf34fa881701dcbf4121, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -37.3
+      value: -24.61
       objectReference: {fileID: 0}
     - target: {fileID: 3557000424283028402, guid: 31b25850ff6fbf34fa881701dcbf4121, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -170.17
+      value: -87.83
       objectReference: {fileID: 0}
     - target: {fileID: 3557000424283028402, guid: 31b25850ff6fbf34fa881701dcbf4121, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
