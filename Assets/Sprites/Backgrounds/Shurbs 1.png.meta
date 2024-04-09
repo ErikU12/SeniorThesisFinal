@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d51aa24e6585f554c9e09aca3fab6e7f
+guid: 64e648f3c3fa0874dac48384c99e732e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: flame boss-Sheet_0
+      name: Shurbs 1_0
       rect:
         serializedVersion: 2
-        x: 30
-        y: 210
-        width: 125
-        height: 165
+        x: 28
+        y: 96
+        width: 30
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 39f464a3ba035ed4aa3e9f4e6ac67b16
-      internalID: 664281320
+      spriteID: c8611931110d54b41a488f965c1dfe8c
+      internalID: 1853894701
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flame boss-Sheet_1
+      name: Shurbs 1_1
       rect:
         serializedVersion: 2
-        x: 225
-        y: 210
-        width: 130
-        height: 165
+        x: 71
+        y: 97
+        width: 22
+        height: 20
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aa51077906b773649b286a3468ab616c
-      internalID: 742304769
+      spriteID: 9838836e0a9317742a15d70c516d05cc
+      internalID: 751255490
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flame boss-Sheet_3
+      name: Shurbs 1_2
       rect:
         serializedVersion: 2
-        x: 425
-        y: 210
-        width: 130
-        height: 168
+        x: 118
+        y: 99
+        width: 32
+        height: 9
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,20 +179,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6f502fa5f83c6749ab30b0d19c4ddb8
-      internalID: -360371523
+      spriteID: ce7bca44dcbe41e4abaa7f32e3d669f4
+      internalID: 139402021
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flame boss-Sheet_4
+      name: Shurbs 1_3
       rect:
         serializedVersion: 2
-        x: 25
-        y: 10
-        width: 130
-        height: 170
+        x: 171
+        y: 99
+        width: 53
+        height: 19
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,20 +200,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c8954a3a0b5c54f418d41fcc826eb8c3
-      internalID: -576891727
+      spriteID: daae4385dd8f77142a76cc4410299a1d
+      internalID: 2031082735
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flame boss-Sheet_5
+      name: Shurbs 1_4
       rect:
         serializedVersion: 2
-        x: 225
-        y: 0
-        width: 135
-        height: 180
+        x: 245
+        y: 102
+        width: 27
+        height: 18
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,8 +221,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a4aa20a82a4a24741a32feca4805d94b
-      internalID: 286527305
+      spriteID: c82ae3042724135479d2dae5cc2d7fda
+      internalID: -2115260095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shurbs 1_5
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 101
+        width: 32
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f06e1cd2fa963564c85d85255fd23d6d
+      internalID: 2065585221
       vertices: []
       indices: 
       edges: []
@@ -238,12 +259,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      flame boss-Sheet_0: 664281320
-      flame boss-Sheet_1: 742304769
-      flame boss-Sheet_2: 1304539179
-      flame boss-Sheet_3: -360371523
-      flame boss-Sheet_4: -576891727
-      flame boss-Sheet_5: 286527305
+      Shurbs 1_0: 1853894701
+      Shurbs 1_1: 751255490
+      Shurbs 1_2: 139402021
+      Shurbs 1_3: 2031082735
+      Shurbs 1_4: -2115260095
+      Shurbs 1_5: 2065585221
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

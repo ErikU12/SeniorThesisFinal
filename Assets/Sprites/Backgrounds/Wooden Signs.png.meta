@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d51aa24e6585f554c9e09aca3fab6e7f
+guid: f672710e34597d248bc30e1fa1fa6fa8
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: flame boss-Sheet_0
+      name: Wooden Signs_0
       rect:
         serializedVersion: 2
-        x: 30
-        y: 210
-        width: 125
-        height: 165
+        x: 32
+        y: 248
+        width: 106
+        height: 130
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 39f464a3ba035ed4aa3e9f4e6ac67b16
-      internalID: 664281320
+      spriteID: 658ed14d432fc444aa75c8c1d26f6243
+      internalID: 1317421061
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flame boss-Sheet_1
+      name: Wooden Signs_1
       rect:
         serializedVersion: 2
-        x: 225
-        y: 210
-        width: 130
-        height: 165
+        x: 181
+        y: 249
+        width: 126
+        height: 138
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aa51077906b773649b286a3468ab616c
-      internalID: 742304769
+      spriteID: d39af6abd9e4db9468372281a2fe9680
+      internalID: 1111949088
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flame boss-Sheet_3
+      name: Wooden Signs_2
       rect:
         serializedVersion: 2
-        x: 425
-        y: 210
-        width: 130
-        height: 168
+        x: 326
+        y: 257
+        width: 121
+        height: 135
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,20 +179,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6f502fa5f83c6749ab30b0d19c4ddb8
-      internalID: -360371523
+      spriteID: ca415b2adc0ba684b805382b57b8df86
+      internalID: -233549749
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flame boss-Sheet_4
+      name: Wooden Signs_3
       rect:
         serializedVersion: 2
-        x: 25
-        y: 10
-        width: 130
-        height: 170
+        x: 139
+        y: 52
+        width: 121
+        height: 135
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,29 +200,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c8954a3a0b5c54f418d41fcc826eb8c3
-      internalID: -576891727
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: flame boss-Sheet_5
-      rect:
-        serializedVersion: 2
-        x: 225
-        y: 0
-        width: 135
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a4aa20a82a4a24741a32feca4805d94b
-      internalID: 286527305
+      spriteID: 4fb3017cc9cdc5649b23268fd7a07f30
+      internalID: 349724752
       vertices: []
       indices: 
       edges: []
@@ -238,12 +217,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      flame boss-Sheet_0: 664281320
-      flame boss-Sheet_1: 742304769
-      flame boss-Sheet_2: 1304539179
-      flame boss-Sheet_3: -360371523
-      flame boss-Sheet_4: -576891727
-      flame boss-Sheet_5: 286527305
+      Wooden Signs_0: 1317421061
+      Wooden Signs_1: 1111949088
+      Wooden Signs_2: -233549749
+      Wooden Signs_3: 349724752
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
