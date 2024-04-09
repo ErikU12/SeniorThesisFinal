@@ -26,11 +26,19 @@ public class ArrowSpawner : MonoBehaviour
     private int maxBullets = 10; // Changed maxBullets to private
     public Animator animator;
     private static readonly int PlayerBowAction = Animator.StringToHash("PlayerBowAction");
-
     public AudioSource bulletSpawnSound;
-
-    private int currentArrowIndex = 0;
-
+    public int currentArrowIndex = 0;
+    public Sprite tenarrowSprite; // Sprite to use when health is full
+    public Sprite ninearrowsprite;
+        public Sprite eightarrowSprite; // Sprite to use when health is 2 or more
+    public Sprite sevenarrowSprite; // Sprite to use when health is 1
+    public Sprite sixArrowSprite; // Sprite to use when health is 0 (dead)
+    public Sprite fiveArrowSprite;
+    public Sprite fourArrowSprite;
+    public Sprite threeArrowSprite;
+    public Sprite twoArrowSprite;
+    public Sprite oneArrowSprite;
+    public Sprite zeroArrowSprite;
     private void Start()
     {
         InitializeInventory();
