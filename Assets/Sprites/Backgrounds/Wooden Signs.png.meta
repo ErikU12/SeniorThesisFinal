@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 280612ba6e87a2d4cb87fb77fbe9bd0c
+guid: f672710e34597d248bc30e1fa1fa6fa8
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -121,7 +121,91 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Wooden Signs_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 248
+        width: 106
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 658ed14d432fc444aa75c8c1d26f6243
+      internalID: 1317421061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wooden Signs_1
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 249
+        width: 126
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d39af6abd9e4db9468372281a2fe9680
+      internalID: 1111949088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wooden Signs_2
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 257
+        width: 121
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca415b2adc0ba684b805382b57b8df86
+      internalID: -233549749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wooden Signs_3
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 52
+        width: 121
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fb3017cc9cdc5649b23268fd7a07f30
+      internalID: 349724752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +216,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Wooden Signs_0: 1317421061
+      Wooden Signs_1: 1111949088
+      Wooden Signs_2: -233549749
+      Wooden Signs_3: 349724752
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

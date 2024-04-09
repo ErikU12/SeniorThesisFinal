@@ -2,8 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f799f25-77f4-46d6-81db-4f7f940d2bd9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SeniorThesis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SeniorThesis/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyHealth.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene/LightingData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene/LightingData.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene/LightingData.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene/LightingData.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerHealth.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sound FX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/- FIRE sizzling SOUND EFFECT-mp3.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/- FIRE sizzling SOUND EFFECT-mp3.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/Blaster Sound Effect. 1.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/Blaster Sound Effect. 1.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/Blaster Sound Effect..mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/Blaster Sound Effect..mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/Dash Sound Effect wav.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/Dash Sound Effect wav.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/Fire arrow sound effect.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/Fire arrow sound effect.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/Gust Of Wind Sound Effect-wav.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/Gust Of Wind Sound Effect-wav.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/Jump sound effect .mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/Jump sound effect .mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/NEver Gunna Giv U UUP.MP3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/NEver Gunna Giv U UUP.MP3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/Run on wood  Sound Effect.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/Run on wood  Sound Effect.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/Satisfying Arrow Impact Sound Effect  High Quality.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/Satisfying Arrow Impact Sound Effect  High Quality.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/Scary- Cave Sounds.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/Scary- Cave Sounds.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/Thunder Sound Effect.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/Thunder Sound Effect.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/Wind ARROW SFX.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/Wind ARROW SFX.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/arrow-swoosh.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/arrow-swoosh.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/bandit.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/bandit.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/bees.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/bees.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/deer sound.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/deer sound.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/ouchsfxwav.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/ouchsfxwav.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/sword-sound.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/sword-sound.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/wolf-growl.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/wolf-growl.wav.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,6 +137,10 @@
       <workItem from="1711911839289" duration="2648000" />
       <workItem from="1711916738911" duration="1893000" />
       <workItem from="1712005317950" duration="704000" />
+      <workItem from="1712099963923" duration="734000" />
+      <workItem from="1712171008329" duration="2535000" />
+      <workItem from="1712452370396" duration="4822000" />
+      <workItem from="1712461617004" duration="1426000" />
     </task>
     <servers />
   </component>

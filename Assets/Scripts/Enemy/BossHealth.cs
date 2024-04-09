@@ -1,5 +1,5 @@
-using System.Collections;
 using UnityEngine;
+using System.Collections;
 
 public class BossHealth : MonoBehaviour
 {
@@ -10,7 +10,7 @@ public class BossHealth : MonoBehaviour
     public GameObject deathPrefab; // Prefab to spawn upon boss death
     public Transform spawnLocation; // Location to spawn the death prefab
 
-    private int currentHealth;
+    internal int currentHealth;
     private bool isFlashing = false;
     private bool isFastMode = false;
     private SpriteRenderer spriteRenderer;
@@ -28,6 +28,7 @@ public class BossHealth : MonoBehaviour
             // Activate fast mode if boss health is low
             isFastMode = true;
             speedMultiplier *= 2; // Double the speed
+            GetComponent<Boss>().ActivateLowHealthMode(); // Activate low health mode in the Boss script
         }
     }
 
@@ -94,4 +95,3 @@ public class BossHealth : MonoBehaviour
         }
     }
 }
-
