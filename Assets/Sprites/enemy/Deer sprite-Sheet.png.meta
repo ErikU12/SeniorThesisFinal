@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ba8cc095af1fe734488c40ae62730618
+guid: b1b9ab400cf49114a8551fc08959e279
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -94,7 +94,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Windows Store Apps
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -107,7 +107,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Server
+    buildTarget: Windows Store Apps
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: campfire_0
+      name: Deer sprite-Sheet_0
       rect:
         serializedVersion: 2
-        x: 212
-        y: 204
-        width: 56
-        height: 62
+        x: 0
+        y: 1000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8bf12ef0976b7b548bcbdb4ca11bf3ef
-      internalID: 51163403
+      spriteID: 34ac425471bbd9545a340f4e29514f68
+      internalID: 928183683
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: campfire_1
+      name: Deer sprite-Sheet_1
       rect:
         serializedVersion: 2
-        x: 942
-        y: 204
-        width: 60
-        height: 67
+        x: 500
+        y: 1000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89224fb6ee5f9354a8a7a8f7808651f8
-      internalID: -41647156
+      spriteID: 7f48f7209b0ae5e4cba96caa6a3a6740
+      internalID: -1980672872
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: campfire_2
+      name: Deer sprite-Sheet_2
       rect:
         serializedVersion: 2
-        x: 1670
-        y: 204
-        width: 65
-        height: 72
+        x: 1000
+        y: 1000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,20 +179,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f0442c11dc171374b80898f7dab150d0
-      internalID: -978009932
+      spriteID: 6268c280c80805d43a1f47bcb24333a6
+      internalID: -1881607122
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: campfire_3
+      name: Deer sprite-Sheet_3
       rect:
         serializedVersion: 2
-        x: 2398
-        y: 204
-        width: 60
-        height: 67
+        x: 0
+        y: 500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,8 +200,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc5c7156dc9bb5046809b1aee17cd3c6
-      internalID: -1281761740
+      spriteID: 049b988833bc04446887e0899ffabeef
+      internalID: -1175691548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer sprite-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 344b17dd4f44f9a4f9606c9315a3a63e
+      internalID: 1567649689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer sprite-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb68c132ecb66cf428c5446a4e0c85b0
+      internalID: 628310438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer sprite-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d80b0f0746d7377438e39b3f9d38d063
+      internalID: 467132859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer sprite-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 0
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faa68ca671a62ed429fca6cb80a18ddc
+      internalID: 1133770230
       vertices: []
       indices: 
       edges: []
@@ -217,10 +301,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      campfire_0: 51163403
-      campfire_1: -41647156
-      campfire_2: -978009932
-      campfire_3: -1281761740
+      Deer sprite-Sheet_0: 928183683
+      Deer sprite-Sheet_1: -1980672872
+      Deer sprite-Sheet_2: -1881607122
+      Deer sprite-Sheet_3: -1175691548
+      Deer sprite-Sheet_4: 1567649689
+      Deer sprite-Sheet_5: 628310438
+      Deer sprite-Sheet_6: 467132859
+      Deer sprite-Sheet_7: 1133770230
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
