@@ -29,11 +29,12 @@ public class ChangeColor : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetAxis("Mouse ScrollWheel") > 0)
+        if (Input.GetAxis("Mouse ScrollWheel") > 0 || Input.GetKeyDown(KeyCode.Z))
         {
-            ChangeToNextColor(); // Change to the next color when Z key is pressed
+            ChangeToNextColor(); // Change to the next color when Z key is pressed or mouse wheel is scrolled up
         }
     }
+
 
     void ChangeToNextColor()
     {

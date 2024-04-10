@@ -46,7 +46,7 @@ namespace Player
             }
         }
 
-        private void OnCollisionEnter2D(Collision2D collision)
+        private void OnCollisionStay2D(Collision2D collision)
         {
             // Check if the player is immune and collides with an enemy
             if (_isImmune && collision.gameObject.CompareTag("Enemy"))
@@ -74,5 +74,4 @@ namespace Player
             _animator.enabled = true; // Re-enable Animator component
         }
     }
-}
-
+} 
