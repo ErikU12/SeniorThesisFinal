@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -121,7 +121,49 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Restart Button Pressed_2
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 275
+        width: 297
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d9c094e331da4649ba9aa7aeb5e570f
+      internalID: 1642789184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Restart Button Pressed_6
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 321
+        width: 266
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58b2d2abd357ad84e8a2355698e33544
+      internalID: -418416557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +174,25 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Restart Button Pressed_0: 1473130953
+      Restart Button Pressed_1: -1031201878
+      Restart Button Pressed_10: -2002454025
+      Restart Button Pressed_11: -246877850
+      Restart Button Pressed_12: 810932438
+      Restart Button Pressed_13: -418202258
+      Restart Button Pressed_14: -1115820648
+      Restart Button Pressed_15: -827849563
+      Restart Button Pressed_16: 335243858
+      Restart Button Pressed_17: 1167662815
+      Restart Button Pressed_2: 1642789184
+      Restart Button Pressed_3: -1265045786
+      Restart Button Pressed_4: -1915673012
+      Restart Button Pressed_5: 1381590852
+      Restart Button Pressed_6: -418416557
+      Restart Button Pressed_7: -2021857080
+      Restart Button Pressed_8: -406990821
+      Restart Button Pressed_9: 1679087561
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
