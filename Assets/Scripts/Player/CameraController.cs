@@ -1,11 +1,17 @@
+using System;
 using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
     public Transform target;   
     public float smoothSpeed = 0.125f;  
-    public Vector3 offset;      
-        
+    public Vector3 offset;
+
+    private void Start()
+    {
+        transform.position = new Vector3(target.transform.position.x, target.transform.position.y, -10);
+    }
+
     private void LateUpdate()
     {
         if (target != null)
