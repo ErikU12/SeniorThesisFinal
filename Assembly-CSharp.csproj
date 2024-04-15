@@ -98,6 +98,7 @@
     <Compile Include="Assets\Scripts\Other\Ladder.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples _ Extras\Scripts\SimpleScript.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples _ Extras\Scripts\TMP_TextEventCheck.cs" />
+    <Compile Include="Assets\Scripts\Checkpoint.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyReact.cs" />
     <Compile Include="Assets\Scripts\Player\ArrowTransparent.cs" />
     <Compile Include="Assets\Scripts\Enemy\ArrowDraw.cs" />

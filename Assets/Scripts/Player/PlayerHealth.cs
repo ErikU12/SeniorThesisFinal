@@ -12,21 +12,36 @@ public class PlayerHealth : MonoBehaviour
     public Sprite deadSprite; // Sprite to use when health is 0 (dead)
 
     private Rigidbody2D _rb;
+    private Vector3 respawnPoint; // Respawn point for the player
+    private bool collidedWithCheckpoint = false; // Flag to track if player collided with a checkpoint
 
     private void Start()
     {
         _rb = GetComponent<Rigidbody2D>();
         currentHealth = maxHealth;
+        respawnPoint = transform.position; // Set initial respawn point to player's position
         UpdatePlayerSprite();
     }
 
     private void Update()
     {
+        // Check if player should respawn
         if (currentHealth <= 0)
         {
-            SceneManager.LoadScene("GameOver");
+            if (!collidedWithCheckpoint)
+            {
+                // Player has not collided with a checkpoint and health is zero, go to game over scene
+                SceneManager.LoadScene("GameOver");
+            }
+            else
+            {
+                // Player has collided with a checkpoint and health is zero, respawn at checkpoint
+                Respawn();
+            }
         }
     }
+
+
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -34,6 +49,25 @@ public class PlayerHealth : MonoBehaviour
         {
             TakeDamage(1);
         }
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Potion"))
+        {
+            IncreaseHealth(1);
+            Destroy(other.gameObject); // Destroy the potion upon collision
+        }
+        else if (other.gameObject.CompareTag("Checkpoint"))
+        {
+            collidedWithCheckpoint = true; // Set flag to true when player collides with a checkpoint
+            respawnPoint = other.transform.position; // Update respawn point to the checkpoint's position
+        }
+    }
+
+    public void SetRespawnPoint(Vector3 point)
+    {
+        respawnPoint = point; // Set the respawn point to the specified point
     }
 
     public void TakeDamage(int damage)
@@ -72,4 +106,12 @@ public class PlayerHealth : MonoBehaviour
             playerSpriteRenderer.sprite = fullHealthSprite; // Set the sprite to full health sprite for other cases
         }
     }
+
+    private void Respawn()
+    {
+        transform.position = respawnPoint; // Move the player to the respawn point
+        currentHealth = maxHealth; // Reset the player's health
+        UpdatePlayerSprite(); // Update the player's sprite
+    }
 }
+

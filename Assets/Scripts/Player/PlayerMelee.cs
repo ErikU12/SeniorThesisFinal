@@ -56,6 +56,13 @@ namespace Player
                 // Deal damage to the enemy
                 Destroy(collision.gameObject);
             }
+
+            // Check if the collision is with a trigger collider (isTrigger)
+            if (_isImmune && collision.collider.isTrigger)
+            {
+                // Destroy the GameObject if it's a trigger collider
+                Destroy(collision.gameObject);
+            }
         }
 
         private void ActivateDamageEffect()

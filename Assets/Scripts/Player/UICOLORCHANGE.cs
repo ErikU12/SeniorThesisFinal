@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class ChangeColor : MonoBehaviour
 {
-    public Color[] colors = { Color.red, Color.blue, Color.yellow, Color.green, Color.magenta, new Color(0.5f, 0f, 0.5f, 1f) }; // Predefined colors
+    public Color[] colors = { Color.yellow, Color.green, Color.magenta, new Color(0.5f, 0f, 0.5f, 1f) }; // Predefined colors
     private int currentIndex = 0; // Index of the current color
     private Color originalColor; // Original color of the sprite
 
