@@ -15309,19 +15309,19 @@ PrefabInstance:
     - target: {fileID: 4808675368247894097, guid: 31b25850ff6fbf34fa881701dcbf4121, type: 3}
       propertyPath: oneArrowSprite
       value: 
-      objectReference: {fileID: -1348058512, guid: 9134e7e67dbfe6e46af2a5f55239b86d, type: 3}
+      objectReference: {fileID: 1332582401, guid: 97c575d139d63884c8485cddf499800c, type: 3}
     - target: {fileID: 4808675368247894097, guid: 31b25850ff6fbf34fa881701dcbf4121, type: 3}
       propertyPath: sixArrowSprite
       value: 
-      objectReference: {fileID: -782584645, guid: 9134e7e67dbfe6e46af2a5f55239b86d, type: 3}
+      objectReference: {fileID: 732599677, guid: 97c575d139d63884c8485cddf499800c, type: 3}
     - target: {fileID: 4808675368247894097, guid: 31b25850ff6fbf34fa881701dcbf4121, type: 3}
       propertyPath: tenArrowSprite
       value: 
-      objectReference: {fileID: 809589090, guid: 9134e7e67dbfe6e46af2a5f55239b86d, type: 3}
+      objectReference: {fileID: -294364512, guid: 97c575d139d63884c8485cddf499800c, type: 3}
     - target: {fileID: 4808675368247894097, guid: 31b25850ff6fbf34fa881701dcbf4121, type: 3}
       propertyPath: twoArrowSprite
       value: 
-      objectReference: {fileID: 337655022, guid: 9134e7e67dbfe6e46af2a5f55239b86d, type: 3}
+      objectReference: {fileID: 1523059596, guid: 97c575d139d63884c8485cddf499800c, type: 3}
     - target: {fileID: 4808675368247894097, guid: 31b25850ff6fbf34fa881701dcbf4121, type: 3}
       propertyPath: bulletCountText
       value: 
@@ -15329,19 +15329,19 @@ PrefabInstance:
     - target: {fileID: 4808675368247894097, guid: 31b25850ff6fbf34fa881701dcbf4121, type: 3}
       propertyPath: fiveArrowSprite
       value: 
-      objectReference: {fileID: -247359925, guid: 9134e7e67dbfe6e46af2a5f55239b86d, type: 3}
+      objectReference: {fileID: 1850346075, guid: 97c575d139d63884c8485cddf499800c, type: 3}
     - target: {fileID: 4808675368247894097, guid: 31b25850ff6fbf34fa881701dcbf4121, type: 3}
       propertyPath: fourArrowSprite
       value: 
-      objectReference: {fileID: 167716975, guid: 9134e7e67dbfe6e46af2a5f55239b86d, type: 3}
+      objectReference: {fileID: -2006376576, guid: 97c575d139d63884c8485cddf499800c, type: 3}
     - target: {fileID: 4808675368247894097, guid: 31b25850ff6fbf34fa881701dcbf4121, type: 3}
       propertyPath: nineArrowsprite
       value: 
-      objectReference: {fileID: 916011535, guid: 9134e7e67dbfe6e46af2a5f55239b86d, type: 3}
+      objectReference: {fileID: -2134336144, guid: 97c575d139d63884c8485cddf499800c, type: 3}
     - target: {fileID: 4808675368247894097, guid: 31b25850ff6fbf34fa881701dcbf4121, type: 3}
       propertyPath: zeroArrowSprite
       value: 
-      objectReference: {fileID: -664605518, guid: 9134e7e67dbfe6e46af2a5f55239b86d, type: 3}
+      objectReference: {fileID: 1248083679, guid: 97c575d139d63884c8485cddf499800c, type: 3}
     - target: {fileID: 4808675368247894097, guid: 31b25850ff6fbf34fa881701dcbf4121, type: 3}
       propertyPath: bulletSpawnSound
       value: 
@@ -15349,15 +15349,15 @@ PrefabInstance:
     - target: {fileID: 4808675368247894097, guid: 31b25850ff6fbf34fa881701dcbf4121, type: 3}
       propertyPath: eightArrowSprite
       value: 
-      objectReference: {fileID: 621508610, guid: 9134e7e67dbfe6e46af2a5f55239b86d, type: 3}
+      objectReference: {fileID: 1701451083, guid: 97c575d139d63884c8485cddf499800c, type: 3}
     - target: {fileID: 4808675368247894097, guid: 31b25850ff6fbf34fa881701dcbf4121, type: 3}
       propertyPath: sevenArrowSprite
       value: 
-      objectReference: {fileID: 255479413, guid: 9134e7e67dbfe6e46af2a5f55239b86d, type: 3}
+      objectReference: {fileID: 1654003710, guid: 97c575d139d63884c8485cddf499800c, type: 3}
     - target: {fileID: 4808675368247894097, guid: 31b25850ff6fbf34fa881701dcbf4121, type: 3}
       propertyPath: threeArrowSprite
       value: 
-      objectReference: {fileID: 406678274, guid: 9134e7e67dbfe6e46af2a5f55239b86d, type: 3}
+      objectReference: {fileID: -906651649, guid: 97c575d139d63884c8485cddf499800c, type: 3}
     - target: {fileID: 4808675368247894097, guid: 31b25850ff6fbf34fa881701dcbf4121, type: 3}
       propertyPath: currentArrowIndex
       value: 0
