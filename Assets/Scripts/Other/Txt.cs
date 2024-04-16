@@ -29,4 +29,4 @@ public class Txt : MonoBehaviour
             textComponent.text = textToShow;
         }
     }
-}
+} 
