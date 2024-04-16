@@ -46,7 +46,7 @@ namespace Player
             }
         }
 
-        private void OnCollisionEnter2D(Collision2D collision)
+        private void OnCollisionStay2D(Collision2D collision)
         {
             // Check if the player is immune and collides with an enemy
             if (_isImmune && collision.gameObject.CompareTag("Enemy"))
@@ -54,6 +54,13 @@ namespace Player
                 // Increment player's health upon collision with an enemy
                 _playerHealth.IncreaseHealth(1);
                 // Deal damage to the enemy
+                Destroy(collision.gameObject);
+            }
+
+            // Check if the collision is with a trigger collider (isTrigger)
+            if (_isImmune && collision.collider.isTrigger)
+            {
+                // Destroy the GameObject if it's a trigger collider
                 Destroy(collision.gameObject);
             }
         }
@@ -74,5 +81,4 @@ namespace Player
             _animator.enabled = true; // Re-enable Animator component
         }
     }
-}
-
+} 

@@ -29,10 +29,5 @@ public class ArrowLightning : MonoBehaviour
                 }
             }
         }
-        else if (other.CompareTag("Ground"))
-        {
-            // Destroy the bullet when colliding with the ground
-            Destroy(gameObject);
-        }
     }
 }

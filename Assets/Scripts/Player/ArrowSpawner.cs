@@ -1,4 +1,4 @@
-using TMPro;
+
 using UnityEngine;
 using System.Collections.Generic;
 
@@ -22,16 +22,16 @@ public class ArrowSpawner : MonoBehaviour
     public float spawnDelay = 0.5f;
     public Vector2 spawnOffset = Vector2.zero;
     private float _lastSpawnTime;
-    public TextMeshProUGUI bulletCountText;
     private int maxBullets = 10; // Changed maxBullets to private
     public Animator animator;
     private static readonly int PlayerBowAction = Animator.StringToHash("PlayerBowAction");
     public AudioSource bulletSpawnSound;
     public int currentArrowIndex = 0;
-    public Sprite tenarrowSprite; // Sprite to use when health is full
-    public Sprite ninearrowsprite;
-        public Sprite eightarrowSprite; // Sprite to use when health is 2 or more
-    public Sprite sevenarrowSprite; // Sprite to use when health is 1
+    public SpriteRenderer playerSpriteRenderer; // Reference to the SpriteRenderer component
+    public Sprite tenArrowSprite; // Sprite to use when health is full
+    public Sprite nineArrowsprite;
+    public Sprite eightArrowSprite; // Sprite to use when health is 2 or more
+    public Sprite sevenArrowSprite; // Sprite to use when health is 1
     public Sprite sixArrowSprite; // Sprite to use when health is 0 (dead)
     public Sprite fiveArrowSprite;
     public Sprite fourArrowSprite;
@@ -61,11 +61,12 @@ public class ArrowSpawner : MonoBehaviour
             _lastSpawnTime = Time.time;
         }
 
-        if (Input.GetAxis("Mouse ScrollWheel") > 0)
+        if (Input.GetAxis("Mouse ScrollWheel") > 0 || Input.GetKeyDown(KeyCode.Z))
         {
             CycleArrow();
         }
     }
+
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -83,11 +84,11 @@ public class ArrowSpawner : MonoBehaviour
 
     void UpdateBulletCountText()
     {
-        if (bulletCountText != null)
         {
-            bulletCountText.text = "Bullets: " + arrowTypes[currentArrowIndex].currentBullets.ToString();
+            UpdatePlayerSprite(); // Call UpdatePlayerSprite whenever the bullet count changes
         }
     }
+
 
     private void SpawnBullet()
     {
@@ -137,4 +138,48 @@ public class ArrowSpawner : MonoBehaviour
         }
         UpdateBulletCountText(); // Update bullet count text after cycling arrow types
     }
+    // Check current health and set player sprite accordingly
+        private void UpdatePlayerSprite()
+        {
+            // Check current number of arrows and set player sprite accordingly
+            int currentBullets = arrowTypes[currentArrowIndex].currentBullets;
+            switch (currentBullets)
+            {
+                case 10:
+                    playerSpriteRenderer.sprite = tenArrowSprite;
+                    break;
+                case 9:
+                    playerSpriteRenderer.sprite = nineArrowsprite;
+                    break;
+                case 8:
+                    playerSpriteRenderer.sprite = eightArrowSprite;
+                    break;
+                case 7:
+                    playerSpriteRenderer.sprite = sevenArrowSprite;
+                    break;
+                case 6:
+                    playerSpriteRenderer.sprite = sixArrowSprite;
+                    break;
+                case 5:
+                    playerSpriteRenderer.sprite = fiveArrowSprite;
+                    break;
+                case 4:
+                    playerSpriteRenderer.sprite = fourArrowSprite;
+                    break;
+                case 3:
+                    playerSpriteRenderer.sprite = threeArrowSprite;
+                    break;
+                case 2:
+                    playerSpriteRenderer.sprite = twoArrowSprite;
+                    break;
+                case 1:
+                    playerSpriteRenderer.sprite = oneArrowSprite;
+                    break;
+                case 0:
+                default:
+                    playerSpriteRenderer.sprite = zeroArrowSprite;
+                    break;
+            }
+        }
+
 }

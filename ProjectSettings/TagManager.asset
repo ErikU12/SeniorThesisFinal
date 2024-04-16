@@ -20,6 +20,9 @@ TagManager:
   - FlameSkull
   - FlameShield
   - Ladder
+  - Potion
+  - CheckPoint
+  - Checkpoint
   layers:
   - Default
   - TransparentFX

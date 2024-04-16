@@ -4,7 +4,15 @@
     <list default="true" id="3f799f25-77f4-46d6-81db-4f7f940d2bd9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SeniorThesis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SeniorThesis/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/ArrowSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/ArrowSpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/RoboEye.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/RoboEye.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/Shooter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/Shooter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/ArrowLightning.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/ArrowLightning.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/ArrowTransparent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/ArrowTransparent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerHealth.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMelee.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMelee.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Projectile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Projectile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/UICOLORCHANGE.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/UICOLORCHANGE.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Sound FX.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Sound FX/- FIRE sizzling SOUND EFFECT-mp3.wav" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Sound FX/- FIRE sizzling SOUND EFFECT-mp3.wav.meta" beforeDir="false" />
@@ -46,6 +54,9 @@
       <change beforePath="$PROJECT_DIR$/Assets/Sound FX/sword-sound.wav.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Sound FX/wolf-growl.wav" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Sound FX/wolf-growl.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/player/Lightning Arrow Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/player/Lightning Arrow Variant.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +88,14 @@
   }
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$USER_HOME$/Downloads/Game\SeniorThesisFinal.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\james\Downloads\Game" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.18f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath C:\Users\james\OneDrive\Documents\SeniorThesis -debugCodeOptimization" />
@@ -140,6 +159,10 @@
       <workItem from="1712461617004" duration="1426000" />
       <workItem from="1712699990926" duration="58000" />
       <workItem from="1712700061492" duration="3555000" />
+      <workItem from="1712717509196" duration="3617000" />
+      <workItem from="1712773717281" duration="316000" />
+      <workItem from="1712790674469" duration="1542000" />
+      <workItem from="1713051820274" duration="5165000" />
     </task>
     <servers />
   </component>

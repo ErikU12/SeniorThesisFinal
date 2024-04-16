@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class ChangeColor : MonoBehaviour
 {
-    public Color[] colors = { Color.red, Color.blue, Color.yellow, Color.green, Color.magenta, new Color(0.5f, 0f, 0.5f, 1f) }; // Predefined colors
+    public Color[] colors = { Color.yellow, Color.green, Color.magenta, new Color(0.5f, 0f, 0.5f, 1f) }; // Predefined colors
     private int currentIndex = 0; // Index of the current color
     private Color originalColor; // Original color of the sprite
 
@@ -29,11 +29,12 @@ public class ChangeColor : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetAxis("Mouse ScrollWheel") > 0)
+        if (Input.GetAxis("Mouse ScrollWheel") > 0 || Input.GetKeyDown(KeyCode.Z))
         {
-            ChangeToNextColor(); // Change to the next color when Z key is pressed
+            ChangeToNextColor(); // Change to the next color when Z key is pressed or mouse wheel is scrolled up
         }
     }
+
 
     void ChangeToNextColor()
     {
