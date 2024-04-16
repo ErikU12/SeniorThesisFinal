@@ -1,0 +1,1285 @@
+fileFormatVersion: 2
+guid: 34213f5bc677c484288319ba91d24fc1
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Hooded Figure-Sheet (1)_0
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1285
+        width: 75
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16aee07b10cd7df448759b668c029def
+      internalID: 559160400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hooded Figure-Sheet (1)_1
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1285
+        width: 75
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5572b029e879b7458e1f586c8c0a8ba
+      internalID: 186796317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hooded Figure-Sheet (1)_2
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 1285
+        width: 75
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cda76e27722e8244187fc1025c3650cc
+      internalID: 1946337011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hooded Figure-Sheet (1)_3
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 1285
+        width: 75
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfb7b08385f867b43a89052cb6d80180
+      internalID: 1866280531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hooded Figure-Sheet (1)_4
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 1285
+        width: 75
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4504756487e0da408d1a17269ca7e46
+      internalID: 1122341001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hooded Figure-Sheet (1)_5
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 1290
+        width: 80
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5056247d6a945414c99d599a77442a4f
+      internalID: 1834174732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hooded Figure-Sheet (1)_6
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 1290
+        width: 75
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fbceaa5730c0e647897e0f6f4ee3dc8
+      internalID: -408922176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hooded Figure-Sheet (1)_7
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1035
+        width: 75
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fabda628e5dcc24696ea79cd5893c02
+      internalID: 688398570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hooded Figure-Sheet (1)_8
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1035
+        width: 75
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06128d507ef5ab64d87243dd97f4df81
+      internalID: -939614425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hooded Figure-Sheet (1)_9
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 1040
+        width: 80
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab30f43ec37c9634592404e7a1676958
+      internalID: 825621917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hooded Figure-Sheet (1)_10
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 1040
+        width: 75
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a185b7e3bba6f4458d3faf8c7be7d4b
+      internalID: -884159215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hooded Figure-Sheet (1)_11
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 1035
+        width: 75
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 985b5413762433d418ab01c72fa4b026
+      internalID: -91026659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hooded Figure-Sheet (1)_12
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 1035
+        width: 75
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e60056445204c04f860b785bbb9d19d
+      internalID: -671379396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hooded Figure-Sheet (1)_13
+      rect:
+        serializedVersion: 2
+        x: 1580
+        y: 1035
+        width: 75
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d94f8eccd3a5b584cbf7b27fcd272b73
+      internalID: 832163316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hooded Figure-Sheet (1)_14
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 925
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2e82966905911f49adc366536c035c3
+      internalID: -1345489876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hooded Figure-Sheet (1)_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 785
+        width: 180
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 759f79117d2e7864d935bab538f56172
+      internalID: 856846942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hooded Figure-Sheet (1)_16
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 785
+        width: 85
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 456e1c612b690174a87e86a13f3b3256
+      internalID: 1350280599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hooded Figure-Sheet (1)_17
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 785
+        width: 105
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5134a0c656f82a845a1c69c9e275efd1
+      internalID: -1490967197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hooded Figure-Sheet (1)_18
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 785
+        width: 90
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c224102830e84c94cb87cc34d84d659c
+      internalID: 1504680142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hooded Figure-Sheet (1)_19
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 785
+        width: 110
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b75f85857ac811c448e0d2d82e597283
+      internalID: -1293121426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hooded Figure-Sheet (1)_20
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 785
+        width: 85
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2beaa5561cff7f5449c5845bf446dd81
+      internalID: -2071733168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hooded Figure-Sheet (1)_21
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 785
+        width: 110
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c0aa386c77e03b4ba8ecee6d054496a
+      internalID: -1424632599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hooded Figure-Sheet (1)_22
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 785
+        width: 95
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c20508d00d00be4987e2f078b17d262
+      internalID: -1184745460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hooded Figure-Sheet (1)_23
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 785
+        width: 70
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 075e1864646d5a34eaa74bcc58d6774b
+      internalID: 2111711253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hooded Figure-Sheet (1)_24
+      rect:
+        serializedVersion: 2
+        x: 1580
+        y: 785
+        width: 75
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b19079287ec09994f9a1966f579e4020
+      internalID: 760867182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hooded Figure-Sheet (1)_25
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 675
+        width: 10
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e2ec31dee209e442a542e8c2b28553d
+      internalID: 1817524450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hooded Figure-Sheet (1)_26
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 690
+        width: 20
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03428e1e98e50ee4b9772ab12d8b289e
+      internalID: 633696116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hooded Figure-Sheet (1)_27
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 675
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 540f2e30deabe3640848775a61fe4969
+      internalID: 106080602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hooded Figure-Sheet (1)_28
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 675
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4e2fcb3b2145174398d96f608518d45
+      internalID: -1291186469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hooded Figure-Sheet (1)_29
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 535
+        width: 75
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08fb577eef934ad4a8af3789d333736d
+      internalID: -1097195071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hooded Figure-Sheet (1)_30
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 535
+        width: 75
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 617cda9d8790cd144aa95a832863d57e
+      internalID: 1823176832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hooded Figure-Sheet (1)_31
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 535
+        width: 75
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aca44e416bfa0b4293c7a592a5ab017
+      internalID: 279856697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hooded Figure-Sheet (1)_32
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 535
+        width: 175
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ea5852d2fa5d654d890ba08556bbe02
+      internalID: -1152935853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hooded Figure-Sheet (1)_33
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 535
+        width: 155
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8200d1aced849674bb33477368c03b40
+      internalID: 532333095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hooded Figure-Sheet (1)_34
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 570
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64261418fa7b86048b51fa4560dd9440
+      internalID: -133417705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hooded Figure-Sheet (1)_35
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 590
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1a7992141ded0c4c8e7d3790b5dd243
+      internalID: -1824068182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hooded Figure-Sheet (1)_36
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 535
+        width: 155
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 771f2fa4a3c6d0f4689e21922ab1d4b8
+      internalID: 1513533597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hooded Figure-Sheet (1)_37
+      rect:
+        serializedVersion: 2
+        x: 1580
+        y: 535
+        width: 75
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c2edbc7b5e17ef41b982cd5f884bed3
+      internalID: -1267615822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hooded Figure-Sheet (1)_38
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 285
+        width: 75
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01c4403b36f1d7844b5420b3dee08cd0
+      internalID: 2106232234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hooded Figure-Sheet (1)_39
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 285
+        width: 105
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 725e76e9ee9ade349b5762227f150f86
+      internalID: -1732936833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hooded Figure-Sheet (1)_40
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 280
+        width: 105
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0eca9973e575bb42a126bb92584437d
+      internalID: -570870703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hooded Figure-Sheet (1)_41
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 285
+        width: 105
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23071dedf3bb1424b85ffcedfa744aee
+      internalID: -1841539235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hooded Figure-Sheet (1)_42
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 285
+        width: 120
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a405f61ef1ac004ca5b59edff1e3060
+      internalID: 1886295253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hooded Figure-Sheet (1)_43
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 285
+        width: 95
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36b25f3126fbbab48aa2866a56658d8d
+      internalID: -437182960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hooded Figure-Sheet (1)_44
+      rect:
+        serializedVersion: 2
+        x: 1580
+        y: 285
+        width: 100
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 127b74155c11d3e4d8541be102861bb2
+      internalID: 867534369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hooded Figure-Sheet (1)_45
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 30
+        width: 105
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50cd134ac8f28d441891684f5313d81d
+      internalID: 1614358781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hooded Figure-Sheet (1)_46
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 30
+        width: 105
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fade97b5a95f024380f7cbc9d8e44bf
+      internalID: 573879215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hooded Figure-Sheet (1)_53
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 30
+        width: 155
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7b906a92f7690d43b1a75b8bafb8379
+      internalID: -1809133600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hooded Figure-Sheet (1)_55
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 35
+        width: 155
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa7311a169a5e6d4db9f8359be4db28f
+      internalID: 273668919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hooded Figure-Sheet (1)_58
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 35
+        width: 125
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f174c0ac9b7a754ab5eb4d4c98d5be0
+      internalID: 1377230347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hooded Figure-Sheet (1)_62
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 50
+        width: 105
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46a9f1ead28cf6849a8008bdb59ec26f
+      internalID: -1527853049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Hooded Figure-Sheet (1)_0: 559160400
+      Hooded Figure-Sheet (1)_1: 186796317
+      Hooded Figure-Sheet (1)_10: -884159215
+      Hooded Figure-Sheet (1)_11: -91026659
+      Hooded Figure-Sheet (1)_12: -671379396
+      Hooded Figure-Sheet (1)_13: 832163316
+      Hooded Figure-Sheet (1)_14: -1345489876
+      Hooded Figure-Sheet (1)_15: 856846942
+      Hooded Figure-Sheet (1)_16: 1350280599
+      Hooded Figure-Sheet (1)_17: -1490967197
+      Hooded Figure-Sheet (1)_18: 1504680142
+      Hooded Figure-Sheet (1)_19: -1293121426
+      Hooded Figure-Sheet (1)_2: 1946337011
+      Hooded Figure-Sheet (1)_20: -2071733168
+      Hooded Figure-Sheet (1)_21: -1424632599
+      Hooded Figure-Sheet (1)_22: -1184745460
+      Hooded Figure-Sheet (1)_23: 2111711253
+      Hooded Figure-Sheet (1)_24: 760867182
+      Hooded Figure-Sheet (1)_25: 1817524450
+      Hooded Figure-Sheet (1)_26: 633696116
+      Hooded Figure-Sheet (1)_27: 106080602
+      Hooded Figure-Sheet (1)_28: -1291186469
+      Hooded Figure-Sheet (1)_29: -1097195071
+      Hooded Figure-Sheet (1)_3: 1866280531
+      Hooded Figure-Sheet (1)_30: 1823176832
+      Hooded Figure-Sheet (1)_31: 279856697
+      Hooded Figure-Sheet (1)_32: -1152935853
+      Hooded Figure-Sheet (1)_33: 532333095
+      Hooded Figure-Sheet (1)_34: -133417705
+      Hooded Figure-Sheet (1)_35: -1824068182
+      Hooded Figure-Sheet (1)_36: 1513533597
+      Hooded Figure-Sheet (1)_37: -1267615822
+      Hooded Figure-Sheet (1)_38: 2106232234
+      Hooded Figure-Sheet (1)_39: -1732936833
+      Hooded Figure-Sheet (1)_4: 1122341001
+      Hooded Figure-Sheet (1)_40: -570870703
+      Hooded Figure-Sheet (1)_41: -1841539235
+      Hooded Figure-Sheet (1)_42: 1886295253
+      Hooded Figure-Sheet (1)_43: -437182960
+      Hooded Figure-Sheet (1)_44: 867534369
+      Hooded Figure-Sheet (1)_45: 1614358781
+      Hooded Figure-Sheet (1)_46: 573879215
+      Hooded Figure-Sheet (1)_47: -697474761
+      Hooded Figure-Sheet (1)_48: -1612225729
+      Hooded Figure-Sheet (1)_49: -861319331
+      Hooded Figure-Sheet (1)_5: 1834174732
+      Hooded Figure-Sheet (1)_50: 1806933094
+      Hooded Figure-Sheet (1)_51: -145159937
+      Hooded Figure-Sheet (1)_52: -297671071
+      Hooded Figure-Sheet (1)_53: -1809133600
+      Hooded Figure-Sheet (1)_54: 1003016341
+      Hooded Figure-Sheet (1)_55: 273668919
+      Hooded Figure-Sheet (1)_56: -1762631120
+      Hooded Figure-Sheet (1)_57: -1124533942
+      Hooded Figure-Sheet (1)_58: 1377230347
+      Hooded Figure-Sheet (1)_59: -527226580
+      Hooded Figure-Sheet (1)_6: -408922176
+      Hooded Figure-Sheet (1)_60: 498572979
+      Hooded Figure-Sheet (1)_61: 1831139853
+      Hooded Figure-Sheet (1)_62: -1527853049
+      Hooded Figure-Sheet (1)_63: 1954384272
+      Hooded Figure-Sheet (1)_64: -1926755931
+      Hooded Figure-Sheet (1)_65: -1052118310
+      Hooded Figure-Sheet (1)_66: 1200685350
+      Hooded Figure-Sheet (1)_67: -21991882
+      Hooded Figure-Sheet (1)_68: -713205829
+      Hooded Figure-Sheet (1)_69: -2008801772
+      Hooded Figure-Sheet (1)_7: 688398570
+      Hooded Figure-Sheet (1)_70: 755663243
+      Hooded Figure-Sheet (1)_71: 1814929818
+      Hooded Figure-Sheet (1)_72: 616790935
+      Hooded Figure-Sheet (1)_73: 1748776793
+      Hooded Figure-Sheet (1)_8: -939614425
+      Hooded Figure-Sheet (1)_9: 825621917
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
