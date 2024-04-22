@@ -1,0 +1,889 @@
+fileFormatVersion: 2
+guid: da88d8c097842fd4e9ec8db500f42ab7
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Armored skeleton-Sheet (1)_0
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1280
+        width: 120
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96527c92c6e09094ea313ed7b8dd86cb
+      internalID: 1070884292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored skeleton-Sheet (1)_1
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 1280
+        width: 120
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b296eba78e3d8834a8ecc7e711ffcede
+      internalID: -277584948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored skeleton-Sheet (1)_2
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1280
+        width: 115
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a42394e57037d364e86247849d89ffad
+      internalID: 689527194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored skeleton-Sheet (1)_3
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 1280
+        width: 110
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1874cd1bccff9ee4c8f8f4fd939209a7
+      internalID: 1930578548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored skeleton-Sheet (1)_4
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 1280
+        width: 110
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 342da3eaf0428aa44bd238cc65f78772
+      internalID: 2076249626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored skeleton-Sheet (1)_5
+      rect:
+        serializedVersion: 2
+        x: 1705
+        y: 1280
+        width: 120
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9769828436263824ba89964f77867b4e
+      internalID: -747484778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored skeleton-Sheet (1)_6
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 1040
+        width: 115
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07a70f463dbeef047864158dfac4e7bb
+      internalID: -595725393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored skeleton-Sheet (1)_7
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 1035
+        width: 115
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6df3304291d9a740ac14ba1b664a5e8
+      internalID: 1938611515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored skeleton-Sheet (1)_8
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1035
+        width: 115
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e67cc8056a950448a690367aba1a7c9
+      internalID: 731229015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored skeleton-Sheet (1)_9
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 1035
+        width: 115
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cb242697787708488b7502bce721e98
+      internalID: -29781050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored skeleton-Sheet (1)_10
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 1040
+        width: 120
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e22e2c72fe0782e4e8fa95e855525a5a
+      internalID: -1754895174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored skeleton-Sheet (1)_11
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 1035
+        width: 115
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 680e0e73bb4354245b2cfdf8fb768141
+      internalID: 265218635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored skeleton-Sheet (1)_12
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 785
+        width: 115
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f13615e41a53f34d9c3e67236f2425d
+      internalID: -2041132157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored skeleton-Sheet (1)_13
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 785
+        width: 115
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daf6abe7397aecf40957b5d972792c70
+      internalID: -1025516611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored skeleton-Sheet (1)_14
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 790
+        width: 120
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dedd7e8cae58a42428a8752a1bed9a23
+      internalID: -653880976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored skeleton-Sheet (1)_15
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 785
+        width: 110
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e479ea806b9d7b478fb49d6ea52627e
+      internalID: 1381852066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored skeleton-Sheet (1)_16
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 785
+        width: 110
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 470a868f0c391f642b043c3eb0adb285
+      internalID: 397882149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored skeleton-Sheet (1)_17
+      rect:
+        serializedVersion: 2
+        x: 1725
+        y: 790
+        width: 125
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8000316ead2514c43afbecdbcafad96f
+      internalID: 691931321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored skeleton-Sheet (1)_18
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 540
+        width: 125
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcad2340fef692448af637b821a64247
+      internalID: -843330986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored skeleton-Sheet (1)_19
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 535
+        width: 110
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11e4dff3ed20d254b8d312fba042c89b
+      internalID: -1121593674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored skeleton-Sheet (1)_20
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 535
+        width: 115
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d494ac0b8abc554780e0988685b7581
+      internalID: 908147928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored skeleton-Sheet (1)_21
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 530
+        width: 120
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d90472cbc1f4184ebb16d58e6a5fa99
+      internalID: -1638234482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored skeleton-Sheet (1)_22
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 530
+        width: 115
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e9cfb58c97fe96469975ed129260497
+      internalID: -542236674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored skeleton-Sheet (1)_23
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 530
+        width: 105
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c996d1b7a2b48b4095ddff65796a766
+      internalID: -1474432318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored skeleton-Sheet (1)_24
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 280
+        width: 145
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5408643731f1fc4583f5b8eaee94b36
+      internalID: 630008056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored skeleton-Sheet (1)_25
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 280
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc30d18f672314e499da833c90e0565b
+      internalID: 1490798529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored skeleton-Sheet (1)_26
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 280
+        width: 135
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51a870c4eb83b394abf9f94455788d65
+      internalID: -1235104688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored skeleton-Sheet (1)_27
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 280
+        width: 95
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70633b0b0ce34244495be8c3b13bda4c
+      internalID: 2052648276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored skeleton-Sheet (1)_28
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 280
+        width: 95
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fca4656ad1ad39b489f32b38a6c502de
+      internalID: 1142691564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored skeleton-Sheet (1)_30
+      rect:
+        serializedVersion: 2
+        x: 1675
+        y: 280
+        width: 155
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 700176223627a6e4cb7d8fdd685de65d
+      internalID: 317914642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored skeleton-Sheet (1)_39
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 35
+        width: 156
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bec0f4f6fe90c0a45b67ca436b5c445c
+      internalID: -1536788857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored skeleton-Sheet (1)_42
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 35
+        width: 125
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcd5915a64204ca44bf381269c218304
+      internalID: 375034756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armored skeleton-Sheet (1)_46
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 50
+        width: 105
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e111bacb93a871048aa2bfc16ccf0f7e
+      internalID: -771850343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Armored skeleton-Sheet (1)_0: 1070884292
+      Armored skeleton-Sheet (1)_1: -277584948
+      Armored skeleton-Sheet (1)_10: -1754895174
+      Armored skeleton-Sheet (1)_11: 265218635
+      Armored skeleton-Sheet (1)_12: -2041132157
+      Armored skeleton-Sheet (1)_13: -1025516611
+      Armored skeleton-Sheet (1)_14: -653880976
+      Armored skeleton-Sheet (1)_15: 1381852066
+      Armored skeleton-Sheet (1)_16: 397882149
+      Armored skeleton-Sheet (1)_17: 691931321
+      Armored skeleton-Sheet (1)_18: -843330986
+      Armored skeleton-Sheet (1)_19: -1121593674
+      Armored skeleton-Sheet (1)_2: 689527194
+      Armored skeleton-Sheet (1)_20: 908147928
+      Armored skeleton-Sheet (1)_21: -1638234482
+      Armored skeleton-Sheet (1)_22: -542236674
+      Armored skeleton-Sheet (1)_23: -1474432318
+      Armored skeleton-Sheet (1)_24: 630008056
+      Armored skeleton-Sheet (1)_25: 1490798529
+      Armored skeleton-Sheet (1)_26: -1235104688
+      Armored skeleton-Sheet (1)_27: 2052648276
+      Armored skeleton-Sheet (1)_28: 1142691564
+      Armored skeleton-Sheet (1)_29: -251309418
+      Armored skeleton-Sheet (1)_3: 1930578548
+      Armored skeleton-Sheet (1)_30: 317914642
+      Armored skeleton-Sheet (1)_31: -1297099980
+      Armored skeleton-Sheet (1)_32: -1590073327
+      Armored skeleton-Sheet (1)_33: -1903207348
+      Armored skeleton-Sheet (1)_34: -1949132765
+      Armored skeleton-Sheet (1)_35: -1848788932
+      Armored skeleton-Sheet (1)_36: -314215634
+      Armored skeleton-Sheet (1)_37: -826526226
+      Armored skeleton-Sheet (1)_38: -719857000
+      Armored skeleton-Sheet (1)_39: -1536788857
+      Armored skeleton-Sheet (1)_4: 2076249626
+      Armored skeleton-Sheet (1)_40: 504463331
+      Armored skeleton-Sheet (1)_41: -2009396121
+      Armored skeleton-Sheet (1)_42: 375034756
+      Armored skeleton-Sheet (1)_43: 2048229184
+      Armored skeleton-Sheet (1)_44: -511777693
+      Armored skeleton-Sheet (1)_45: 2097490872
+      Armored skeleton-Sheet (1)_46: -771850343
+      Armored skeleton-Sheet (1)_47: 1226803404
+      Armored skeleton-Sheet (1)_48: -1564649138
+      Armored skeleton-Sheet (1)_49: -671011607
+      Armored skeleton-Sheet (1)_5: -747484778
+      Armored skeleton-Sheet (1)_50: 829076629
+      Armored skeleton-Sheet (1)_51: 1711172582
+      Armored skeleton-Sheet (1)_52: -1433363084
+      Armored skeleton-Sheet (1)_53: 42207855
+      Armored skeleton-Sheet (1)_54: -1150433519
+      Armored skeleton-Sheet (1)_55: -1963039916
+      Armored skeleton-Sheet (1)_6: -595725393
+      Armored skeleton-Sheet (1)_7: 1938611515
+      Armored skeleton-Sheet (1)_8: 731229015
+      Armored skeleton-Sheet (1)_9: -29781050
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

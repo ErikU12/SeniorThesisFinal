@@ -3,60 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="3f799f25-77f4-46d6-81db-4f7f940d2bd9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SeniorThesis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SeniorThesis/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/RoboEye.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/RoboEye.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/Shooter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/Shooter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/ArrowLightning.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/ArrowLightning.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/ArrowTransparent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/ArrowTransparent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerHealth.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMelee.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMelee.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Projectile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Projectile.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/UICOLORCHANGE.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/UICOLORCHANGE.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sound FX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/- FIRE sizzling SOUND EFFECT-mp3.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/- FIRE sizzling SOUND EFFECT-mp3.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/Blaster Sound Effect. 1.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/Blaster Sound Effect. 1.mp3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/Blaster Sound Effect..mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/Blaster Sound Effect..mp3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/Dash Sound Effect wav.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/Dash Sound Effect wav.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/Fire arrow sound effect.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/Fire arrow sound effect.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/Gust Of Wind Sound Effect-wav.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/Gust Of Wind Sound Effect-wav.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/Jump sound effect .mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/Jump sound effect .mp3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/NEver Gunna Giv U UUP.MP3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/NEver Gunna Giv U UUP.MP3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/Run on wood  Sound Effect.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/Run on wood  Sound Effect.mp3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/Satisfying Arrow Impact Sound Effect  High Quality.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/Satisfying Arrow Impact Sound Effect  High Quality.mp3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/Scary- Cave Sounds.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/Scary- Cave Sounds.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/Thunder Sound Effect.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/Thunder Sound Effect.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/Wind ARROW SFX.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/Wind ARROW SFX.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/arrow-swoosh.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/arrow-swoosh.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/bandit.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/bandit.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/bees.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/bees.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/deer sound.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/deer sound.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/ouchsfxwav.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/ouchsfxwav.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/sword-sound.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/sword-sound.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/wolf-growl.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sound FX/wolf-growl.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/player/Lightning Arrow Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/player/Lightning Arrow Variant.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Other/Txt.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Other/Txt.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/TextBox.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/TextBox.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/player/TransparentArrow Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/player/TransparentArrow Variant.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/player/Wind Arrow Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/player/Wind Arrow Variant.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,6 +117,8 @@
       <workItem from="1712773717281" duration="316000" />
       <workItem from="1712790674469" duration="1542000" />
       <workItem from="1713051820274" duration="5165000" />
+      <workItem from="1713305419391" duration="247000" />
+      <workItem from="1713305688823" duration="1666000" />
     </task>
     <servers />
   </component>

@@ -8,6 +8,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4368545235903177991, guid: d743201511e585041bd0160da83974e8, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 4368545235903177991, guid: d743201511e585041bd0160da83974e8, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 0.29019606
+      objectReference: {fileID: 0}
+    - target: {fileID: 4368545235903177991, guid: d743201511e585041bd0160da83974e8, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.r
+      value: 0.7952631
+      objectReference: {fileID: 0}
     - target: {fileID: 5069833464514690243, guid: d743201511e585041bd0160da83974e8, type: 3}
       propertyPath: m_Name
       value: TransparentArrow Variant
@@ -91,3 +103,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  playerHealthRestoreAmount: 1
