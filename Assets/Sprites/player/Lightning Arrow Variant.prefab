@@ -137,6 +137,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 1
   knockbackForce: 100
+  collisionSound: {fileID: 8300000, guid: 367b69ea89a364843a5af791cdabf741, type: 3}
 --- !u!198 &4379428406395628419
 ParticleSystem:
   m_ObjectHideFlags: 0

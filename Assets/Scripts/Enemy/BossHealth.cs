@@ -9,6 +9,9 @@ public class BossHealth : MonoBehaviour
     public Color flashColor = Color.red; // Color for flashing effect
     public GameObject deathPrefab; // Prefab to spawn upon boss death
     public Transform spawnLocation; // Location to spawn the death prefab
+    public Animator animator; // Reference to the Animator component
+    private static readonly int RedEyeDeath = Animator.StringToHash("RedEyeDeath");
+
 
     internal int currentHealth;
     private bool isFlashing = false;
@@ -64,14 +67,17 @@ public class BossHealth : MonoBehaviour
     // Method to handle boss death
     void Die()
     {
+        // Play death animation
+        animator.SetTrigger(RedEyeDeath);
+
         // Spawn the death prefab at the specified location
         if (deathPrefab != null && spawnLocation != null)
         {
             Instantiate(deathPrefab, spawnLocation.position, Quaternion.identity);
         }
 
-        // Destroy the boss object
-        Destroy(gameObject);
+        // Destroy the boss object after the animation finishes
+        Destroy(gameObject, animator.GetCurrentAnimatorStateInfo(0).length);
     }
 
     // Method to handle collisions with bullets and Flameshield

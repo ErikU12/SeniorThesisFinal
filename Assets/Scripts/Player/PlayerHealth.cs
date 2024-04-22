@@ -10,6 +10,7 @@ public class PlayerHealth : MonoBehaviour
     public Sprite damagedSprite; // Sprite to use when health is 2 or more
     public Sprite criticalSprite; // Sprite to use when health is 1
     public Sprite deadSprite; // Sprite to use when health is 0 (dead)
+    public AudioClip damageSound; // Sound effect to play when the player takes damage
 
     private Rigidbody2D _rb;
     private Vector3 respawnPoint; // Respawn point for the player
@@ -40,8 +41,6 @@ public class PlayerHealth : MonoBehaviour
             }
         }
     }
-
-
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -74,6 +73,12 @@ public class PlayerHealth : MonoBehaviour
     {
         currentHealth -= damage;
         UpdatePlayerSprite();
+
+        // Play the damage sound effect
+        if (damageSound != null)
+        {
+            AudioSource.PlayClipAtPoint(damageSound, transform.position);
+        }
     }
 
     public void IncreaseHealth(int amount)

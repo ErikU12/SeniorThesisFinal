@@ -3,8 +3,8 @@ public class EnemyHealth : MonoBehaviour
 {
     public int maxHealth = 1; // Maximum health of the zombie
     private int _currentHealth; // Current health of the zombie
-    //public Animator animator; // Changed from Animator to animator, follow C# conventions
-    //private static readonly int EnemyDeath = Animator.StringToHash("EnemyDeath");
+    public Animator animator; // Changed from Animator to animator, follow C# conventions
+    private static readonly int EnemyDeath = Animator.StringToHash("EnemyDeath");
 
     private void Start()
     {
@@ -24,10 +24,10 @@ public class EnemyHealth : MonoBehaviour
     private void Die()
     {
         // Play death animation
-       // animator.SetTrigger(EnemyDeath);
+         animator.SetTrigger(EnemyDeath);
 
         // Destroy the zombie after animation finishes
-        Destroy(gameObject);
+        Destroy(gameObject, animator.GetCurrentAnimatorStateInfo(0).length);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
