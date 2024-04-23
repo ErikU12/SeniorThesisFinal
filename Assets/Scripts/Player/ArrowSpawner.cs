@@ -65,6 +65,12 @@ public class ArrowSpawner : MonoBehaviour
         {
             CycleArrow();
         }
+        else if (Input.GetAxis("Mouse ScrollWheel") < 0)
+        {
+            // Handle scrolling down (e.g., switch to previous arrow type)
+            // Add your code here for what should happen when the scroll wheel is scrolled down
+            CycleArrow();
+        }
     }
 
 

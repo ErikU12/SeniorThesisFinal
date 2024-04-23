@@ -15289,7 +15289,7 @@ PrefabInstance:
       objectReference: {fileID: 6200000, guid: f963cd844862f6f4abab990b578f29be, type: 2}
     - target: {fileID: 1694371612262499136, guid: 31b25850ff6fbf34fa881701dcbf4121, type: 3}
       propertyPath: maxHealth
-      value: 3
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 1694371612262499136, guid: 31b25850ff6fbf34fa881701dcbf4121, type: 3}
       propertyPath: deadSprite
@@ -15301,7 +15301,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: ccadd80baf5d04bb48bbbfa910435696, type: 3}
     - target: {fileID: 1694371612262499136, guid: 31b25850ff6fbf34fa881701dcbf4121, type: 3}
       propertyPath: currentHealth
-      value: 3
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 1694371612262499136, guid: 31b25850ff6fbf34fa881701dcbf4121, type: 3}
       propertyPath: damagedSprite
@@ -15725,11 +15725,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6872085775211467748, guid: 61d49e48443f23348817652f89fc1507, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.56
+      value: 7.7
       objectReference: {fileID: 0}
     - target: {fileID: 6872085775211467748, guid: 61d49e48443f23348817652f89fc1507, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -13.69
+      value: 99.4
       objectReference: {fileID: 0}
     - target: {fileID: 6872085775211467748, guid: 61d49e48443f23348817652f89fc1507, type: 3}
       propertyPath: m_LocalPosition.z

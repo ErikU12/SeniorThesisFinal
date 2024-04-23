@@ -21888,10 +21888,7 @@ PrefabInstance:
       objectReference: {fileID: 1240818940}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 3557000424283028402, guid: 31b25850ff6fbf34fa881701dcbf4121, type: 3}
-      insertIndex: 0
-      addedObject: {fileID: 1240818941}
+    m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31b25850ff6fbf34fa881701dcbf4121, type: 3}
 --- !u!1001 &829225313
@@ -32530,6 +32527,7 @@ GameObject:
   - component: {fileID: 1240818941}
   - component: {fileID: 1240818940}
   - component: {fileID: 1240818939}
+  - component: {fileID: 1240818942}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -32555,7 +32553,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -32580,7 +32578,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 7.7617188
+  orthographic size: 6
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -32605,12 +32603,27 @@ Transform:
   m_GameObject: {fileID: 1240818938}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.1988568, y: 1.275484, z: -7.4463835}
-  m_LocalScale: {x: 0.2716709, y: 0.2716709, z: 0.2716709}
+  m_LocalPosition: {x: -620.59, y: 15333.213, z: -10}
+  m_LocalScale: {x: 0.36483604, y: 0.36483604, z: 0.36483604}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1494182443}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1240818942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1240818938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28b289ba11994a9499b412d08269276f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1494182443}
+  smoothSpeed: 4
+  offset: {x: 1, y: 3, z: 0}
 --- !u!1001 &1244044457
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -59670,6 +59683,7 @@ SceneRoots:
   - {fileID: 2129035588}
   - {fileID: 1526897104}
   - {fileID: 1304661140}
+  - {fileID: 1240818941}
   - {fileID: 819980806}
   - {fileID: 115250951}
   - {fileID: 1327496191}
