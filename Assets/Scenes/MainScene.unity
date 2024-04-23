@@ -15714,6 +15714,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 629678346}
     - target: {fileID: 3930130149794654063, guid: ce9e47b7822ce8b4599f68497dac08a5, type: 3}
+      propertyPath: maxHealth
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930130149794654063, guid: ce9e47b7822ce8b4599f68497dac08a5, type: 3}
       propertyPath: deathPrefab
       value: 
       objectReference: {fileID: 255516464}
