@@ -3,47 +3,42 @@
   <component name="ChangeListManager">
     <list default="true" id="3f799f25-77f4-46d6-81db-4f7f940d2bd9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SeniorThesis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SeniorThesis/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/flame boss-Sheet_0.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/flame boss-Sheet_0.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Music/Dash Sound Effect wav.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Music/Dash Sound Effect wav.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Music/Gust Of Wind Sound Effect-wav.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Music/Gust Of Wind Sound Effect-wav.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Music/Sound FX/- FIRE sizzling SOUND EFFECT-mp3.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Music/Sound FX/- FIRE sizzling SOUND EFFECT-mp3.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Music/Sound FX/Fire arrow sound effect.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Music/Sound FX/Fire arrow sound effect.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Music/Sound FX/Run on wood  Sound Effect.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Music/Sound FX/Run on wood  Sound Effect.mp3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Music/Sound FX/Scary- Cave Sounds.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Music/Sound FX/Scary- Cave Sounds.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Music/Sound FX/Updatedwolf-growl 1.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Music/Sound FX/Updatedwolf-growl 1.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Music/Sound FX/Updatedwolf-growl.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Music/Sound FX/Updatedwolf-growl.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Music/Sound FX/Wind ARROW SFX.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Music/Sound FX/Wind ARROW SFX.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Music/Sound FX/bandit.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Music/Sound FX/bandit.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Music/Sound FX/bees.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Music/Sound FX/bees.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Music/Sound FX/deer sound.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Music/Sound FX/deer sound.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Music/Sound FX/wolf howling sound.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Music/Sound FX/wolf howling sound.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/RoboEye.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/RoboEye.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/bullet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/bullet.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Music/Sound FX/Dash Sound Effect wav.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Music/Sound FX/Dash Sound Effect wav.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Music/Sound FX/FINAL UPDATEDBlaster Sound Effect..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Music/Sound FX/FINAL UPDATEDBlaster Sound Effect..wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Music/Sound FX/Flaming skull - Sound Effect [HD].wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Music/Sound FX/Flaming skull - Sound Effect [HD].wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Music/Sound FX/Gust Of Wind Sound Effect-wav.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Music/Sound FX/Gust Of Wind Sound Effect-wav.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Music/Sound FX/Ice shield.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Music/Sound FX/Ice shield.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Music/Sound FX/NEver Gunna Giv U UUP.MP3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Music/Sound FX/NEver Gunna Giv U UUP.MP3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Music/Sound FX/Thunder Sound Effect.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Music/Sound FX/Thunder Sound Effect.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Music/Sound FX/Tutorial music (8bit music).wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Music/Sound FX/Tutorial music (8bit music).wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Music/Sound FX/UPDATEDSatisfying Arrow Impact Sound Effect  High Quality.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Music/Sound FX/UPDATEDSatisfying Arrow Impact Sound Effect  High Quality.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Music/Sound FX/arrow-swoosh.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Music/Sound FX/arrow-swoosh.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Music/Sound FX/cruising-down-8bit-lane-159615.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Music/Sound FX/cruising-down-8bit-lane-159615.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Music/Sound FX/sword-sound.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Music/Sound FX/sword-sound.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/enemy.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Checkpoint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Checkpoint.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/Boss.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/Boss.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/BossHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/BossHealth.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyHealth.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/Shooter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/Shooter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Arrow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Arrow.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Other/Slow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Other/Slow.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/ArrowLightning.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/ArrowLightning.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/ArrowWind.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/ArrowWind.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerHealth.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMelee.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMelee.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Sprites/player/Lightning Arrow Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/player/Lightning Arrow Variant.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/player/Wind Arrow Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/player/Wind Arrow Variant.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -155,6 +150,7 @@
       <workItem from="1713305688823" duration="1666000" />
       <workItem from="1713716144459" duration="4563000" />
       <workItem from="1713808222667" duration="1191000" />
+      <workItem from="1713841308004" duration="2959000" />
     </task>
     <servers />
   </component>

@@ -12,7 +12,6 @@ public class BossHealth : MonoBehaviour
     public Animator animator; // Reference to the Animator component
     private static readonly int RedEyeDeath = Animator.StringToHash("RedEyeDeath");
 
-
     internal int currentHealth;
     private bool isFlashing = false;
     private bool isFastMode = false;
@@ -70,6 +69,13 @@ public class BossHealth : MonoBehaviour
         // Play death animation
         animator.SetTrigger(RedEyeDeath);
 
+        // Invoke method to spawn the death prefab after a delay
+        Invoke("SpawnDeathPrefab", 2.0f); // Adjust the delay as needed
+    }
+
+    // Method to spawn the death prefab
+    void SpawnDeathPrefab()
+    {
         // Spawn the death prefab at the specified location
         if (deathPrefab != null && spawnLocation != null)
         {

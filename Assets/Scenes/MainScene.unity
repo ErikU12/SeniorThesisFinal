@@ -3250,7 +3250,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 514332053}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 946a692458ed51e47b63ba708421da2e, type: 3}
@@ -3606,6 +3606,7 @@ MonoBehaviour:
   - {fileID: 0}
   firePoints: []
   fireballPrefab: {fileID: 0}
+  fireballSound: {fileID: 0}
   teleportInterval: 5
   fireballDelay: 1
   detectionRange: 10
@@ -15221,11 +15222,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3557000424283028402, guid: 31b25850ff6fbf34fa881701dcbf4121, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -24
+      value: -37.33
       objectReference: {fileID: 0}
     - target: {fileID: 3557000424283028402, guid: 31b25850ff6fbf34fa881701dcbf4121, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -87.54
+      value: -170.23
       objectReference: {fileID: 0}
     - target: {fileID: 3557000424283028402, guid: 31b25850ff6fbf34fa881701dcbf4121, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -15239,6 +15240,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3757940423393694045, guid: 31b25850ff6fbf34fa881701dcbf4121, type: 3}
+      propertyPath: spawnSound
+      value: 
+      objectReference: {fileID: 8300000, guid: da7e7b269bea747a28d3415bfb59cdf6, type: 3}
+    - target: {fileID: 3757940423393694045, guid: 31b25850ff6fbf34fa881701dcbf4121, type: 3}
+      propertyPath: flameShieldSpawnSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 1ecd6a2373756451996f4877931aa387, type: 3}
     - target: {fileID: 4808675368247894097, guid: 31b25850ff6fbf34fa881701dcbf4121, type: 3}
       propertyPath: bulletSpeed
       value: 30
@@ -15725,6 +15734,10 @@ PrefabInstance:
       propertyPath: spawnLocation
       value: 
       objectReference: {fileID: 1005655920}
+    - target: {fileID: 5492911105333488422, guid: ce9e47b7822ce8b4599f68497dac08a5, type: 3}
+      propertyPath: fireballSound
+      value: 
+      objectReference: {fileID: 8300000, guid: b4f580e20fa64489e92aec95caea94b5, type: 3}
     - target: {fileID: 5492911105333488422, guid: ce9e47b7822ce8b4599f68497dac08a5, type: 3}
       propertyPath: teleportPoints.Array.data[0]
       value: 

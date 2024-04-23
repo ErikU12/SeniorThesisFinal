@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 using System.Collections.Generic;
 
 public class Boss : MonoBehaviour
@@ -6,6 +7,7 @@ public class Boss : MonoBehaviour
     public Transform[] teleportPoints;
     public Transform[] firePoints;
     public GameObject fireballPrefab;
+    public AudioClip fireballSound; // Sound effect for the fireball
     public float teleportInterval = 5f;
     public float fireballDelay = 1f;
     public float detectionRange = 10f; // Range within which the player is detected
@@ -92,6 +94,12 @@ public class Boss : MonoBehaviour
 
     void SpawnFireballs()
     {
+        // Play sound effect for the fireball
+        if (fireballSound != null)
+        {
+            AudioSource.PlayClipAtPoint(fireballSound, transform.position);
+        }
+
         // Spawn fireballs from each fire point
         foreach (Transform firePoint in firePoints)
         {
