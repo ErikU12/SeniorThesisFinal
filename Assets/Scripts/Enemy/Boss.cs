@@ -35,8 +35,8 @@ public class Boss : MonoBehaviour
         // Get the BossHealth component
         bossHealth = GetComponent<BossHealth>();
 
-        // Start teleporting if player is in range
-        if (playerTransform != null && Vector3.Distance(transform.position, playerTransform.position) <= detectionRange)
+        // Start teleporting if player is in range and boss health is not zero
+        if (playerTransform != null && Vector3.Distance(transform.position, playerTransform.position) <= detectionRange && bossHealth.currentHealth > 0)
         {
             TeleportToNextPoint();
         }
@@ -44,8 +44,8 @@ public class Boss : MonoBehaviour
 
     void Update()
     {
-        // Check if player is in range and it's time to teleport again
-        if (playerTransform != null && Vector3.Distance(transform.position, playerTransform.position) <= detectionRange &&
+        // Check if player is in range, boss health is not zero, and it's time to teleport again
+        if (bossHealth.currentHealth > 0 && playerTransform != null && Vector3.Distance(transform.position, playerTransform.position) <= detectionRange &&
             Time.time - lastTeleportTime >= (isLowHealth ? teleportInterval / 2 : teleportInterval))
         {
             // Reset last teleport time
