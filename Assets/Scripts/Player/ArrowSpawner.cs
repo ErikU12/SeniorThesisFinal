@@ -39,6 +39,7 @@ public class ArrowSpawner : MonoBehaviour
     public Sprite twoArrowSprite;
     public Sprite oneArrowSprite;
     public Sprite zeroArrowSprite;
+    public ChangeColor CC;
     private void Start()
     {
         InitializeInventory();
@@ -63,13 +64,13 @@ public class ArrowSpawner : MonoBehaviour
 
         if (Input.GetAxis("Mouse ScrollWheel") > 0 || Input.GetKeyDown(KeyCode.Z))
         {
-            CycleArrow();
+            CycleArrow(1);
         }
-        else if (Input.GetAxis("Mouse ScrollWheel") < 0)
+        else if (Input.GetAxis("Mouse ScrollWheel") < 0|| Input.GetKeyDown(KeyCode.L))
         {
             // Handle scrolling down (e.g., switch to previous arrow type)
             // Add your code here for what should happen when the scroll wheel is scrolled down
-            CycleArrow();
+            CycleArrow(-1);
         }
     }
 
@@ -135,14 +136,19 @@ public class ArrowSpawner : MonoBehaviour
         }
     }
 
-    private void CycleArrow()
+    private void CycleArrow(int amt)
     {
-        currentArrowIndex++;
+        currentArrowIndex+= amt;
         if (currentArrowIndex >= arrowTypes.Count)
         {
             currentArrowIndex = 0;
         }
+        if (currentArrowIndex < 0)
+        {
+            currentArrowIndex = arrowTypes.Count - 1;
+        }
         UpdateBulletCountText(); // Update bullet count text after cycling arrow types
+        CC.ChangeToNextColor();
     }
     // Check current health and set player sprite accordingly
         private void UpdatePlayerSprite()

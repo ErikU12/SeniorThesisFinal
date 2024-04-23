@@ -2,8 +2,9 @@ using UnityEngine;
 
 public class ChangeColor : MonoBehaviour
 {
+    public ArrowSpawner AS;
     public Color[] colors = { Color.yellow, Color.green, Color.magenta, new Color(0.5f, 0f, 0.5f, 1f) }; // Predefined colors
-    private int currentIndex = 0; // Index of the current color
+    //private int currentIndex = 0; // Index of the current color
     private Color originalColor; // Original color of the sprite
 
     private SpriteRenderer spriteRenderer; // Reference to the SpriteRenderer component
@@ -29,14 +30,15 @@ public class ChangeColor : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetAxis("Mouse ScrollWheel") > 0 || Input.GetKeyDown(KeyCode.Z))
-        {
-            ChangeToNextColor(); // Change to the next color when Z key is pressed or mouse wheel is scrolled up
-        }
+        // if (Input.GetAxis("Mouse ScrollWheel") != 0 || Input.GetKeyDown(KeyCode.Z))
+        // {
+        //     ChangeToNextColor(); // Change to the next color when Z key is pressed or mouse wheel is scrolled up
+        // }
+        
     }
 
 
-    void ChangeToNextColor()
+    public void ChangeToNextColor()
     {
         // Ensure there are colors defined in the array
         if (colors == null || colors.Length == 0)
@@ -46,27 +48,27 @@ public class ChangeColor : MonoBehaviour
         }
 
         // If the current index exceeds the bounds of the array, reset it to 0
-        if (currentIndex >= colors.Length)
-        {
-            currentIndex = 0;
-        }
-
+        // if (currentIndex >= colors.Length)
+        // {
+        //     currentIndex = 0;
+        // }
+        spriteRenderer.color = colors[AS.currentArrowIndex];
         // Get the next color from the array
-        Color nextColor = colors[currentIndex];
-
-        // Increment the current index
-        currentIndex++;
-
-        // Check if the next color is the original color
-        if (currentIndex >= colors.Length && !nextColor.Equals(originalColor))
-        {
-            spriteRenderer.color = originalColor; // Revert to the original color
-        }
-        else
-        {
-            // Change the color of the sprite renderer
-            spriteRenderer.color = nextColor;
-        }
+        // Color nextColor = colors[currentIndex];
+        //
+        // // Increment the current index
+        // currentIndex++;
+        //
+        // // Check if the next color is the original color
+        // if (currentIndex >= colors.Length && !nextColor.Equals(originalColor))
+        // {
+        //     spriteRenderer.color = originalColor; // Revert to the original color
+        // }
+        // else
+        // {
+        //     // Change the color of the sprite renderer
+        //     spriteRenderer.color = nextColor;
+        // }
 
         // Reset sorting layer and order in layer
         spriteRenderer.sortingLayerName = initialSortingLayer;

@@ -4441,6 +4441,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6503bd9de7ba0204cbfcef2be5529377, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AS: {fileID: 0}
   colors:
   - {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   - {r: 0, g: 1, b: 0, a: 1}
@@ -6316,6 +6317,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6503bd9de7ba0204cbfcef2be5529377, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AS: {fileID: 0}
   colors:
   - {r: 1, g: 0, b: 0, a: 1}
   - {r: 0, g: 0, b: 1, a: 1}
@@ -13799,6 +13801,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6503bd9de7ba0204cbfcef2be5529377, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AS: {fileID: 0}
   colors:
   - {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   - {r: 0, g: 1, b: 0, a: 1}
@@ -15407,6 +15410,10 @@ PrefabInstance:
       propertyPath: flameShieldSpawnSound
       value: 
       objectReference: {fileID: 8300000, guid: 1ecd6a2373756451996f4877931aa387, type: 3}
+    - target: {fileID: 4808675368247894097, guid: 31b25850ff6fbf34fa881701dcbf4121, type: 3}
+      propertyPath: CC
+      value: 
+      objectReference: {fileID: 1909882434}
     - target: {fileID: 4808675368247894097, guid: 31b25850ff6fbf34fa881701dcbf4121, type: 3}
       propertyPath: bulletSpeed
       value: 30
