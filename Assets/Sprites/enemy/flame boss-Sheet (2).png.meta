@@ -1,0 +1,957 @@
+fileFormatVersion: 2
+guid: 3ea7a41a9666ab64eac88050d5dc0aaf
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: flame boss-Sheet (2)_0
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 610
+        width: 125
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91e0c697cb2e12640a95ac5fe1cfbcf1
+      internalID: 35955679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flame boss-Sheet (2)_1
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 610
+        width: 130
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb69e26f316e1aa4b9444307d2adcd50
+      internalID: -2131294961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flame boss-Sheet (2)_2
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 750
+        width: 65
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bf43ef4bfbb6384c8dfb3cd0634a1a7
+      internalID: 733635741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flame boss-Sheet (2)_3
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 610
+        width: 130
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66e26fc185c753e4796fd7eba5ec0ada
+      internalID: -1750653809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flame boss-Sheet (2)_4
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 600
+        width: 135
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 906be10d858c7b040ac0bb30121323a2
+      internalID: -359846540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flame boss-Sheet (2)_5
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 610
+        width: 130
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af89f819551bd7449b5517c664fc94d
+      internalID: 911503635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flame boss-Sheet (2)_6
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 545
+        width: 30
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5ac4859fdb12f64dabb1ea661145442
+      internalID: 1759135263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flame boss-Sheet (2)_7
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 430
+        width: 95
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5088c1c947adbab4c972f1adf0ebbebe
+      internalID: -662542906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flame boss-Sheet (2)_8
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 425
+        width: 70
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0508a4ac0e9f1a543bb7fa25bbb6deba
+      internalID: 1318824604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flame boss-Sheet (2)_9
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 555
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02a31779ec0ceff498b45097229b5891
+      internalID: -1099539663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flame boss-Sheet (2)_10
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 430
+        width: 160
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4dc071f17b0c53468efa131bb590b14
+      internalID: 490777090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flame boss-Sheet (2)_11
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 530
+        width: 15
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 883180a06553df14ea93a9b5a143c824
+      internalID: 793407346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flame boss-Sheet (2)_12
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 525
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e4cad65b708d29408ecc671471e0354
+      internalID: 1216159914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flame boss-Sheet (2)_13
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 525
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2eecbe6113019841b15996e674b8605
+      internalID: -1165310391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flame boss-Sheet (2)_14
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 530
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f8db3c33f11c66439a552793805c825
+      internalID: -514940938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flame boss-Sheet (2)_15
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 425
+        width: 25
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85eaa8da15c99e74da780578a040420f
+      internalID: 422271186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flame boss-Sheet (2)_16
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 525
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b8e34648f3ab1e47bbeffc565aadb22
+      internalID: 577817292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flame boss-Sheet (2)_17
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 435
+        width: 155
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4a144ba65b7f8f4fa963e2c76a73e11
+      internalID: -509067509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flame boss-Sheet (2)_18
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 510
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb786e363d61a644e918df795814b33f
+      internalID: 617188972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flame boss-Sheet (2)_19
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 515
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0f339a17d14af040b052a971b20dc83
+      internalID: 15017493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flame boss-Sheet (2)_20
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 495
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5091bbeba735db4a961a3d4f0341df5
+      internalID: -1271028100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flame boss-Sheet (2)_21
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 325
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df0d39078bdf3b744ba8ddc96871d166
+      internalID: 977371779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flame boss-Sheet (2)_22
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 204
+        width: 135
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4133e279bb5d3c14d83883effdbce928
+      internalID: 1179134329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flame boss-Sheet (2)_24
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 205
+        width: 145
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d285bbc8f42f49b4eb3a3f03ab619ad8
+      internalID: 615152650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flame boss-Sheet (2)_26
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 204
+        width: 176
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f24f1c018a04f3341b1ffcf44e425243
+      internalID: -564415998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flame boss-Sheet (2)_27
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 204
+        width: 156
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ddc247497d416a4596fbdef954118be
+      internalID: 779031722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flame boss-Sheet (2)_30
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 290
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7fcc3d3b6f5e8d48bf5fbb82f9939ce
+      internalID: 1659549487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flame boss-Sheet (2)_31
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 305
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93b7bd2ac0fe49e499929c76b5f7fc56
+      internalID: -313486457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flame boss-Sheet (2)_34
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 300
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8155d8d2803d1fa4589cccca3aff391a
+      internalID: -2127787438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flame boss-Sheet (2)_35
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 295
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f71b24edda4ea9143ba80f61da565689
+      internalID: 1889872092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flame boss-Sheet (2)_36
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 280
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a83321e9bf54494ea4b808c2a901625
+      internalID: -511182650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flame boss-Sheet (2)_38
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 265
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5a04e5f59ef26f4984efd94f9a20706
+      internalID: 1924232644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flame boss-Sheet (2)_39
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 230
+        width: 20
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 068913b2d125c95499583449902bcdec
+      internalID: -1399977271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flame boss-Sheet (2)_40
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 265
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f241162c5b91754b95e5d27a92388a7
+      internalID: -730904930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flame boss-Sheet (2)_41
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 15
+        width: 165
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42fe582eeb4b8f04abbe3c80f9056593
+      internalID: -246937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flame boss-Sheet (2)_56
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 15
+        width: 160
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8413759c5462f10419c49a0fc4f09729
+      internalID: -278138508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      flame boss-Sheet (2)_0: 35955679
+      flame boss-Sheet (2)_1: -2131294961
+      flame boss-Sheet (2)_10: 490777090
+      flame boss-Sheet (2)_11: 793407346
+      flame boss-Sheet (2)_12: 1216159914
+      flame boss-Sheet (2)_13: -1165310391
+      flame boss-Sheet (2)_14: -514940938
+      flame boss-Sheet (2)_15: 422271186
+      flame boss-Sheet (2)_16: 577817292
+      flame boss-Sheet (2)_17: -509067509
+      flame boss-Sheet (2)_18: 617188972
+      flame boss-Sheet (2)_19: 15017493
+      flame boss-Sheet (2)_2: 733635741
+      flame boss-Sheet (2)_20: -1271028100
+      flame boss-Sheet (2)_21: 977371779
+      flame boss-Sheet (2)_22: 1179134329
+      flame boss-Sheet (2)_23: 2025236483
+      flame boss-Sheet (2)_24: 615152650
+      flame boss-Sheet (2)_25: -1626483924
+      flame boss-Sheet (2)_26: -564415998
+      flame boss-Sheet (2)_27: 779031722
+      flame boss-Sheet (2)_28: 232379727
+      flame boss-Sheet (2)_29: 2089103045
+      flame boss-Sheet (2)_3: -1750653809
+      flame boss-Sheet (2)_30: 1659549487
+      flame boss-Sheet (2)_31: -313486457
+      flame boss-Sheet (2)_32: -805011648
+      flame boss-Sheet (2)_33: 1840051951
+      flame boss-Sheet (2)_34: -2127787438
+      flame boss-Sheet (2)_35: 1889872092
+      flame boss-Sheet (2)_36: -511182650
+      flame boss-Sheet (2)_37: -1347009611
+      flame boss-Sheet (2)_38: 1924232644
+      flame boss-Sheet (2)_39: -1399977271
+      flame boss-Sheet (2)_4: -359846540
+      flame boss-Sheet (2)_40: -730904930
+      flame boss-Sheet (2)_41: -246937
+      flame boss-Sheet (2)_42: -1434993639
+      flame boss-Sheet (2)_43: -305673130
+      flame boss-Sheet (2)_44: -375753251
+      flame boss-Sheet (2)_45: 1291403177
+      flame boss-Sheet (2)_46: 1207051746
+      flame boss-Sheet (2)_47: 1645771881
+      flame boss-Sheet (2)_48: -1145014984
+      flame boss-Sheet (2)_49: -67085964
+      flame boss-Sheet (2)_5: 911503635
+      flame boss-Sheet (2)_50: -492055790
+      flame boss-Sheet (2)_51: 297900018
+      flame boss-Sheet (2)_52: -1787974195
+      flame boss-Sheet (2)_53: -1942979458
+      flame boss-Sheet (2)_54: 828829668
+      flame boss-Sheet (2)_55: 2113845830
+      flame boss-Sheet (2)_56: -278138508
+      flame boss-Sheet (2)_57: -1592507206
+      flame boss-Sheet (2)_58: -392733490
+      flame boss-Sheet (2)_59: 983545266
+      flame boss-Sheet (2)_6: 1759135263
+      flame boss-Sheet (2)_60: -1127292746
+      flame boss-Sheet (2)_7: -662542906
+      flame boss-Sheet (2)_8: 1318824604
+      flame boss-Sheet (2)_9: -1099539663
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
