@@ -80,6 +80,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples _ Extras\Scripts\DropdownSample.cs" />
     <Compile Include="Assets\Scripts\Other\Deer.cs" />
     <Compile Include="Assets\Scripts\Other\ElevatorPlatform.cs" />
+    <Compile Include="Assets\Scripts\Other\Checkpoint.cs" />
     <Compile Include="Assets\Scripts\Player\ArrowSpawner.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples _ Extras\Scripts\EnvMapAnimator.cs" />
     <Compile Include="Assets\Scripts\Enemy\LaserEnemy.cs" />
@@ -98,7 +99,6 @@
     <Compile Include="Assets\Scripts\Other\Ladder.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples _ Extras\Scripts\SimpleScript.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples _ Extras\Scripts\TMP_TextEventCheck.cs" />
-    <Compile Include="Assets\Scripts\Checkpoint.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyReact.cs" />
     <Compile Include="Assets\Scripts\Player\ArrowTransparent.cs" />
     <Compile Include="Assets\Scripts\Enemy\ArrowDraw.cs" />
