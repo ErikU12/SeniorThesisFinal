@@ -3,31 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3f799f25-77f4-46d6-81db-4f7f940d2bd9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SeniorThesis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SeniorThesis/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/ShooterEnemy.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/ShooterEnemy.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/ShooterEnemy2.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/ShooterEnemy2.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/ShooterEnemy2Death.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/ShooterEnemy2Death.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/WolfEnemy.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/WolfEnemy.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/ShieldEnemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/ShieldEnemy.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/ShooterEnemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/ShooterEnemy.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/ShooterEnemy2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/ShooterEnemy2.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyHealth.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/Paranoid.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/Paranoid.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/Soldier.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/Soldier.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/Wolf.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/Wolf.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/lasor.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/lasor.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/ArrowSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/ArrowSpawner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerHealth.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerKnockback.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerKnockback.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMelee.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMelee.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Projectile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Projectile.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/UICOLORCHANGE.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/UICOLORCHANGE.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,6 +137,7 @@
       <workItem from="1713972194609" duration="3274000" />
       <workItem from="1713981780674" duration="2716000" />
       <workItem from="1713985897688" duration="6855000" />
+      <workItem from="1714094721639" duration="1309000" />
     </task>
     <servers />
   </component>

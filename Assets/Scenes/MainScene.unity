@@ -4726,7 +4726,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6503bd9de7ba0204cbfcef2be5529377, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AS: {fileID: 0}
   colors:
   - {r: 1, g: 1, b: 1, a: 1}
   - {r: 1, g: 0.9713697, b: 0, a: 1}
@@ -6708,7 +6707,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6503bd9de7ba0204cbfcef2be5529377, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AS: {fileID: 0}
   colors:
   - {r: 1, g: 0, b: 0, a: 1}
   - {r: 0, g: 0, b: 1, a: 1}
@@ -9346,7 +9344,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3368865444518779480, guid: 104994a107dfd2e49ae7c100b3a37ea2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.89
+      value: -46.1
       objectReference: {fileID: 0}
     - target: {fileID: 3368865444518779480, guid: 104994a107dfd2e49ae7c100b3a37ea2, type: 3}
       propertyPath: m_LocalPosition.y
@@ -14631,7 +14629,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6503bd9de7ba0204cbfcef2be5529377, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AS: {fileID: 0}
   colors:
   - {r: 1, g: 1, b: 1, a: 1}
   - {r: 0.94539356, g: 1, b: 0, a: 1}
@@ -16023,7 +16020,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1515903745313373637, guid: ad5e1a8ca1aa7f44c960384689463e63, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.75
+      value: -56.5
       objectReference: {fileID: 0}
     - target: {fileID: 1515903745313373637, guid: ad5e1a8ca1aa7f44c960384689463e63, type: 3}
       propertyPath: m_LocalPosition.y
@@ -16267,7 +16264,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1694371612262499136, guid: 31b25850ff6fbf34fa881701dcbf4121, type: 3}
       propertyPath: maxHealth
-      value: 100
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1694371612262499136, guid: 31b25850ff6fbf34fa881701dcbf4121, type: 3}
       propertyPath: deadSprite
@@ -16283,7 +16280,7 @@ PrefabInstance:
       objectReference: {fileID: 318443537}
     - target: {fileID: 1694371612262499136, guid: 31b25850ff6fbf34fa881701dcbf4121, type: 3}
       propertyPath: currentHealth
-      value: 100
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1694371612262499136, guid: 31b25850ff6fbf34fa881701dcbf4121, type: 3}
       propertyPath: damagedSprite
@@ -16375,11 +16372,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3557000424283028402, guid: 31b25850ff6fbf34fa881701dcbf4121, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -37.54
+      value: -23.6
       objectReference: {fileID: 0}
     - target: {fileID: 3557000424283028402, guid: 31b25850ff6fbf34fa881701dcbf4121, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -170.46
+      value: -87.89
       objectReference: {fileID: 0}
     - target: {fileID: 3557000424283028402, guid: 31b25850ff6fbf34fa881701dcbf4121, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -16808,7 +16805,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 157537422993993022, guid: 78a5d7524b03adc4694987cb73bee16b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 106.77
+      value: 147.2
       objectReference: {fileID: 0}
     - target: {fileID: 157537422993993022, guid: 78a5d7524b03adc4694987cb73bee16b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -17625,7 +17622,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3257284793550810632, guid: ed3c090506f6250468b7294955567975, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -9.32
+      value: -57.9
       objectReference: {fileID: 0}
     - target: {fileID: 3257284793550810632, guid: ed3c090506f6250468b7294955567975, type: 3}
       propertyPath: m_LocalPosition.y
