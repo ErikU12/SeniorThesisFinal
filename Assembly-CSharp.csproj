@@ -73,6 +73,7 @@
     <Compile Include="Assets\Scripts\Player\FlipSprite.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyHealth.cs" />
     <Compile Include="Assets\Scripts\Player\CameraController.cs" />
+    <Compile Include="Assets\Scripts\Enemy\Sniper.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples _ Extras\Scripts\TMP_TextInfoDebugTool.cs" />
     <Compile Include="Assets\Scripts\Other\GoalController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples _ Extras\Scripts\ShaderPropAnimator.cs" />
@@ -106,11 +107,13 @@
     <Compile Include="Assets\Scripts\Other\ResetGame.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples _ Extras\Scripts\TMP_ExampleScript_01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples _ Extras\Scripts\Benchmark04.cs" />
+    <Compile Include="Assets\Scripts\Enemy\Blaster.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples _ Extras\Scripts\SkewTextExample.cs" />
     <Compile Include="Assets\Scripts\Other\TxtBxPrompt.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples _ Extras\Scripts\TextConsoleSimulator.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples _ Extras\Scripts\ObjectSpin.cs" />
     <Compile Include="Assets\Scripts\Enemy\Invisible.cs" />
+    <Compile Include="Assets\Scripts\Enemy\SkellyEnemy.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples _ Extras\Scripts\TextMeshProFloatingText.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples _ Extras\Scripts\VertexShakeA.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples _ Extras\Scripts\CameraController.cs" />
@@ -120,6 +123,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples _ Extras\Scripts\VertexJitter.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples _ Extras\Scripts\TMP_FrameRateCounter.cs" />
     <Compile Include="Assets\Scripts\Enemy\Spawner.cs" />
+    <Compile Include="Assets\Scripts\Enemy\WolfHealth.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerKnockback.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMelee.cs" />

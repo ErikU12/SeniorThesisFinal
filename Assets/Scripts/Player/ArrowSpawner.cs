@@ -1,4 +1,3 @@
-
 using UnityEngine;
 using System.Collections.Generic;
 
@@ -61,9 +60,20 @@ public class ArrowSpawner : MonoBehaviour
             _lastSpawnTime = Time.time;
         }
 
-        if (Input.GetAxis("Mouse ScrollWheel") > 0 || Input.GetKeyDown(KeyCode.Z))
+        // Check if the mouse scroll wheel is scrolled up
+        if (Input.GetAxis("Mouse ScrollWheel") > 0)
         {
-            CycleArrow();
+            CycleArrow(true);
+        }
+        // Check if the mouse scroll wheel is scrolled down
+        else if (Input.GetAxis("Mouse ScrollWheel") < 0)
+        {
+            CycleArrow(false);
+        }
+
+        if (Input.GetKeyDown(KeyCode.Z))
+        {
+            CycleArrow(true); // Cycle to the next arrow when Z key is pressed
         }
     }
 
@@ -129,57 +139,69 @@ public class ArrowSpawner : MonoBehaviour
         }
     }
 
-    private void CycleArrow()
+    private void CycleArrow(bool isCyclingUp)
     {
-        currentArrowIndex++;
-        if (currentArrowIndex >= arrowTypes.Count)
+        if (isCyclingUp)
         {
-            currentArrowIndex = 0;
-        }
-        UpdateBulletCountText(); // Update bullet count text after cycling arrow types
-    }
-    // Check current health and set player sprite accordingly
-        private void UpdatePlayerSprite()
-        {
-            // Check current number of arrows and set player sprite accordingly
-            int currentBullets = arrowTypes[currentArrowIndex].currentBullets;
-            switch (currentBullets)
+            currentArrowIndex++;
+            if (currentArrowIndex >= arrowTypes.Count)
             {
-                case 10:
-                    playerSpriteRenderer.sprite = tenArrowSprite;
-                    break;
-                case 9:
-                    playerSpriteRenderer.sprite = nineArrowsprite;
-                    break;
-                case 8:
-                    playerSpriteRenderer.sprite = eightArrowSprite;
-                    break;
-                case 7:
-                    playerSpriteRenderer.sprite = sevenArrowSprite;
-                    break;
-                case 6:
-                    playerSpriteRenderer.sprite = sixArrowSprite;
-                    break;
-                case 5:
-                    playerSpriteRenderer.sprite = fiveArrowSprite;
-                    break;
-                case 4:
-                    playerSpriteRenderer.sprite = fourArrowSprite;
-                    break;
-                case 3:
-                    playerSpriteRenderer.sprite = threeArrowSprite;
-                    break;
-                case 2:
-                    playerSpriteRenderer.sprite = twoArrowSprite;
-                    break;
-                case 1:
-                    playerSpriteRenderer.sprite = oneArrowSprite;
-                    break;
-                case 0:
-                default:
-                    playerSpriteRenderer.sprite = zeroArrowSprite;
-                    break;
+                currentArrowIndex = 0;
             }
         }
+        else
+        {
+            currentArrowIndex--;
+            if (currentArrowIndex < 0)
+            {
+                currentArrowIndex = arrowTypes.Count - 1;
+            }
+        }
+        
+        UpdateBulletCountText(); // Update bullet count text after cycling arrow types
+    }
 
+    // Check current health and set player sprite accordingly
+    private void UpdatePlayerSprite()
+    {
+        // Check current number of arrows and set player sprite accordingly
+        int currentBullets = arrowTypes[currentArrowIndex].currentBullets;
+        switch (currentBullets)
+        {
+            case 10:
+                playerSpriteRenderer.sprite = tenArrowSprite;
+                break;
+            case 9:
+                playerSpriteRenderer.sprite = nineArrowsprite;
+                break;
+            case 8:
+                playerSpriteRenderer.sprite = eightArrowSprite;
+                break;
+            case 7:
+                playerSpriteRenderer.sprite = sevenArrowSprite;
+                break;
+            case 6:
+                playerSpriteRenderer.sprite = sixArrowSprite;
+                break;
+            case 5:
+                playerSpriteRenderer.sprite = fiveArrowSprite;
+                break;
+            case 4:
+                playerSpriteRenderer.sprite = fourArrowSprite;
+                break;
+            case 3:
+                playerSpriteRenderer.sprite = threeArrowSprite;
+                break;
+            case 2:
+                playerSpriteRenderer.sprite = twoArrowSprite;
+                break;
+            case 1:
+                playerSpriteRenderer.sprite = oneArrowSprite;
+                break;
+            case 0:
+            default:
+                playerSpriteRenderer.sprite = zeroArrowSprite;
+                break;
+        }
+    }
 }

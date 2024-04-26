@@ -9,6 +9,8 @@ public class Soldier : MonoBehaviour
     public float stoppingDistance = 1f;
     public float chargeForce = 10f; // Force for the charging movement
     public float patrolRange = 5f; // The range within which the enemy walks back and forth
+    public float chargeCooldown = 2f; // Cooldown for charging after collision with player
+    public float knockbackForce = 5f; // Force of knockback applied to the player
 
     private Transform _player;
     private Rigidbody2D _rb;
@@ -20,7 +22,7 @@ public class Soldier : MonoBehaviour
     private Vector3 _patrolStartPosition; // Store the initial patrol position
     private float _patrolDirection = 1f; // Store the current patrol direction (1 for right, -1 for left)
     private Color _originalColor; // Store the original color
-    private float _patrolDirectionChangeCooldown = 0f; // Cooldown timer for patrol direction change
+    private float _chargeCooldownTimer = 0f; // Timer for charge cooldown
 
     void Start()
     {
@@ -52,9 +54,6 @@ public class Soldier : MonoBehaviour
             // Face the player when in range
             Vector3 directionToPlayer = (_player.position - transform.position).normalized;
             _spriteRenderer.flipX = (directionToPlayer.x < 0);
-
-            // Change color when in range
-            _spriteRenderer.color = Color.red;
         }
         else
         {
@@ -63,12 +62,19 @@ public class Soldier : MonoBehaviour
         }
 
         // Check if the player is in charging range and the soldier is not slowed
-        if (distanceToPlayer <= chargingDistance && !_isSlowed)
+        if (distanceToPlayer <= chargingDistance && !_isSlowed && !_isCharging && _chargeCooldownTimer <= 0f)
         {
             Charge();
         }
+
+        // Update cooldown timer
+        if (_chargeCooldownTimer > 0f)
+        {
+            _chargeCooldownTimer -= Time.deltaTime;
+        }
+
         // Check if the player is in range
-        else if (distanceToPlayer <= detectionRange)
+        if (distanceToPlayer <= detectionRange)
         {
             Vector2 moveDirection = (_player.position - transform.position).normalized;
 
@@ -103,6 +109,9 @@ public class Soldier : MonoBehaviour
 
         // Add this line to set _isCharging to false after applying the force
         Invoke("StopCharging", 0.5f); // You may adjust the delay as needed
+
+        // Set charge cooldown timer
+        _chargeCooldownTimer = chargeCooldown;
     }
 
     void StopCharging()
@@ -128,51 +137,51 @@ public class Soldier : MonoBehaviour
             // Flip the sprite based on the move direction
             _spriteRenderer.flipX = (moveDirection.x < 0);
         }
-        else if (_patrolDirectionChangeCooldown <= 0f)
+        else
         {
-            // If the knight is close to the target position and cooldown allows, reverse the patrol direction
+            // Reverse patrol direction when reaching patrol range boundary
             _patrolDirection *= -1;
 
             // Flip the sprite based on the new patrol direction
             _spriteRenderer.flipX = (_patrolDirection < 0);
-
-            // Reset the cooldown
-            _patrolDirectionChangeCooldown = 0.5f;
         }
-
-        // Update the cooldown timer
-        _patrolDirectionChangeCooldown -= Time.deltaTime;
     }
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("SlowBullet") && !_isSlowed)
+        if (other.CompareTag("SlowBullet"))
         {
-            // Change the color of the soldier to blue
-            _spriteRenderer.color = Color.blue;
+            if (!_isSlowed)
+            {
+                // Change the color of the soldier to blue
+                _spriteRenderer.color = Color.blue;
 
-            // Slow down the soldier
-            moveSpeed = 1f;
+                // Slow down the soldier
+                moveSpeed = 1f;
 
-            _isSlowed = true; // Set the flag to indicate that the soldier is slowed
+                _isSlowed = true; // Set the flag to indicate that the soldier is slowed
 
-            // Invoke a method to reset the color and speed after a delay
-            Invoke("ResetSoldierState", 5f); // Adjust the delay as needed (5 seconds in this case)
+                // Invoke a method to reset the color and speed after a delay
+                Invoke("ResetSoldierState", 5f); // Adjust the delay as needed (5 seconds in this case)
+            }
+            else
+            {
+                // Cancel any existing reset invocation
+                CancelInvoke("ResetSoldierState");
+                // Reinvoke the method to reset the color and speed after a delay
+                Invoke("ResetSoldierState", 5f); // Adjust the delay as needed (5 seconds in this case)
+            }
         }
-        else if (other.CompareTag("SlowBullet") && _isSlowed)
+        else if (other.CompareTag("Player"))
         {
-            // Cancel any existing reset invocation
-            CancelInvoke("ResetSoldierState");
-            // Reinvoke the method to reset the color and speed after a delay
-            Invoke("ResetSoldierState", 5f); // Adjust the delay as needed (5 seconds in this case)
-        }
-        else if (other.CompareTag("Enemy"))
-        {
-            // If colliding with an object tagged as "Enemy", reverse the patrol direction
-            _patrolDirection *= -1;
-
-            // Flip the sprite based on the new patrol direction
-            _spriteRenderer.flipX = (_patrolDirection < 0);
+            if (_isCharging)
+            {
+                // Apply knockback to the player
+                Vector2 knockbackDirection = (_player.position - transform.position).normalized;
+                _player.GetComponent<Rigidbody2D>().AddForce(knockbackDirection * knockbackForce, ForceMode2D.Impulse);
+                // Start charge cooldown
+                _chargeCooldownTimer = chargeCooldown;
+            }
         }
     }
 
@@ -188,4 +197,3 @@ public class Soldier : MonoBehaviour
         _isSlowed = false; // Reset the flag when the soldier is no longer slowed
     }
 }
-

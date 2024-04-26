@@ -57,11 +57,7 @@ public class Paranoid : MonoBehaviour
 
             if (distanceToPlayer > stoppingDistance && !_isCharging)
             {
-                _isCharging = false;
-                transform.Translate(moveDirection * (moveSpeed * Time.deltaTime));
-
-                // Flip the sprite based on the relative position of the player
-                _spriteRenderer.flipX = (moveDirection.x < 0);
+                Move(moveDirection);
             }
         }
         // Check if the enemy is patrolling
@@ -71,26 +67,17 @@ public class Paranoid : MonoBehaviour
         }
     }
 
+    void Move(Vector2 direction)
+    {
+        _isCharging = false;
+        _rb.velocity = direction * moveSpeed;
+        FlipSprite(direction.x < 0);
+    }
+
     void Charge()
     {
         Vector2 chargeDirection = (_player.position - transform.position).normalized;
-
-        // Check if the chargeDirection has a non-zero x component
-        if (Mathf.Abs(chargeDirection.x) > 0.1f)
-        {
-            _spriteRenderer.flipX = (chargeDirection.x < 0);
-        }
-
-        _rb.AddForce(chargeDirection * chargeForce, ForceMode2D.Impulse);
-        _isCharging = true;
-
-        // Add this line to set _isCharging to false after applying the force
-        Invoke("StopCharging", 0.5f); // You may adjust the delay as needed
-    }
-
-    void StopCharging()
-    {
-        _isCharging = false;
+        Move(chargeDirection);
     }
 
     void Patrol()
@@ -100,13 +87,7 @@ public class Paranoid : MonoBehaviour
         transform.position = _patrolStartPosition + new Vector3(patrolDistance * _patrolDirection, 0f, 0f);
 
         // Flip the sprite based on the patrol direction
-        _spriteRenderer.flipX = (patrolDistance < patrolRange / 2f);
-
-        // Flip the sprite a bit earlier to provide a smoother transition
-        if (Mathf.Abs(patrolDistance - patrolRange / 2f) < 0.5f)
-        {
-            _spriteRenderer.flipX = !_spriteRenderer.flipX;
-        }
+        FlipSprite(patrolDistance < patrolRange / 2f);
     }
 
     // Detect when hit by a slow bullet
@@ -137,5 +118,12 @@ public class Paranoid : MonoBehaviour
 
         _isSlowed = false; // Reset the flag when the soldier is no longer slowed
     }
+
+    private void FlipSprite(bool faceRight)
+    {
+        _spriteRenderer.flipX = !faceRight;
+    }
 }
+
+
 

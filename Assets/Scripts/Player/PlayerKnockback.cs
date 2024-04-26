@@ -1,52 +1,72 @@
 using UnityEngine;
 
-public class PlayerKnockback : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
+
     public float knockbackForce = 10f;
     public float knockbackDuration = 0.5f;
-    private Rigidbody2D _rb;
-    private bool _isKnockedBack = false;
-    private float _knockbackTimer = 0f;
-    private Vector2 _knockbackDirection;
+    public float invincibleDuration = 2f;
+
+    private Rigidbody2D rb;
+    private bool isInvincible = false;
+    private float invincibleTimer = 0f;
+    private bool isKnockedBack = false;
+    private float knockbackTimer = 0f;
+    private Vector2 knockbackDirection;
+
 
     private void Start()
     {
-        _rb = GetComponent<Rigidbody2D>();
-
-        // Debugging: Print initial mass, friction, and drag
-        Debug.Log("Initial Mass: " + _rb.mass);
-        Debug.Log("Initial Friction: " + _rb.drag);
-        Debug.Log("Initial Linear Drag: " + _rb.drag);
+        rb = GetComponent<Rigidbody2D>();
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("Enemy"))
-        {
-            _knockbackDirection = (transform.position - collision.transform.position).normalized; 
-            _isKnockedBack = true;
-        }
-    }
 
     private void Update()
     {
-        if (_isKnockedBack)
-        {
-            _knockbackTimer += Time.deltaTime;
 
-            if (_knockbackTimer >= knockbackDuration)
+        if (isInvincible)
+        {
+            invincibleTimer += Time.deltaTime;
+
+            if (invincibleTimer >= invincibleDuration)
             {
-                _isKnockedBack = false;
-                _knockbackTimer = 0f;
-                _rb.velocity = Vector2.zero; // Reset velocity after knockback duration
+                isInvincible = false;
+                invincibleTimer = 0f;
+                GetComponent<SpriteRenderer>().enabled = true;
             }
             else
             {
-                _rb.velocity = _knockbackDirection * knockbackForce;
+                GetComponent<SpriteRenderer>().enabled = !GetComponent<SpriteRenderer>().enabled;
+            }
+        }
 
-                // Debugging: Print relevant values during the knockback
-                Debug.Log("Knockback Direction: " + _knockbackDirection);
-                Debug.Log("Current Velocity: " + _rb.velocity);
+
+        if (isKnockedBack)
+        {
+            knockbackTimer += Time.deltaTime;
+
+            if (knockbackTimer >= knockbackDuration)
+            {
+                isKnockedBack = false;
+                knockbackTimer = 0f;
+            }
+            else
+            {
+                rb.velocity = knockbackDirection * knockbackForce;
+            }
+        }
+    }
+
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Enemy") || collision.gameObject.CompareTag("Laser"))
+        {
+            if (!isInvincible)
+            {
+                isInvincible = true;
+                knockbackDirection = (transform.position - collision.transform.position).normalized;
+                isKnockedBack = true;
             }
         }
     }

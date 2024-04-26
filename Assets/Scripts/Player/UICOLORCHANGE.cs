@@ -29,44 +29,70 @@ public class ChangeColor : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetAxis("Mouse ScrollWheel") > 0 || Input.GetKeyDown(KeyCode.Z))
+        float scrollDelta = Input.GetAxis("Mouse ScrollWheel");
+        if (scrollDelta != 0)
         {
-            ChangeToNextColor(); // Change to the next color when Z key is pressed or mouse wheel is scrolled up
+            if (scrollDelta > 0)
+            {
+                ChangeToNextColor(); // Change to the next color when scrolling up
+            }
+            else
+            {
+                ChangeToPreviousColor(); // Change to the previous color when scrolling down
+            }
+        }
+
+        if (Input.GetKeyDown(KeyCode.Z))
+        {
+            ChangeToNextColor(); // Change color when Z key is pressed
         }
     }
 
-
     void ChangeToNextColor()
     {
-        // Ensure there are colors defined in the array
-        if (colors == null || colors.Length == 0)
-        {
-            Debug.LogError("No colors defined in the 'colors' array.");
-            return;
-        }
-
-        // If the current index exceeds the bounds of the array, reset it to 0
+        // Increment the current index
+        currentIndex++;
+        // If the current index exceeds the bounds of the array, reset it to 0 and apply the original color
         if (currentIndex >= colors.Length)
         {
             currentIndex = 0;
-        }
-
-        // Get the next color from the array
-        Color nextColor = colors[currentIndex];
-
-        // Increment the current index
-        currentIndex++;
-
-        // Check if the next color is the original color
-        if (currentIndex >= colors.Length && !nextColor.Equals(originalColor))
-        {
-            spriteRenderer.color = originalColor; // Revert to the original color
+            ApplyOriginalColor();
         }
         else
         {
-            // Change the color of the sprite renderer
-            spriteRenderer.color = nextColor;
+            ApplyColor();
         }
+    }
+
+    void ChangeToPreviousColor()
+    {
+        // Decrement the current index
+        currentIndex--;
+        // If the current index goes below 0, set it to the last index
+        if (currentIndex < 0)
+        {
+            currentIndex = colors.Length - 1;
+        }
+        ApplyColor();
+    }
+
+    void ApplyColor()
+    {
+        // Get the color from the array based on the current index
+        Color currentColor = colors[currentIndex];
+
+        // Change the color of the sprite renderer
+        spriteRenderer.color = currentColor;
+
+        // Reset sorting layer and order in layer
+        spriteRenderer.sortingLayerName = initialSortingLayer;
+        spriteRenderer.sortingOrder = initialOrderInLayer;
+    }
+
+    void ApplyOriginalColor()
+    {
+        // Revert to the original color
+        spriteRenderer.color = originalColor;
 
         // Reset sorting layer and order in layer
         spriteRenderer.sortingLayerName = initialSortingLayer;

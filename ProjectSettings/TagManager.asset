@@ -23,6 +23,7 @@ TagManager:
   - Potion
   - CheckPoint
   - Checkpoint
+  - PlayerMelee
   layers:
   - Default
   - TransparentFX
