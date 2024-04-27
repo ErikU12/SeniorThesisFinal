@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3f799f25-77f4-46d6-81db-4f7f940d2bd9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SeniorThesis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SeniorThesis/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" afterDir="false" />
-    </list>
+    <list default="true" id="3f799f25-77f4-46d6-81db-4f7f940d2bd9" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -137,7 +134,7 @@
       <workItem from="1713972194609" duration="3274000" />
       <workItem from="1713981780674" duration="2716000" />
       <workItem from="1713985897688" duration="6855000" />
-      <workItem from="1714094721639" duration="1309000" />
+      <workItem from="1714094721639" duration="1908000" />
     </task>
     <servers />
   </component>
