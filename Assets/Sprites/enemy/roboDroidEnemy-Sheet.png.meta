@@ -1,0 +1,317 @@
+fileFormatVersion: 2
+guid: 05f59627a4f2fcc48bb00f3dec771c91
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: roboDroidEnemy-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf5b0e25b65f8534787f8d6d06dc93a9
+      internalID: -607149524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roboDroidEnemy-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 85
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f571c68803243f14bacfc93fecbcc0d6
+      internalID: -845495566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roboDroidEnemy-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 79
+        width: 154
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddd3ab2ad72d3374bb45446201067cee
+      internalID: -542374253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roboDroidEnemy-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 80
+        width: 155
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3893c16dd02eea40bbb07b984b0f345
+      internalID: -1332508415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roboDroidEnemy-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 85
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dcec9b97c5e87c46bfd2ff086a27d0f
+      internalID: -617099204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roboDroidEnemy-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 80
+        width: 125
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 856cc4733659bc043b0426fde5e34cc9
+      internalID: -1854551774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roboDroidEnemy-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 90
+        width: 105
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60ab5fa82f06a50439f005dc4dd355dc
+      internalID: -295476025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      roboDroidEnemy-Sheet_0: -607149524
+      roboDroidEnemy-Sheet_1: 360796848
+      roboDroidEnemy-Sheet_10: -1332508415
+      roboDroidEnemy-Sheet_11: 1536178599
+      roboDroidEnemy-Sheet_12: 1159200594
+      roboDroidEnemy-Sheet_13: -617099204
+      roboDroidEnemy-Sheet_14: -1854551774
+      roboDroidEnemy-Sheet_15: 747866219
+      roboDroidEnemy-Sheet_16: -1950676400
+      roboDroidEnemy-Sheet_17: -276674508
+      roboDroidEnemy-Sheet_18: -295476025
+      roboDroidEnemy-Sheet_19: -148644425
+      roboDroidEnemy-Sheet_2: -1087248700
+      roboDroidEnemy-Sheet_20: 1469646497
+      roboDroidEnemy-Sheet_21: -2009576581
+      roboDroidEnemy-Sheet_22: 1681162902
+      roboDroidEnemy-Sheet_23: -1921867207
+      roboDroidEnemy-Sheet_24: 731831529
+      roboDroidEnemy-Sheet_25: 2081122074
+      roboDroidEnemy-Sheet_26: 308004840
+      roboDroidEnemy-Sheet_27: 1029716216
+      roboDroidEnemy-Sheet_28: -1207477542
+      roboDroidEnemy-Sheet_29: -240677343
+      roboDroidEnemy-Sheet_3: 958169091
+      roboDroidEnemy-Sheet_4: -485544302
+      roboDroidEnemy-Sheet_5: 1054031761
+      roboDroidEnemy-Sheet_6: 2050646535
+      roboDroidEnemy-Sheet_7: -1479232097
+      roboDroidEnemy-Sheet_8: -845495566
+      roboDroidEnemy-Sheet_9: -542374253
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
