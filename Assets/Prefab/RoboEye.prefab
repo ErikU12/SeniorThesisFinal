@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 8690539592396405869}
   - component: {fileID: 1034950140523843125}
   - component: {fileID: 8170142192916272476}
-  - component: {fileID: 7785718702814105082}
   - component: {fileID: 158750639773189554}
+  - component: {fileID: 8278123035472881650}
+  - component: {fileID: 4561811808868342838}
   m_Layer: 0
   m_Name: RoboEye
   m_TagString: Enemy
@@ -104,19 +105,6 @@ MonoBehaviour:
   detectionRange: 10
   shootInterval: 2
   shootSound: {fileID: 8300000, guid: 29c09d77fbf7c4eb6ac1ccdacb824eb6, type: 3}
---- !u!114 &7785718702814105082
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2745769435014246413}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fc7c425dbc783934a98904ff55e17037, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHealth: 1
 --- !u!61 &158750639773189554
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -162,3 +150,38 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.67, y: 0.75}
   m_EdgeRadius: 0
+--- !u!114 &8278123035472881650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2745769435014246413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2129851d26de8cd4e9784781f1be7e01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 1
+  animator: {fileID: 4561811808868342838}
+--- !u!95 &4561811808868342838
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2745769435014246413}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: dabbdbd4add27b0418fc82d11774a710, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

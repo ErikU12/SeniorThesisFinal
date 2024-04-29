@@ -1302,6 +1302,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: RoboEye (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 4561811808868342838, guid: 96aaa9889935a194da51f5e9ac339fd3, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4561811808868342838, guid: 96aaa9889935a194da51f5e9ac339fd3, type: 3}
+      propertyPath: m_CullingMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8278123035472881650, guid: 96aaa9889935a194da51f5e9ac339fd3, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8690539592396405869, guid: 96aaa9889935a194da51f5e9ac339fd3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 69.46
@@ -10612,6 +10624,8 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 8170142192916272476, guid: 96aaa9889935a194da51f5e9ac339fd3, type: 3}
     - {fileID: 7785718702814105082, guid: 96aaa9889935a194da51f5e9ac339fd3, type: 3}
+    - {fileID: 8278123035472881650, guid: 96aaa9889935a194da51f5e9ac339fd3, type: 3}
+    - {fileID: 4561811808868342838, guid: 96aaa9889935a194da51f5e9ac339fd3, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -15000,11 +15014,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2382571877349259023, guid: 73e428864afafb948baf2b869b1509a0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -12.5
+      value: 21.5
       objectReference: {fileID: 0}
     - target: {fileID: 2382571877349259023, guid: 73e428864afafb948baf2b869b1509a0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -71.07
+      value: -21.2
       objectReference: {fileID: 0}
     - target: {fileID: 2382571877349259023, guid: 73e428864afafb948baf2b869b1509a0, type: 3}
       propertyPath: m_LocalPosition.z
