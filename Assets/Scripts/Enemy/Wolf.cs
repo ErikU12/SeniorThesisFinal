@@ -1,5 +1,7 @@
 using UnityEngine;
 
+using UnityEngine;
+
 public class Wolf : MonoBehaviour
 {
     public float originalMoveSpeed = 3f; // Store the original speed
@@ -12,11 +14,14 @@ public class Wolf : MonoBehaviour
     private Transform _player;
     private Rigidbody2D _rb;
     private SpriteRenderer _spriteRenderer;
+    private Animator animator; // Reference to the Animator component
 
     private bool _isJumping;
     private bool _hasJumped;
     private bool _isSlowed; // Flag to track if the enemy is slowed
     private Color _originalColor; // Store the original color
+    private static readonly int WolfJump = Animator.StringToHash("WolfJump");
+    private static readonly int WolfRun = Animator.StringToHash("WolfRun");
 
     void Start()
     {
@@ -30,6 +35,9 @@ public class Wolf : MonoBehaviour
         _rb = GetComponent<Rigidbody2D>();
         _spriteRenderer = GetComponent<SpriteRenderer>();
         _originalColor = _spriteRenderer.color;
+
+        // Get reference to the Animator component
+        animator = GetComponent<Animator>();
     }
 
     void Update()
@@ -53,6 +61,14 @@ public class Wolf : MonoBehaviour
                 transform.Translate(moveDirection * (moveSpeed * Time.deltaTime));
 
                 _spriteRenderer.flipX = (moveDirection.x < 0);
+                
+                // Set the "WolfRun" animation when the wolf is moving
+                animator.SetBool(WolfRun, true);
+            }
+            else
+            {
+                // Stop the "WolfRun" animation when the wolf is not moving
+                animator.SetBool(WolfRun, false);
             }
         }
     }
@@ -62,6 +78,9 @@ public class Wolf : MonoBehaviour
         _rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
         _isJumping = true;
         _hasJumped = true;
+
+        // Trigger the "WolfJump" animation when the wolf jumps
+        animator.SetTrigger(WolfJump);
     }
 
     // Detect when hit by a slow bullet

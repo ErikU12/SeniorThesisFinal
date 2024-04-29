@@ -186,3 +186,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  destroySound: {fileID: 8300000, guid: 1842ec9f3f0ff4706bd7cb004b7e0d05, type: 3}
+  soundOffset: 1

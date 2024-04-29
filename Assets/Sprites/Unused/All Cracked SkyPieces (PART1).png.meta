@@ -1,0 +1,1218 @@
+fileFormatVersion: 2
+guid: 92fde7db3e499aa4884eb9ba6bd00b5b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: All Cracked SkyPieces (PART1)_0
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 620
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db26b68d8a6df9a44897034702a0e337
+      internalID: 1197548037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Cracked SkyPieces (PART1)_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 616
+        width: 94
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96dd7b2364c998f449e4854c347587eb
+      internalID: -986751292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Cracked SkyPieces (PART1)_2
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 595
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6f31c15eaec3cd4eb723c89eb544043
+      internalID: 115422741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Cracked SkyPieces (PART1)_3
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 600
+        width: 56
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55d759584a7c0fa4580af9e5a5dec394
+      internalID: 1848603454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Cracked SkyPieces (PART1)_4
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 598
+        width: 39
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a16ac5169250a5468531655b5773d78
+      internalID: 1019897053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Cracked SkyPieces (PART1)_5
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 580
+        width: 54
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d938c0b06e28afc4ba83bb60c87fed08
+      internalID: -475069612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Cracked SkyPieces (PART1)_6
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 610
+        width: 42
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 339b18544539e244fbccd58dc72d0cbf
+      internalID: 630098948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Cracked SkyPieces (PART1)_7
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 595
+        width: 58
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ff9c9be0db57a244b6af46b6dd761d3
+      internalID: -1060742509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Cracked SkyPieces (PART1)_8
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 500
+        width: 106
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dd33d1340fab024cb6d03ecff6b9b57
+      internalID: 2048664706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Cracked SkyPieces (PART1)_9
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 523
+        width: 67
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 300b3a60339afc04196a6e892efc6c20
+      internalID: 80131955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Cracked SkyPieces (PART1)_10
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 541
+        width: 83
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bd6d68fb1d3aa04890f1b0d108cf075
+      internalID: -1568588928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Cracked SkyPieces (PART1)_11
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 506
+        width: 89
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11f8b2b08f571da44940d13b0c77ecdc
+      internalID: -1529041999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Cracked SkyPieces (PART1)_12
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 516
+        width: 42
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7174969121ecfb641bda39f2f26e0c38
+      internalID: -2016776341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Cracked SkyPieces (PART1)_13
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 549
+        width: 97
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c14874924bcb5944ba1e4482fe34a214
+      internalID: -2065995944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Cracked SkyPieces (PART1)_14
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 464
+        width: 37
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cd4d9ed2a2a67c4ab649f861fe6a640
+      internalID: -1752806860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Cracked SkyPieces (PART1)_15
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 506
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25e102632e3d5ae4ba3f36f2054bc2c1
+      internalID: 183480951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Cracked SkyPieces (PART1)_16
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 479
+        width: 49
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6a95f33b619af247a3224e850a12f72
+      internalID: -1987632999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Cracked SkyPieces (PART1)_17
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 487
+        width: 75
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 432ad5801e1fbf24a904672cd55ca821
+      internalID: -1555851518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Cracked SkyPieces (PART1)_18
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 480
+        width: 62
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49fa6c683d1ecc84b82ec2d7aae5aa9e
+      internalID: -1979553974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Cracked SkyPieces (PART1)_19
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 419
+        width: 49
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7b7d248c2a712244b3c58d683a6ef82
+      internalID: 1063070431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Cracked SkyPieces (PART1)_20
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 402
+        width: 38
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fb08d64f5e241244b85fb92c88e5e76
+      internalID: -656791264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Cracked SkyPieces (PART1)_21
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 410
+        width: 84
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60b745eef69bc9945941e0a3d8807ea0
+      internalID: 1601976789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Cracked SkyPieces (PART1)_22
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 435
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bda36d86883f2a84b823b8bfaba7cec2
+      internalID: 153522714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Cracked SkyPieces (PART1)_23
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 399
+        width: 69
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 869334b5ef06b1c419671764c270299f
+      internalID: 1794519631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Cracked SkyPieces (PART1)_24
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 416
+        width: 117
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 967097f2fd92b8a46bc7f1f4ac6cd19e
+      internalID: -1194134162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Cracked SkyPieces (PART1)_25
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 367
+        width: 70
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7023bde4f0091404688935a5dcb17317
+      internalID: 1413472663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Cracked SkyPieces (PART1)_26
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 321
+        width: 43
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cd239c40f2312643afcd94f0b58e693
+      internalID: 783788214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Cracked SkyPieces (PART1)_27
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 292
+        width: 77
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9de151fe6485ba2479ae480c0d8e6044
+      internalID: -2088549664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Cracked SkyPieces (PART1)_28
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 332
+        width: 38
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e117cde0a37913b4e8444f88566ac676
+      internalID: -1343318913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Cracked SkyPieces (PART1)_29
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 281
+        width: 78
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b313e9275075d442bfc2fe826f021e0
+      internalID: -1274423059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Cracked SkyPieces (PART1)_30
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 337
+        width: 45
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 497014e4ab4833d4794b6d689e1e57af
+      internalID: 155063188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Cracked SkyPieces (PART1)_31
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 333
+        width: 59
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cffdde4423dbebe49893df75d94f59bd
+      internalID: 1781888190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Cracked SkyPieces (PART1)_32
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 217
+        width: 79
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bef7d98f72868d45be3a16c1db3c4be
+      internalID: 327427506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Cracked SkyPieces (PART1)_33
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 206
+        width: 62
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48d71af15b972e54ba888e28558325ed
+      internalID: 1850483643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Cracked SkyPieces (PART1)_34
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 253
+        width: 62
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d380c7040b6a3b468421b8976bf644e
+      internalID: -536978200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Cracked SkyPieces (PART1)_35
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 215
+        width: 45
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a99fab2f3d91de349ba36977a1d3a374
+      internalID: -1878652738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Cracked SkyPieces (PART1)_36
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 194
+        width: 51
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d709306557f3a243ba28fb796a09f82
+      internalID: -1376376650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Cracked SkyPieces (PART1)_37
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 193
+        width: 49
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7d7ec2c6d53a3d46bc636ea7498e19a
+      internalID: 624304637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Cracked SkyPieces (PART1)_38
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 122
+        width: 124
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14f57fd57a6b75248944a57b664df464
+      internalID: 1886396628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Cracked SkyPieces (PART1)_39
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 151
+        width: 108
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63aec1c127f67464499e3de8cf17bd3d
+      internalID: -1789148972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Cracked SkyPieces (PART1)_40
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 160
+        width: 40
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a0605f723f072c4b9df87306842e2f6
+      internalID: -2062743494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Cracked SkyPieces (PART1)_41
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 127
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f267fd792b63d8342ba9e151479d2e18
+      internalID: 111528599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Cracked SkyPieces (PART1)_42
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 111
+        width: 112
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2abc9267e41a7f4691cd7a24de56fca
+      internalID: 311751295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Cracked SkyPieces (PART1)_43
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 40
+        width: 48
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28421345dad46ff4396cf78f55447819
+      internalID: 1871892909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Cracked SkyPieces (PART1)_44
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 88
+        width: 112
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df7f6a86de3d8144ca3a75a561a13326
+      internalID: -1927336706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Cracked SkyPieces (PART1)_45
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 49
+        width: 85
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb28dca5531db8c4eaedcf04a0743e18
+      internalID: -291886602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Cracked SkyPieces (PART1)_46
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 53
+        width: 60
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56eef29162800d7489e93eb0a59ce3c2
+      internalID: -1758777795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Cracked SkyPieces (PART1)_47
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 14
+        width: 78
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54c8b1b103f2c1e4ca108794544c389f
+      internalID: 275112920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Cracked SkyPieces (PART1)_48
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 34
+        width: 107
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09b6b1d410f3cfa4f9ab0fb9d78ee9d4
+      internalID: -1079284889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      All Cracked SkyPieces (PART1)_0: 1197548037
+      All Cracked SkyPieces (PART1)_1: -986751292
+      All Cracked SkyPieces (PART1)_10: -1568588928
+      All Cracked SkyPieces (PART1)_11: -1529041999
+      All Cracked SkyPieces (PART1)_12: -2016776341
+      All Cracked SkyPieces (PART1)_13: -2065995944
+      All Cracked SkyPieces (PART1)_14: -1752806860
+      All Cracked SkyPieces (PART1)_15: 183480951
+      All Cracked SkyPieces (PART1)_16: -1987632999
+      All Cracked SkyPieces (PART1)_17: -1555851518
+      All Cracked SkyPieces (PART1)_18: -1979553974
+      All Cracked SkyPieces (PART1)_19: 1063070431
+      All Cracked SkyPieces (PART1)_2: 115422741
+      All Cracked SkyPieces (PART1)_20: -656791264
+      All Cracked SkyPieces (PART1)_21: 1601976789
+      All Cracked SkyPieces (PART1)_22: 153522714
+      All Cracked SkyPieces (PART1)_23: 1794519631
+      All Cracked SkyPieces (PART1)_24: -1194134162
+      All Cracked SkyPieces (PART1)_25: 1413472663
+      All Cracked SkyPieces (PART1)_26: 783788214
+      All Cracked SkyPieces (PART1)_27: -2088549664
+      All Cracked SkyPieces (PART1)_28: -1343318913
+      All Cracked SkyPieces (PART1)_29: -1274423059
+      All Cracked SkyPieces (PART1)_3: 1848603454
+      All Cracked SkyPieces (PART1)_30: 155063188
+      All Cracked SkyPieces (PART1)_31: 1781888190
+      All Cracked SkyPieces (PART1)_32: 327427506
+      All Cracked SkyPieces (PART1)_33: 1850483643
+      All Cracked SkyPieces (PART1)_34: -536978200
+      All Cracked SkyPieces (PART1)_35: -1878652738
+      All Cracked SkyPieces (PART1)_36: -1376376650
+      All Cracked SkyPieces (PART1)_37: 624304637
+      All Cracked SkyPieces (PART1)_38: 1886396628
+      All Cracked SkyPieces (PART1)_39: -1789148972
+      All Cracked SkyPieces (PART1)_4: 1019897053
+      All Cracked SkyPieces (PART1)_40: -2062743494
+      All Cracked SkyPieces (PART1)_41: 111528599
+      All Cracked SkyPieces (PART1)_42: 311751295
+      All Cracked SkyPieces (PART1)_43: 1871892909
+      All Cracked SkyPieces (PART1)_44: -1927336706
+      All Cracked SkyPieces (PART1)_45: -291886602
+      All Cracked SkyPieces (PART1)_46: -1758777795
+      All Cracked SkyPieces (PART1)_47: 275112920
+      All Cracked SkyPieces (PART1)_48: -1079284889
+      All Cracked SkyPieces (PART1)_5: -475069612
+      All Cracked SkyPieces (PART1)_6: 630098948
+      All Cracked SkyPieces (PART1)_7: -1060742509
+      All Cracked SkyPieces (PART1)_8: 2048664706
+      All Cracked SkyPieces (PART1)_9: 80131955
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

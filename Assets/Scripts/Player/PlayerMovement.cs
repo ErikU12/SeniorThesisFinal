@@ -10,6 +10,9 @@ public class PlayerMovement : MonoBehaviour
     public float jumpCooldown = 1.0f; // Cooldown duration for jumping
     public float climbSpeed = 3f; // Speed of climbing
 
+    public AudioSource audioSource; // Reference to the AudioSource component
+    public AudioClip runningSound; // Sound effect for running
+
     private bool _isJumping;
     private bool _isGrounded; // Track whether the player is currently on the ground
     private bool _isClimbing; // Track whether the player is currently climbing
@@ -18,6 +21,7 @@ public class PlayerMovement : MonoBehaviour
     private Animator _animator;
     private static readonly int PlayerRunning1 = Animator.StringToHash("PlayerRunning1");
     private float _jumpStartTime;
+    private bool _wasRunning; // Track whether the player was running in the previous frame
 
     private void Start()
     {
@@ -53,6 +57,24 @@ public class PlayerMovement : MonoBehaviour
 
         _rb.velocity = movement;
         _animator.SetFloat(PlayerRunning1, Mathf.Abs(movement.x));
+
+        // Check if the player is running
+        bool isRunning = Mathf.Abs(moveX) > 0 && _isGrounded && Input.GetKey(KeyCode.LeftShift);
+
+        // Play running sound if the player starts running
+        if (isRunning && !_wasRunning)
+        {
+            audioSource.clip = runningSound;
+            audioSource.Play();
+        }
+        // Stop playing the sound if the player stops running
+        else if (!isRunning && _wasRunning)
+        {
+            audioSource.Stop();
+        }
+
+        // Update sprinting state
+        _wasRunning = isRunning;
 
         // Update jump cooldown timer
         if (_jumpCooldownTimer > 0)
@@ -137,5 +159,3 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 }
-
-

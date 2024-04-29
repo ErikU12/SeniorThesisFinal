@@ -103,6 +103,7 @@ MonoBehaviour:
   projectileSpeed: 10
   detectionRange: 10
   shootInterval: 2
+  shootSound: {fileID: 8300000, guid: 29c09d77fbf7c4eb6ac1ccdacb824eb6, type: 3}
 --- !u!114 &7785718702814105082
 MonoBehaviour:
   m_ObjectHideFlags: 0

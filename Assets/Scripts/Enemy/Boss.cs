@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 using System.Collections.Generic;
 
 public class Boss : MonoBehaviour
@@ -6,6 +7,7 @@ public class Boss : MonoBehaviour
     public Transform[] teleportPoints;
     public Transform[] firePoints;
     public GameObject fireballPrefab;
+    public AudioClip fireballSound; // Sound effect for the fireball
     public float teleportInterval = 5f;
     public float fireballDelay = 1f;
     public float detectionRange = 10f; // Range within which the player is detected
@@ -35,8 +37,8 @@ public class Boss : MonoBehaviour
         // Get the BossHealth component
         bossHealth = GetComponent<BossHealth>();
 
-        // Start teleporting if player is in range
-        if (playerTransform != null && Vector3.Distance(transform.position, playerTransform.position) <= detectionRange)
+        // Start teleporting if player is in range and boss health is not zero
+        if (playerTransform != null && Vector3.Distance(transform.position, playerTransform.position) <= detectionRange && bossHealth.currentHealth > 0)
         {
             TeleportToNextPoint();
         }
@@ -44,8 +46,8 @@ public class Boss : MonoBehaviour
 
     void Update()
     {
-        // Check if player is in range and it's time to teleport again
-        if (playerTransform != null && Vector3.Distance(transform.position, playerTransform.position) <= detectionRange &&
+        // Check if player is in range, boss health is not zero, and it's time to teleport again
+        if (bossHealth.currentHealth > 0 && playerTransform != null && Vector3.Distance(transform.position, playerTransform.position) <= detectionRange &&
             Time.time - lastTeleportTime >= (isLowHealth ? teleportInterval / 2 : teleportInterval))
         {
             // Reset last teleport time
@@ -92,6 +94,12 @@ public class Boss : MonoBehaviour
 
     void SpawnFireballs()
     {
+        // Play sound effect for the fireball
+        if (fireballSound != null)
+        {
+            AudioSource.PlayClipAtPoint(fireballSound, transform.position);
+        }
+
         // Spawn fireballs from each fire point
         foreach (Transform firePoint in firePoints)
         {

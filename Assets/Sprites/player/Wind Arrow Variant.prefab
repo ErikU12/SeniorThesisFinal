@@ -117,3 +117,4 @@ MonoBehaviour:
   damage: 1
   floatDuration: 2
   floatForce: 10
+  hitSound: {fileID: 8300000, guid: f8928ceb5d7c3419280eb2ad86ff4583, type: 3}

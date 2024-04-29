@@ -6,14 +6,23 @@ public class Shooter : MonoBehaviour
     public float projectileSpeed = 5.0f;
     public float detectionRange = 5.0f; // Range within which the enemy detects the player.
     public float shootInterval = 2.0f;  // Time between shots
+    public AudioClip shootSound; // Sound effect for shooting
 
     private Transform playerTransform;
+    private AudioSource audioSource;
     private float lastShotTime;
 
     private void Start()
     {
         playerTransform = GameObject.FindGameObjectWithTag("Player").transform;
         lastShotTime = Time.time;
+
+        // Add AudioSource component to the shooter object if it doesn't exist
+        audioSource = GetComponent<AudioSource>();
+        if (audioSource == null)
+        {
+            audioSource = gameObject.AddComponent<AudioSource>();
+        }
     }
 
     private void Update()
@@ -53,5 +62,11 @@ public class Shooter : MonoBehaviour
 
         // Set the projectile's velocity
         rb.velocity = direction * projectileSpeed;
+
+        // Play shoot sound
+        if (audioSource != null && shootSound != null)
+        {
+            audioSource.PlayOneShot(shootSound);
+        }
     }
 }

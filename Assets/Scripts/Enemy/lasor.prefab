@@ -185,3 +185,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f261bf7534be6b043947a7b5d9d62ab0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  damageAmount: 10
+  deflectedColor: {r: 0, g: 0, b: 1, a: 1}

@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3f799f25-77f4-46d6-81db-4f7f940d2bd9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SeniorThesis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SeniorThesis/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Other/Txt.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Other/Txt.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/TextBox.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/TextBox.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/player/TransparentArrow Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/player/TransparentArrow Variant.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/player/Wind Arrow Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/player/Wind Arrow Variant.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" afterDir="false" />
-    </list>
+    <list default="true" id="3f799f25-77f4-46d6-81db-4f7f940d2bd9" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/Boss.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/BossFinisher.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/BossHealth.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyHealth.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/Soldier.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Other/Slow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Arrow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/ArrowLightning.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/ArrowWind.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerHealth.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.burst@1.8.12/Editor/BurstDisassembler.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.burst@1.8.12/Tests/Runtime/Shared/051-TestGenerics.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -119,6 +123,18 @@
       <workItem from="1713051820274" duration="5165000" />
       <workItem from="1713305419391" duration="247000" />
       <workItem from="1713305688823" duration="1666000" />
+      <workItem from="1713716144459" duration="4563000" />
+      <workItem from="1713808222667" duration="1191000" />
+      <workItem from="1713841308004" duration="3552000" />
+      <workItem from="1713845230764" duration="1083000" />
+      <workItem from="1713848241740" duration="1972000" />
+      <workItem from="1713910204498" duration="6079000" />
+      <workItem from="1713935636579" duration="2171000" />
+      <workItem from="1713938522798" duration="1189000" />
+      <workItem from="1713972194609" duration="3274000" />
+      <workItem from="1713981780674" duration="2716000" />
+      <workItem from="1713985897688" duration="6855000" />
+      <workItem from="1714094721639" duration="1908000" />
     </task>
     <servers />
   </component>
@@ -129,5 +145,25 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Library/PackageCache/com.unity.burst@1.8.12/Editor/BurstDisassembler.cs</url>
+          <line>782</line>
+          <properties documentPath="C:\Users\james\OneDrive\Documents\SeniorThesis\Library\PackageCache\com.unity.burst@1.8.12\Editor\BurstDisassembler.cs" initialLine="782" isMultiMethodBreakpoint="true">
+            <option name="multiMethodBreakpoint" value="true" />
+            <startOffsets>
+              <option value="-1" />
+            </startOffsets>
+            <endOffsets>
+              <option value="-1" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

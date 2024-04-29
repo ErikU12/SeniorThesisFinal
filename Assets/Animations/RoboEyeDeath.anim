@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ShooterEnemy2Death
+  m_Name: RoboEyeDeath
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -21,17 +21,17 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: 1895693607, guid: 83dec7e036f09b9459eaf899ff28afda, type: 3}
+      value: {fileID: -607149524, guid: 05f59627a4f2fcc48bb00f3dec771c91, type: 3}
     - time: 0.13333334
-      value: {fileID: -1929281850, guid: 83dec7e036f09b9459eaf899ff28afda, type: 3}
+      value: {fileID: -617099204, guid: 05f59627a4f2fcc48bb00f3dec771c91, type: 3}
     - time: 0.26666668
-      value: {fileID: 845759306, guid: 83dec7e036f09b9459eaf899ff28afda, type: 3}
+      value: {fileID: -845495566, guid: 05f59627a4f2fcc48bb00f3dec771c91, type: 3}
     - time: 0.4
-      value: {fileID: 1879572601, guid: 83dec7e036f09b9459eaf899ff28afda, type: 3}
+      value: {fileID: -542374253, guid: 05f59627a4f2fcc48bb00f3dec771c91, type: 3}
     - time: 0.53333336
-      value: {fileID: -664643548, guid: 83dec7e036f09b9459eaf899ff28afda, type: 3}
+      value: {fileID: -1854551774, guid: 05f59627a4f2fcc48bb00f3dec771c91, type: 3}
     - time: 0.6666667
-      value: {fileID: -488702490, guid: 83dec7e036f09b9459eaf899ff28afda, type: 3}
+      value: {fileID: -295476025, guid: 05f59627a4f2fcc48bb00f3dec771c91, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -43,8 +43,23 @@ AnimationClip:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0, y: 0, z: 0}
   m_ClipBindingConstant:
-    genericBindings: []
-    pptrCurveMapping: []
+    genericBindings:
+    - serializedVersion: 2
+      path: 0
+      attribute: 0
+      script: {fileID: 0}
+      typeID: 212
+      customType: 23
+      isPPtrCurve: 1
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    pptrCurveMapping:
+    - {fileID: -607149524, guid: 05f59627a4f2fcc48bb00f3dec771c91, type: 3}
+    - {fileID: -617099204, guid: 05f59627a4f2fcc48bb00f3dec771c91, type: 3}
+    - {fileID: -845495566, guid: 05f59627a4f2fcc48bb00f3dec771c91, type: 3}
+    - {fileID: -542374253, guid: 05f59627a4f2fcc48bb00f3dec771c91, type: 3}
+    - {fileID: -1854551774, guid: 05f59627a4f2fcc48bb00f3dec771c91, type: 3}
+    - {fileID: -295476025, guid: 05f59627a4f2fcc48bb00f3dec771c91, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}

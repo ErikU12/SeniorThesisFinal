@@ -3,6 +3,8 @@ using UnityEngine;
 public class Slow : MonoBehaviour
 {
     public GameObject prefabToSpawn;
+    public AudioClip spawnSound; // Sound effect for spawning the prefab
+    public AudioClip flameShieldSpawnSound; // Sound effect for spawning the FlameShield
     public float spawnRadius = 2f;
     public float despawnTime = 5f; // Set the despawn time in the editor
     public LayerMask playerLayer;
@@ -42,6 +44,19 @@ public class Slow : MonoBehaviour
 
     private void SpawnPrefab()
     {
+        // Play the appropriate spawn sound effect based on the type of prefab
+        if (spawnSound != null)
+        {
+            if (prefabToSpawn.CompareTag("FlameShield") && flameShieldSpawnSound != null)
+            {
+                AudioSource.PlayClipAtPoint(flameShieldSpawnSound, transform.position);
+            }
+            else
+            {
+                AudioSource.PlayClipAtPoint(spawnSound, transform.position);
+            }
+        }
+
         // Calculate a random position around the player within the specified radius
         Vector2 randomPosition = Random.insideUnitCircle.normalized * spawnRadius;
 
