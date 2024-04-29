@@ -31,10 +31,10 @@ public class LaserDeflect : MonoBehaviour
         else if (hasBeenDeflected && other.CompareTag("Enemy"))
         {
             // Damage the enemy
-            EnemyHealth enemyHealth = other.GetComponent<EnemyHealth>();
-            if (enemyHealth != null)
+            RoboEyeHealth roboeyeHealth = other.GetComponent<RoboEyeHealth>();
+            if (roboeyeHealth != null)
             {
-                enemyHealth.TakeDamage(1);
+                roboeyeHealth.TakeDamage(1);
             }
 
             // Change the color of the enemy to blue
