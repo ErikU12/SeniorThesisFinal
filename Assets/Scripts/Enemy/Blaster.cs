@@ -12,9 +12,9 @@ public class BlasterEnemy : MonoBehaviour
     public Animator animator; // Reference to the Animator component
     public float projectileSpeed = 10f; // Speed of the projectile
     private static readonly int Shoot = Animator.StringToHash("Shoot");
+    private static readonly int ShooterEnemy2Run = Animator.StringToHash("ShooterEnemy2Run");
 
     private Transform playerTransform; // Reference to the player's transform
-    private bool isCharging = false; // Flag to track if the enemy is charging towards the player
     private bool isShooting = false; // Flag to track if the enemy is shooting
 
     void Start()
@@ -59,12 +59,22 @@ public class BlasterEnemy : MonoBehaviour
                 // Move towards the player up to the stopping distance
                 if (distanceToPlayer > stoppingDistance)
                 {
-                    isCharging = true;
+                    // Move towards the player
                     transform.Translate(directionToPlayer * (chargingSpeed * Time.deltaTime));
+
+                    // Trigger the running animation
+                    if (animator != null)
+                    {
+                        animator.SetBool(ShooterEnemy2Run, true);
+                    }
                 }
                 else
                 {
-                    isCharging = false;
+                    // Stop running animation
+                    if (animator != null)
+                    {
+                        animator.SetBool(ShooterEnemy2Run, false);
+                    }
                 }
             }
         }
@@ -101,4 +111,6 @@ public class BlasterEnemy : MonoBehaviour
         isShooting = false;
     }
 }
+
+
 

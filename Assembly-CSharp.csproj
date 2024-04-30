@@ -47,6 +47,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Player\MeleeUI.cs" />
     <Compile Include="Assets\Scripts\Player\ArrowWind.cs" />
+    <Compile Include="Assets\Scripts\Enemy\BlasterHealth.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples _ Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\Scripts\Enemy\Boss.cs" />
     <Compile Include="Assets\Scripts\Other\FlameShield.cs" />
@@ -78,6 +79,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples _ Extras\Scripts\TMP_TextInfoDebugTool.cs" />
     <Compile Include="Assets\Scripts\Other\GoalController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples _ Extras\Scripts\ShaderPropAnimator.cs" />
+    <Compile Include="Assets\Scripts\Enemy\SniperHealth.cs" />
     <Compile Include="Assets\Scripts\Player\SlowUi.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples _ Extras\Scripts\DropdownSample.cs" />
     <Compile Include="Assets\Scripts\Other\Deer.cs" />
@@ -97,6 +99,7 @@
     <Compile Include="Assets\Scripts\Enemy\Eye.cs" />
     <Compile Include="Assets\Scripts\Enemy\FinalBossHealth.cs" />
     <Compile Include="Assets\Scripts\Enemy\Paranoid.cs" />
+    <Compile Include="Assets\Scripts\Enemy\SkellyHealth.cs" />
     <Compile Include="Assets\Scripts\Player\Arrow.cs" />
     <Compile Include="Assets\Scripts\Other\FallLose.cs" />
     <Compile Include="Assets\Scripts\Other\Ladder.cs" />

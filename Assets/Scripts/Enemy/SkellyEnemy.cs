@@ -11,16 +11,24 @@ public class SkellyEnemy : MonoBehaviour
     private Transform player; // Reference to the player's transform
     private bool isCharging = false; // Flag to track if the enemy is currently charging
     private bool isCoolingDown = false; // Flag to track if the enemy is currently cooling down after a charge
-    private Vector2 knockbackDirection; // Direction of knockback when colliding with the player
     private float chargeTimer = 0f; // Timer for tracking charge duration
     private float cooldownTimer = 0f; // Timer for tracking cooldown duration
 
     private SpriteRenderer spriteRenderer; // Reference to the sprite renderer component
+    private Animator animator; // Reference to the Animator component
+    private Collider2D immuneHitbox; // Reference to the immune hitbox collider
+    private static readonly int ShieldEnemyBashRun = Animator.StringToHash("ShieldEnemyBashRun");
+    private static readonly int ShieldEnemyRun = Animator.StringToHash("ShieldEnemyRun");
+    private static readonly int ShieldEnemyBashStill = Animator.StringToHash("ShieldEnemyBashStill");
 
     private void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform; // Find the player's transform
         spriteRenderer = GetComponent<SpriteRenderer>(); // Get the sprite renderer component
+        animator = GetComponent<Animator>(); // Get the Animator component
+
+        // Find the immune hitbox collider
+        immuneHitbox = GetComponentInChildren<Collider2D>();
     }
 
     private void Update()
@@ -47,6 +55,7 @@ public class SkellyEnemy : MonoBehaviour
                 chargeTimer = 0f;
                 isCharging = false;
                 isCoolingDown = true;
+                animator.SetBool(ShieldEnemyBashRun, true); // Set bash run animation to true
             }
         }
 
@@ -59,6 +68,15 @@ public class SkellyEnemy : MonoBehaviour
                 // If cooldown duration has elapsed, stop cooling down
                 cooldownTimer = 0f;
                 isCoolingDown = false;
+                animator.SetBool(ShieldEnemyBashRun, false); // Set bash run animation to false
+                animator.SetBool(ShieldEnemyRun, false); // Set run animation to false
+                animator.SetBool(ShieldEnemyBashStill, true); // Play attack animation
+            }
+            else
+            {
+                // While cooling down, ensure run animation is off
+                animator.SetBool(ShieldEnemyRun, false);
+                animator.SetBool(ShieldEnemyBashStill, false); // Set bash still animation to false
             }
         }
     }
@@ -74,9 +92,21 @@ public class SkellyEnemy : MonoBehaviour
         }
     }
 
+    // Method to handle the immune hitbox preventing damage
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Bullet") || other.CompareTag("PlayerMelee"))
+        {
+            // Ignore damage if hit by a bullet or player melee attack
+            // This prevents the enemy from taking damage
+            return;
+        }
+    }
+
     private void Charge()
     {
         isCharging = true;
+        animator.SetBool(ShieldEnemyRun, true); // Set run animation to true
     }
 
     private void FlipSprite(bool faceRight)
@@ -84,3 +114,4 @@ public class SkellyEnemy : MonoBehaviour
         spriteRenderer.flipX = !faceRight;
     }
 }
+
