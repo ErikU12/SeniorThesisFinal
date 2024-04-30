@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -121,7 +121,112 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: arrowBox-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 90
+        width: 120
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce387c67eb88c794f8195e30bd282a54
+      internalID: -2085702774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowBox-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 90
+        width: 135
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4203aed250c5b146864c044a06b1274
+      internalID: -1906991569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowBox-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 90
+        width: 140
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9e003d8700ee0e4c89470fee43cd475
+      internalID: 1911754282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowBox-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 90
+        width: 145
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c16d057514cbbc4a85dc54fa9f661b2
+      internalID: -1359669523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowBox-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 90
+        width: 155
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81ddfeea4508afb4cb04347faa260bfc
+      internalID: 1254658154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +237,18 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      arrowBox-Sheet_0: -2085702774
+      arrowBox-Sheet_1: -1906991569
+      arrowBox-Sheet_10: 1254658154
+      arrowBox-Sheet_2: -566876727
+      arrowBox-Sheet_3: 2042921628
+      arrowBox-Sheet_4: 1911754282
+      arrowBox-Sheet_5: 1334031262
+      arrowBox-Sheet_6: 781516268
+      arrowBox-Sheet_7: -1359669523
+      arrowBox-Sheet_8: -1256576351
+      arrowBox-Sheet_9: -1630523317
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
