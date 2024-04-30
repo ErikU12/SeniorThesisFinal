@@ -24,6 +24,7 @@ TagManager:
   - CheckPoint
   - Checkpoint
   - PlayerMelee
+  - Obelisk
   layers:
   - Default
   - TransparentFX
