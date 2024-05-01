@@ -88,6 +88,7 @@
     <Compile Include="Assets\Scripts\Player\ArrowSpawner.cs" />
     <Compile Include="Assets\Scripts\ImmunetoDamage.cs" />
     <Compile Include="Assets\Scripts\LaserDeflect2.cs" />
+    <Compile Include="Assets\Scripts\FadeIn.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples _ Extras\Scripts\EnvMapAnimator.cs" />
     <Compile Include="Assets\Scripts\Enemy\LaserEnemy.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples _ Extras\Scripts\TMPro_InstructionOverlay.cs" />
@@ -110,6 +111,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples _ Extras\Scripts\TMP_TextEventCheck.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyReact.cs" />
     <Compile Include="Assets\Scripts\Player\ArrowTransparent.cs" />
+    <Compile Include="Assets\Scripts\SceneTransitionButton.cs" />
     <Compile Include="Assets\Scripts\Enemy\ArrowDraw.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples _ Extras\Scripts\WarpTextExample.cs" />
     <Compile Include="Assets\Scripts\Other\ResetGame.cs" />
