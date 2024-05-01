@@ -4,24 +4,12 @@
     <list default="true" id="3f799f25-77f4-46d6-81db-4f7f940d2bd9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SeniorThesis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SeniorThesis/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Hooded Figure-Sheet_0.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Hooded Figure-Sheet_0.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/ShooterEnemy.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/ShooterEnemy.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/ShooterEnemy2.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/ShooterEnemy2.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/WolfEnemy.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/WolfEnemy.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/enemy.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/enemy.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/flame boss-Sheet_0.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/flame boss-Sheet_0.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Potion.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Potion.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/ShieldEnemy Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/ShieldEnemy Variant.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/ShooterEnemy 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/ShooterEnemy 1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/ShooterEnemy2 Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/ShooterEnemy2 Variant.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameOver.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameOver.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/checkpoint_0.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/checkpoint_0.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/HomeScreen.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/HomeScreen.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/FinalBossHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/FinalBossHealth.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/SkellyEnemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/SkellyEnemy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/LaserDeflect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/LaserDeflect.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Other/StartButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Other/StartButton.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,6 +139,7 @@
       <workItem from="1714454157722" duration="477000" />
       <workItem from="1714484566639" duration="1328000" />
       <workItem from="1714494771051" duration="14060000" />
+      <workItem from="1714588422286" duration="3751000" />
     </task>
     <servers />
   </component>

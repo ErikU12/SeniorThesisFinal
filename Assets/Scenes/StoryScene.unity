@@ -423,7 +423,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fadeInDuration: 1.5
   fadeOutDuration: 1.5
-  fadeOutDelay: 5
+  fadeOutDelay: 3
   fadeImage: {fileID: 566144603}
   sceneToLoad: {fileID: 102900000, guid: d6190aa336336c64db81a9eab3271a84, type: 3}
 --- !u!4 &1351513017
