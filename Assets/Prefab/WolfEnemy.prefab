@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2382571877349259023}
   - component: {fileID: 1385154938570143235}
   - component: {fileID: 5597789721595824674}
+  - component: {fileID: 3774640384573049714}
   m_Layer: 0
   m_Name: WolfEnemy
   m_TagString: Untagged
@@ -106,3 +107,24 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &3774640384573049714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 931074746515179655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 800382801b831534f8f86033e154ef7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dropTable:
+  - itemPrefab: {fileID: 7390788862431895858, guid: db9d93cb5100db748babe6a7036b46b0, type: 3}
+    dropChance: 55
+  - itemPrefab: {fileID: 1634719627393116832, guid: 43af13d8f642f2f4fb709604835ddd44, type: 3}
+    dropChance: 15
+  - itemPrefab: {fileID: 253729109716440848, guid: 1c7951f8ff479c042a8e65a066f690e7, type: 3}
+    dropChance: 15
+  - itemPrefab: {fileID: 8892056512734919345, guid: 38c914abd063b2645a868d2b3bac5a49, type: 3}
+    dropChance: 15

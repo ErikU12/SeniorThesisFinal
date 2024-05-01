@@ -1,0 +1,60 @@
+using Enemy;
+using UnityEngine;
+
+public class LaserDeflect2 : MonoBehaviour
+{
+    public float damageAmount = 10f; // Amount of damage to apply to enemies
+    public Color deflectedColor = Color.blue; // Color to change to after deflection
+
+    private bool hasBeenDeflected = false; // Flag to track if the laser has been deflected
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (!hasBeenDeflected && other.CompareTag("SlowBullet"))
+        {
+            // Reverse the direction of the laser
+            Rigidbody2D rb = GetComponent<Rigidbody2D>();
+            if (rb != null)
+            {
+                rb.velocity = -rb.velocity;
+            }
+
+            // Change the color of the laser
+            SpriteRenderer renderer = GetComponent<SpriteRenderer>();
+            if (renderer != null)
+            {
+                renderer.color = deflectedColor;
+            }
+
+            // Set the flag to true
+            hasBeenDeflected = true;
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (hasBeenDeflected && collision.gameObject.CompareTag("Enemy"))
+        {
+            // Damage the enemy
+            if (collision.gameObject.TryGetComponent(out RoboEyeHealth roboeyeHealth))
+            {
+                roboeyeHealth.TakeDamage(1);
+            }
+            else if (collision.gameObject.TryGetComponent(out BlasterHealth blasterHealth))
+            {
+                blasterHealth.TakeDamage(1);
+            }
+            else if (collision.gameObject.TryGetComponent(out SniperHealth sniperHealth))
+            {
+                sniperHealth.TakeDamage(1);
+            }
+
+            // Change the color of the enemy to blue
+            SpriteRenderer enemyRenderer = collision.gameObject.GetComponent<SpriteRenderer>();
+            if (enemyRenderer != null)
+            {
+                enemyRenderer.color = Color.blue;
+            }
+        }
+    }
+}

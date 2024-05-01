@@ -24,6 +24,9 @@ TagManager:
   - CheckPoint
   - Checkpoint
   - PlayerMelee
+  - Obelisk
+  - Shield
+  - ShieldHitbox
   layers:
   - Default
   - TransparentFX
@@ -60,4 +63,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Shield
+    uniqueID: 30388505
     locked: 0

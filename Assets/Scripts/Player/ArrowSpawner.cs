@@ -38,6 +38,7 @@ public class ArrowSpawner : MonoBehaviour
     public Sprite twoArrowSprite;
     public Sprite oneArrowSprite;
     public Sprite zeroArrowSprite;
+
     private void Start()
     {
         InitializeInventory();
@@ -203,5 +204,15 @@ public class ArrowSpawner : MonoBehaviour
                 playerSpriteRenderer.sprite = zeroArrowSprite;
                 break;
         }
+    }
+
+    public void ResetArrowCount()
+    {
+        // Reset the arrow count to initial bullets held for each arrow type
+        foreach (ArrowType arrowType in arrowTypes)
+        {
+            arrowType.currentBullets = arrowType.initialBulletsHeld;
+        }
+        UpdateBulletCountText();
     }
 }

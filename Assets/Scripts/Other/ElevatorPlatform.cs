@@ -86,4 +86,31 @@ public class ElevatorPlatform : MonoBehaviour
             Debug.Log("Player exited platform. Stopping movement.");
         }
     }
+
+    private void RespawnPlatform()
+    {
+        // Instantiate a new platform object at the starting position
+        GameObject newPlatform = Instantiate(gameObject, _startPosition, Quaternion.identity);
+        // Reset any movement flags or state variables
+        ElevatorPlatform platformScript = newPlatform.GetComponent<ElevatorPlatform>();
+        platformScript._isMoving = false;
+        
+        // Enable collider and sprite renderer
+        Collider2D collider = newPlatform.GetComponent<Collider2D>();
+        if (collider != null)
+        {
+            collider.enabled = true;
+        }
+        
+        // Enable other necessary components (add more if needed)
+        // Example:
+        // Rigidbody2D rb = newPlatform.GetComponent<Rigidbody2D>();
+        // if (rb != null)
+        // {
+        //     rb.enabled = true;
+        // }
+    }
 }
+
+
+

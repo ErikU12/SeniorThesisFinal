@@ -1,3 +1,4 @@
+using Enemy;
 using UnityEngine;
 
 public class LaserDeflect : MonoBehaviour
@@ -30,11 +31,25 @@ public class LaserDeflect : MonoBehaviour
         }
         else if (hasBeenDeflected && other.CompareTag("Enemy"))
         {
-            // Damage the enemy
-            RoboEyeHealth roboeyeHealth = other.GetComponent<RoboEyeHealth>();
-            if (roboeyeHealth != null)
+            if (other.isTrigger) // Check if the collider is set as a trigger
             {
-                roboeyeHealth.TakeDamage(1);
+                // Damage the enemy
+                if (other.TryGetComponent(out RoboEyeHealth roboeyeHealth))
+                {
+                    roboeyeHealth.TakeDamage(1);
+                }
+            }
+            else
+            {
+                // Damage the enemy
+                if (other.TryGetComponent(out BlasterHealth blasterHealth))
+                {
+                    blasterHealth.TakeDamage(1);
+                }
+                else if (other.TryGetComponent(out SniperHealth sniperHealth))
+                {
+                    sniperHealth.TakeDamage(1);
+                }
             }
 
             // Change the color of the enemy to blue

@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 public class RoboEyeHealth : MonoBehaviour
 {
@@ -12,7 +13,7 @@ public class RoboEyeHealth : MonoBehaviour
         _currentHealth = maxHealth;
     }
 
-    // Method to handle wolf taking damage
+    // Method to handle enemy taking damage
     public void TakeDamage(int damage)
     {
         _currentHealth -= damage;
@@ -23,23 +24,36 @@ public class RoboEyeHealth : MonoBehaviour
         }
     }
 
-    // Method to handle wolf death
+    // Method to handle enemy death
     private void Die()
     {
         // Play death animation
         if (animator != null)
         {
-            animator.SetTrigger(RoboEyeDeath);
+            animator.SetBool(RoboEyeDeath,true);
 
             // Delay destruction of the object until after the animation finishes
-            float animationLength = animator.GetCurrentAnimatorStateInfo(0).length;
-            Destroy(gameObject, animationLength);
+            // float animationLength = animator.GetCurrentAnimatorStateInfo(0).length;
+            // Debug.Log("DESTROY TIME: " + animationLength);
+            StartCoroutine(DestroyAfterAnimation());
         }
         else
         {
-            // Destroy the wolf GameObject immediately if animator is null
+            // Destroy the enemy GameObject immediately if animator is null
             Destroy(gameObject);
         }
+    }
+
+    private IEnumerator DestroyAfterAnimation()
+    {
+        yield return null;//new WaitForSeconds(0.25f);
+        float animationLength = animator.GetCurrentAnimatorStateInfo(0).length;
+        Debug.Log("DESTROY TIME: " + animationLength);
+        // Wait for the animation to finish playing
+        yield return new WaitForSeconds(animationLength);// - 0.25f
+
+        // Destroy the enemy GameObject after the animation finishes
+        Destroy(gameObject);
     }
 
     // Handle collisions with bullets
@@ -64,7 +78,7 @@ public class RoboEyeHealth : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("PlayerMelee"))
         {
-            // Apply damage to the wolf
+            // Apply damage to the enemy
             TakeDamage(2); // Adjust damage as needed
 
             // Calculate knockback direction away from the player

@@ -47,6 +47,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Player\MeleeUI.cs" />
     <Compile Include="Assets\Scripts\Player\ArrowWind.cs" />
+    <Compile Include="Assets\Scripts\Enemy\BlasterHealth.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples _ Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\Scripts\Enemy\Boss.cs" />
     <Compile Include="Assets\Scripts\Other\FlameShield.cs" />
@@ -69,6 +70,7 @@
     <Compile Include="Assets\Scripts\Enemy\Shooter.cs" />
     <Compile Include="Assets\Scripts\Other\RICKROLL.cs" />
     <Compile Include="Assets\Scripts\Player\LaserDeflect.cs" />
+    <Compile Include="Assets\Scripts\Other\ObeliskCamera.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples _ Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\Scripts\Player\FlipSprite.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyHealth.cs" />
@@ -77,6 +79,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples _ Extras\Scripts\TMP_TextInfoDebugTool.cs" />
     <Compile Include="Assets\Scripts\Other\GoalController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples _ Extras\Scripts\ShaderPropAnimator.cs" />
+    <Compile Include="Assets\Scripts\Enemy\SniperHealth.cs" />
     <Compile Include="Assets\Scripts\Player\SlowUi.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples _ Extras\Scripts\DropdownSample.cs" />
     <Compile Include="Assets\Scripts\Other\Deer.cs" />
@@ -94,7 +97,9 @@
     <Compile Include="Assets\Scripts\Player\ArrowFire.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples _ Extras\Scripts\ChatController.cs" />
     <Compile Include="Assets\Scripts\Enemy\Eye.cs" />
+    <Compile Include="Assets\Scripts\Enemy\FinalBossHealth.cs" />
     <Compile Include="Assets\Scripts\Enemy\Paranoid.cs" />
+    <Compile Include="Assets\Scripts\Enemy\SkellyHealth.cs" />
     <Compile Include="Assets\Scripts\Player\Arrow.cs" />
     <Compile Include="Assets\Scripts\Other\FallLose.cs" />
     <Compile Include="Assets\Scripts\Other\Ladder.cs" />
@@ -116,6 +121,7 @@
     <Compile Include="Assets\Scripts\Enemy\SkellyEnemy.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples _ Extras\Scripts\TextMeshProFloatingText.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples _ Extras\Scripts\VertexShakeA.cs" />
+    <Compile Include="Assets\Scripts\Enemy\FinalBoss.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples _ Extras\Scripts\CameraController.cs" />
     <Compile Include="Assets\Scripts\Player\Projectile.cs" />
     <Compile Include="Assets\Scripts\Other\Txt.cs" />
@@ -133,6 +139,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples _ Extras\Scripts\TMP_UiFrameRateCounter.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples _ Extras\Scripts\TMP_TextSelector_A.cs" />
     <Compile Include="Assets\Scripts\Other\TxtBxPrompt2.cs" />
+    <Compile Include="Assets\Scripts\Enemy\RoboEyeHealth.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples _ Extras\Scripts\VertexColorCycler.cs" />
     <Compile Include="Assets\Scripts\Other\StartButton.cs" />
     <Reference Include="UnityEngine">

@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 200
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -106,9 +106,337 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: GameOver Screen(V3)_0
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 548
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39571ffec68c90347ae511225e84cc8f
+      internalID: -466595203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOver Screen(V3)_1
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 192
+        width: 548
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 494d2ebd6a7082e47888335589c59cee
+      internalID: 259433473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOver Screen(V3)_2
+      rect:
+        serializedVersion: 2
+        x: 1843
+        y: 192
+        width: 543
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ad0dd5b502db6843a399b4912c473e7
+      internalID: 1216854257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOver Screen(V3)_3
+      rect:
+        serializedVersion: 2
+        x: 2666
+        y: 192
+        width: 548
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f13467b35e370f4289dd325d511471d
+      internalID: -1313768890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOver Screen(V3)_4
+      rect:
+        serializedVersion: 2
+        x: 3495
+        y: 192
+        width: 542
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df112aaec2642484daa3eaee7e83b65e
+      internalID: 1305533387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOver Screen(V3)_5
+      rect:
+        serializedVersion: 2
+        x: 4317
+        y: 192
+        width: 548
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 073f42cc59931bc4fa2d11305215f745
+      internalID: -883364269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOver Screen(V3)_6
+      rect:
+        serializedVersion: 2
+        x: 5140
+        y: 192
+        width: 548
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e13cbb84fc551742883d84aeb99f8ee
+      internalID: 1061807709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOver Screen(V3)_7
+      rect:
+        serializedVersion: 2
+        x: 5969
+        y: 192
+        width: 542
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc2fa409e512ba44f8900d4d72fbb810
+      internalID: 33957401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOver Screen(V3)_8
+      rect:
+        serializedVersion: 2
+        x: 6792
+        y: 192
+        width: 548
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b652b97b7e036b3458b8536388de63f7
+      internalID: 255578369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOver Screen(V3)_9
+      rect:
+        serializedVersion: 2
+        x: 7615
+        y: 192
+        width: 548
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2528385f3849f04cb6e42c1cdf9c7bf
+      internalID: 1881041440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOver Screen(V3)_10
+      rect:
+        serializedVersion: 2
+        x: 8443
+        y: 192
+        width: 542
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3bb3c3f6d419a4419c86eeb6be3d85c
+      internalID: -859022244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOver Screen(V3)_11
+      rect:
+        serializedVersion: 2
+        x: 9266
+        y: 192
+        width: 548
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4b467c60d2b735499a4213900514718
+      internalID: 762355543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOver Screen(V3)_12
+      rect:
+        serializedVersion: 2
+        x: 10094
+        y: 192
+        width: 543
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2674255d522330489fd983a2100b886
+      internalID: -1195401219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOver Screen(V3)_13
+      rect:
+        serializedVersion: 2
+        x: 10917
+        y: 192
+        width: 548
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c715551aed13994e9f6d39fd02a4b4f
+      internalID: 1155522732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOver Screen(V3)_14
+      rect:
+        serializedVersion: 2
+        x: 11740
+        y: 192
+        width: 548
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05511366892649044a153e6cafc98c11
+      internalID: 1068455206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +447,22 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      GameOver Screen(V3)_0: -466595203
+      GameOver Screen(V3)_1: 259433473
+      GameOver Screen(V3)_10: -859022244
+      GameOver Screen(V3)_11: 762355543
+      GameOver Screen(V3)_12: -1195401219
+      GameOver Screen(V3)_13: 1155522732
+      GameOver Screen(V3)_14: 1068455206
+      GameOver Screen(V3)_2: 1216854257
+      GameOver Screen(V3)_3: -1313768890
+      GameOver Screen(V3)_4: 1305533387
+      GameOver Screen(V3)_5: -883364269
+      GameOver Screen(V3)_6: 1061807709
+      GameOver Screen(V3)_7: 33957401
+      GameOver Screen(V3)_8: 255578369
+      GameOver Screen(V3)_9: 1881041440
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -106,9 +106,295 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Reset Button_0
+      rect:
+        serializedVersion: 2
+        x: 2604
+        y: 238
+        width: 312
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87402ba7efc7b7840bd8c568353a4bb8
+      internalID: 1697298133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reset Button_3
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 316
+        width: 278
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9c039aff05dbb944a763d3838b6da96
+      internalID: -101436117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reset Button_4
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 316
+        width: 275
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b811002f33d896849912be28dfe0294f
+      internalID: -1033979028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reset Button_5
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 316
+        width: 278
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea05e3dbcde20d40a401b42b8dc6e89
+      internalID: 2092608579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reset Button_6
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 316
+        width: 274
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94699a41114536042b11bc857a15c6ea
+      internalID: -96737143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reset Button_9
+      rect:
+        serializedVersion: 2
+        x: 3224
+        y: 316
+        width: 275
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 216acf23339400240b12e3819b38bcca
+      internalID: -73020280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reset Button_10
+      rect:
+        serializedVersion: 2
+        x: 3824
+        y: 316
+        width: 278
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bc65545c120bf147bb6819b1358ad43
+      internalID: -1979776227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reset Button_11
+      rect:
+        serializedVersion: 2
+        x: 4428
+        y: 316
+        width: 275
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce6b7482f3f924d41ba701d85b32fb50
+      internalID: -321261461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reset Button_12
+      rect:
+        serializedVersion: 2
+        x: 5029
+        y: 316
+        width: 274
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c44de7956c41b64084c5adeb7973fa3
+      internalID: 875236588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reset Button_13
+      rect:
+        serializedVersion: 2
+        x: 5621
+        y: 295
+        width: 290
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32a1695268dc046458e76facf6aa963e
+      internalID: 582339143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reset Button_14
+      rect:
+        serializedVersion: 2
+        x: 6218
+        y: 290
+        width: 305
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d35983d4b31d693469947a2c18674e1c
+      internalID: -844913603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reset Button_18
+      rect:
+        serializedVersion: 2
+        x: 7437
+        y: 316
+        width: 275
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28d2cb2e0d19b3d4685594715eb78e22
+      internalID: 285556369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reset Button_20
+      rect:
+        serializedVersion: 2
+        x: 6820
+        y: 216
+        width: 240
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff75d08567f6bf04bbe5fc44c614f728
+      internalID: -1121884578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +405,28 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Reset Button_0: 1697298133
+      Reset Button_1: -1811249707
+      Reset Button_10: -1979776227
+      Reset Button_11: -321261461
+      Reset Button_12: 875236588
+      Reset Button_13: 582339143
+      Reset Button_14: -844913603
+      Reset Button_15: -1495048898
+      Reset Button_16: -1572421764
+      Reset Button_17: 285417226
+      Reset Button_18: 285556369
+      Reset Button_19: 246838103
+      Reset Button_2: -1459745591
+      Reset Button_20: -1121884578
+      Reset Button_3: -101436117
+      Reset Button_4: -1033979028
+      Reset Button_5: 2092608579
+      Reset Button_6: -96737143
+      Reset Button_7: -159241342
+      Reset Button_8: 286758705
+      Reset Button_9: -73020280
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

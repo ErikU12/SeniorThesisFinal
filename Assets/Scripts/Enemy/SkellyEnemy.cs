@@ -7,38 +7,46 @@ public class SkellyEnemy : MonoBehaviour
     public float chargeDuration = 1f; // Duration of the charge
     public float knockbackForce = 10f; // Force of knockback when colliding with the player
     public float knockbackDuration = 0.5f; // Duration of knockback when colliding with the player
+    public float detectionRange = 5f; // Detection range for the player
+    public GameObject equippedHitbox; // Reference to the hitbox GameObject
 
     private Transform player; // Reference to the player's transform
     private bool isCharging = false; // Flag to track if the enemy is currently charging
     private bool isCoolingDown = false; // Flag to track if the enemy is currently cooling down after a charge
-    private Vector2 knockbackDirection; // Direction of knockback when colliding with the player
     private float chargeTimer = 0f; // Timer for tracking charge duration
     private float cooldownTimer = 0f; // Timer for tracking cooldown duration
-
-    private SpriteRenderer spriteRenderer; // Reference to the sprite renderer component
+    private Animator animator; // Reference to the Animator component
 
     private void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform; // Find the player's transform
-        spriteRenderer = GetComponent<SpriteRenderer>(); // Get the sprite renderer component
+        animator = GetComponent<Animator>(); // Get the Animator component
+
+        // Detach the hitbox from the enemy if it's specified
+        if (equippedHitbox != null)
+        {
+            equippedHitbox.transform.parent = null;
+        }
     }
 
     private void Update()
     {
-        if (!isCharging && !isCoolingDown)
+        // Check if the player is within detection range
+        if (Vector2.Distance(transform.position, player.position) <= detectionRange)
         {
             // If not charging and not cooling down, start charging
-            Charge();
+            if (!isCharging && !isCoolingDown)
+            {
+                Charge();
+            }
         }
 
         if (isCharging)
         {
             // If charging, move towards the player
-            transform.position = Vector2.MoveTowards(transform.position, player.position, chargeSpeed * Time.deltaTime);
+            Vector2 targetPosition = new Vector2(player.position.x, transform.position.y); // Maintain current y position
+            transform.position = Vector2.MoveTowards(transform.position, targetPosition, chargeSpeed * Time.deltaTime);
 
-            // Flip sprite to face the player
-            FlipSprite(player.position.x > transform.position.x);
-            
             // Update charge duration timer
             chargeTimer += Time.deltaTime;
             if (chargeTimer >= chargeDuration)
@@ -47,6 +55,7 @@ public class SkellyEnemy : MonoBehaviour
                 chargeTimer = 0f;
                 isCharging = false;
                 isCoolingDown = true;
+                animator.SetBool("ShieldEnemyBashRun", true); // Set bash run animation to true
             }
         }
 
@@ -59,7 +68,22 @@ public class SkellyEnemy : MonoBehaviour
                 // If cooldown duration has elapsed, stop cooling down
                 cooldownTimer = 0f;
                 isCoolingDown = false;
+                animator.SetBool("ShieldEnemyBashRun", false); // Set bash run animation to false
+                animator.SetBool("ShieldEnemyRun", false); // Set run animation to false
+                animator.SetBool("ShieldEnemyBashStill", true); // Play attack animation
             }
+            else
+            {
+                // While cooling down, ensure run animation is off
+                animator.SetBool("ShieldEnemyRun", false);
+                animator.SetBool("ShieldEnemyBashStill", false); // Set bash still animation to false
+            }
+        }
+
+        // Update hitbox position
+        if (equippedHitbox != null)
+        {
+            equippedHitbox.transform.position = transform.position;
         }
     }
 
@@ -77,10 +101,8 @@ public class SkellyEnemy : MonoBehaviour
     private void Charge()
     {
         isCharging = true;
+        animator.SetBool("ShieldEnemyRun", true); // Set run animation to true
     }
 
-    private void FlipSprite(bool faceRight)
-    {
-        spriteRenderer.flipX = !faceRight;
-    }
+    public Vector3 hitboxOffset = Vector3.zero; // Offset for the hitbox position
 }

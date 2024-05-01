@@ -14,6 +14,8 @@ public class Boss : MonoBehaviour
     public float normalMovementSpeed = 1f; // Normal movement speed of the boss
     public float fastMovementSpeed = 2f; // Faster movement speed of the boss when low health
 
+    public Animator teleportAnimator; // Reference to the teleport animation animator
+
     private List<Transform> shuffledTeleportPoints = new List<Transform>();
     private int currentIndex = 0;
     private int teleportCount = 0;
@@ -22,6 +24,8 @@ public class Boss : MonoBehaviour
     private BossHealth bossHealth; // Reference to the BossHealth component
 
     private bool isLowHealth = false; // Flag to indicate low health mode
+    private bool isTeleporting = false; // Flag to indicate if boss is currently teleporting
+    private static readonly int RedEyeTeleport = Animator.StringToHash("RedEyeTeleport");
 
     void Start()
     {
@@ -47,7 +51,7 @@ public class Boss : MonoBehaviour
     void Update()
     {
         // Check if player is in range, boss health is not zero, and it's time to teleport again
-        if (bossHealth.currentHealth > 0 && playerTransform != null && Vector3.Distance(transform.position, playerTransform.position) <= detectionRange &&
+        if (!isTeleporting && bossHealth.currentHealth > 0 && playerTransform != null && Vector3.Distance(transform.position, playerTransform.position) <= detectionRange &&
             Time.time - lastTeleportTime >= (isLowHealth ? teleportInterval / 2 : teleportInterval))
         {
             // Reset last teleport time
@@ -65,10 +69,40 @@ public class Boss : MonoBehaviour
             // Increase movement speed when low health
             GetComponent<Rigidbody2D>().velocity *= fastMovementSpeed / normalMovementSpeed;
         }
+
+        // Manage teleport animation
+        if (isTeleporting)
+        {
+            // Play teleport animation
+            if (teleportAnimator != null)
+            {
+                teleportAnimator.SetTrigger(RedEyeTeleport);
+            }
+        }
+        else
+        {
+            // Turn off teleport animation
+            if (teleportAnimator != null)
+            {
+                teleportAnimator.ResetTrigger(RedEyeTeleport);
+            }
+        }
     }
 
     void TeleportToNextPoint()
     {
+        // Set teleporting flag to true
+        isTeleporting = true;
+
+        // Teleport to the next point in the shuffled list after animation
+        StartCoroutine(TeleportAfterAnimation());
+    }
+
+    IEnumerator TeleportAfterAnimation()
+    {
+        // Wait for teleport animation to finish
+        yield return new WaitForSeconds(teleportAnimator.GetCurrentAnimatorStateInfo(0).length);
+
         // Teleport to the next point in the shuffled list
         transform.position = shuffledTeleportPoints[currentIndex].position;
 
@@ -90,6 +124,9 @@ public class Boss : MonoBehaviour
             // Invoke method to spawn fireballs after a delay
             Invoke("SpawnFireballs", fireballDelay);
         }
+
+        // Set teleporting flag to false after teleporting
+        isTeleporting = false;
     }
 
     void SpawnFireballs()
@@ -144,3 +181,6 @@ public class Boss : MonoBehaviour
         isLowHealth = false;
     }
 }
+
+
+

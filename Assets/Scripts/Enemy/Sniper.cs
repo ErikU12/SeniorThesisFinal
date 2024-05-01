@@ -12,6 +12,7 @@ public class SniperEnemy : MonoBehaviour
     public float projectileSpeed = 10f; // Speed of the projectile
     public Animator animator; // Reference to the Animator component
     private static readonly int Shoot = Animator.StringToHash("Shoot");
+    private static readonly int ShooterEnemyRun = Animator.StringToHash("ShooterEnemyRun");
 
     private Transform playerTransform; // Reference to the player's transform
     private bool isShooting = false; // Flag to track if the enemy is shooting
@@ -40,9 +41,21 @@ public class SniperEnemy : MonoBehaviour
         if (distanceToPlayer < stoppingDistance)
         {
             transform.Translate(-directionToPlayer * (moveSpeed * Time.deltaTime));
+
+            // Play running animation
+            if (animator != null)
+            {
+                animator.SetBool(ShooterEnemyRun, true);
+            }
         }
         else
         {
+            // Stop running animation
+            if (animator != null)
+            {
+                animator.SetBool(ShooterEnemyRun, false);
+            }
+
             // Flip the sprite to face the player's direction
             if (directionToPlayer.x > 0)
             {
@@ -73,7 +86,6 @@ public class SniperEnemy : MonoBehaviour
             }
         }
     }
-
     void ShootAtPlayer(float distanceToPlayer)
     {
         // Trigger the shooting animation
@@ -108,6 +120,7 @@ public class SniperEnemy : MonoBehaviour
         isShooting = false;
     }
 }
+
 
 
 
