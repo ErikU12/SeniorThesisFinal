@@ -145,7 +145,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   detectionRange: 10
   chargingSpeed: 6
-  bulletPrefab: {fileID: 2189071717821308508, guid: e2f73dff108fcd247998efefd3409e53, type: 3}
+  bulletPrefab: {fileID: 7952013214236474801, guid: edcb5078f9937f243b62a7381bad11c4, type: 3}
   shootPoint: {fileID: 1759034470305675200}
   bulletLifetime: 4
   shootingInterval: 1

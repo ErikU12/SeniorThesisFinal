@@ -1,7 +1,7 @@
 using Enemy;
 using UnityEngine;
 
-public class LaserDeflect : MonoBehaviour
+public class LaserDeflect2 : MonoBehaviour
 {
     public float damageAmount = 10f; // Amount of damage to apply to enemies
     public Color deflectedColor = Color.blue; // Color to change to after deflection
@@ -29,31 +29,28 @@ public class LaserDeflect : MonoBehaviour
             // Set the flag to true
             hasBeenDeflected = true;
         }
-        else if (hasBeenDeflected && other.CompareTag("Enemy"))
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (hasBeenDeflected && collision.gameObject.CompareTag("Enemy"))
         {
-            if (other.isTrigger) // Check if the collider is set as a trigger
+            // Damage the enemy
+            if (collision.gameObject.TryGetComponent(out RoboEyeHealth roboeyeHealth))
             {
-                // Damage the enemy
-                if (other.TryGetComponent(out RoboEyeHealth roboeyeHealth))
-                {
-                    roboeyeHealth.TakeDamage(1);
-                }
+                roboeyeHealth.TakeDamage(1);
             }
-            else
+            else if (collision.gameObject.TryGetComponent(out BlasterHealth blasterHealth))
             {
-                // Damage the enemy
-                if (other.TryGetComponent(out BlasterHealth blasterHealth))
-                {
-                    blasterHealth.TakeDamage(1);
-                }
-                else if (other.TryGetComponent(out SniperHealth sniperHealth))
-                {
-                    sniperHealth.TakeDamage(1);
-                }
+                blasterHealth.TakeDamage(1);
+            }
+            else if (collision.gameObject.TryGetComponent(out SniperHealth sniperHealth))
+            {
+                sniperHealth.TakeDamage(1);
             }
 
             // Change the color of the enemy to blue
-            SpriteRenderer enemyRenderer = other.GetComponent<SpriteRenderer>();
+            SpriteRenderer enemyRenderer = collision.gameObject.GetComponent<SpriteRenderer>();
             if (enemyRenderer != null)
             {
                 enemyRenderer.color = Color.blue;

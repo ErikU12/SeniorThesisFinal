@@ -1,60 +1,109 @@
 using UnityEngine;
+using System.Collections;
 
 public class FinalBossHealth : MonoBehaviour
 {
-    public int maxHealth = 10; // Maximum health of the boss
+    public int maxHealth = 20; // Increase max health for the final boss
+    public float flashInterval = 0.5f; // Interval for flashing effect
+    public float speedMultiplier = 2f; // Multiplier for boss speed and fireball speed when low health
+    public Color flashColor = Color.red; // Color for flashing effect
+    public GameObject deathPrefab; // Prefab to spawn upon boss death
+    public Transform spawnLocation; // Location to spawn the death prefab
     public Animator animator; // Reference to the Animator component
-    public GameObject deathEffect; // Particle effect for boss death
+    private static readonly int RedEyeDeath = Animator.StringToHash("RedEyeDeath");
 
-    private int currentHealth; // Current health of the boss
-    private bool isDead = false; // Flag to indicate if the boss is dead
-    private static readonly int HoodedFigureDeath = Animator.StringToHash("HoodedFigureDeath");
+    internal int currentHealth;
+    private bool isFlashing = false;
+    private bool isFastMode = false;
+    private SpriteRenderer spriteRenderer;
 
     void Start()
     {
-        // Initialize current health to max health
         currentHealth = maxHealth;
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
-    // Method to take damage
+    void Update()
+    {
+        if (currentHealth <= maxHealth / 2 && !isFastMode)
+        {
+            // Activate fast mode if boss health is low
+            isFastMode = true;
+            speedMultiplier *= 2; // Double the speed
+            GetComponent<FinalBossPhase1>().ActivateLowHealthMode(); // Activate low health mode in the FinalBossPhase1 script
+        }
+    }
+
+    // Coroutine for flashing effect
+    IEnumerator FlashEffect()
+    {
+        while (isFlashing)
+        {
+            spriteRenderer.color = flashColor;
+            yield return new WaitForSeconds(flashInterval);
+            spriteRenderer.color = Color.white;
+            yield return new WaitForSeconds(flashInterval);
+        }
+    }
+
+    // Method to handle boss taking damage
     public void TakeDamage(int damage)
     {
-        // Check if the boss is already dead
-        if (isDead)
-            return;
-
-        // Reduce health
         currentHealth -= damage;
 
-        // Play hurt animation (if you have one)
-        // Example: animator.SetTrigger("Hurt");
-
-        // Check if health reached zero
         if (currentHealth <= 0)
         {
             Die();
+        }
+        else if (currentHealth <= maxHealth / 2 && !isFlashing)
+        {
+            // Start flashing effect if boss health is low
+            isFlashing = true;
+            StartCoroutine(FlashEffect());
         }
     }
 
     // Method to handle boss death
     void Die()
     {
-        // Set dead flag to true
-        isDead = true;
-
         // Play death animation
-        if (animator != null)
+        animator.SetTrigger(RedEyeDeath);
+
+        // Invoke method to spawn the death prefab after a delay
+        Invoke("SpawnDeathPrefab", 2.0f); // Adjust the delay as needed
+    }
+
+    // Method to spawn the death prefab
+    void SpawnDeathPrefab()
+    {
+        // Spawn the death prefab at the specified location
+        if (deathPrefab != null && spawnLocation != null)
         {
-            animator.SetTrigger(HoodedFigureDeath);
+            Instantiate(deathPrefab, spawnLocation.position, Quaternion.identity);
         }
 
-        // Spawn death effect
-        if (deathEffect != null)
-        {
-            Instantiate(deathEffect, transform.position, Quaternion.identity);
-        }
+        // Destroy the boss object after the animation finishes
+        Destroy(gameObject, animator.GetCurrentAnimatorStateInfo(0).length);
+    }
 
-        // Disable boss GameObject or other death-related actions
-        gameObject.SetActive(false);
+    // Method to handle collisions with bullets and Flameshield
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Bullet"))
+        {
+            // Get the bullet damage from the Bullet script (assuming it has one)
+            Arrow arrow = other.GetComponent<Arrow>();
+            if (arrow != null)
+            {
+                TakeDamage(1); // Adjust damage as needed
+            }
+
+            // Destroy the bullet on collision
+            Destroy(other.gameObject);
+        }
+        else if (other.CompareTag("FlameShield"))
+        {
+            TakeDamage(3); // Apply 3 damage when colliding with Flameshield
+        }
     }
 }
