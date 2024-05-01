@@ -30,11 +30,12 @@ public class RoboEyeHealth : MonoBehaviour
         // Play death animation
         if (animator != null)
         {
-            animator.SetTrigger(RoboEyeDeath);
+            animator.SetBool(RoboEyeDeath,true);
 
             // Delay destruction of the object until after the animation finishes
-            float animationLength = animator.GetCurrentAnimatorStateInfo(0).length;
-            StartCoroutine(DestroyAfterAnimation(animationLength));
+            // float animationLength = animator.GetCurrentAnimatorStateInfo(0).length;
+            // Debug.Log("DESTROY TIME: " + animationLength);
+            StartCoroutine(DestroyAfterAnimation());
         }
         else
         {
@@ -43,10 +44,13 @@ public class RoboEyeHealth : MonoBehaviour
         }
     }
 
-    private IEnumerator DestroyAfterAnimation(float delay)
+    private IEnumerator DestroyAfterAnimation()
     {
+        yield return null;//new WaitForSeconds(0.25f);
+        float animationLength = animator.GetCurrentAnimatorStateInfo(0).length;
+        Debug.Log("DESTROY TIME: " + animationLength);
         // Wait for the animation to finish playing
-        yield return new WaitForSeconds(delay);
+        yield return new WaitForSeconds(animationLength);// - 0.25f
 
         // Destroy the enemy GameObject after the animation finishes
         Destroy(gameObject);
