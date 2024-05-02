@@ -97,11 +97,8 @@
     <Compile Include="Assets\Scripts\Other\Checkpoint.cs" />
     <Compile Include="Assets\Scripts\Player\ArrowSpawner.cs" />
     <Compile Include="Assets\Scripts\LaserDeflect2.cs" />
-<<<<<<< HEAD
     <Compile Include="Assets\Scripts\ImmunetoDamage.cs" />
-=======
     <Compile Include="Assets\Scripts\FadeIn.cs" />
->>>>>>> 0d8644c145d9ed346bbc9a160788a6c4a5f9450b
     <Compile Include="Assets\TextMesh Pro\Examples _ Extras\Scripts\EnvMapAnimator.cs" />
     <Compile Include="Assets\Scripts\Enemy\LaserEnemy.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples _ Extras\Scripts\TMPro_InstructionOverlay.cs" />
