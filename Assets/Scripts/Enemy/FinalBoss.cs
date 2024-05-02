@@ -4,14 +4,17 @@ public class FinalBoss : MonoBehaviour
 {
     public float moveSpeed = 10f; // Speed of the boss
     public float attackRange = 2f; // Range at which the boss attacks the player
+    public float slashDistance = 3f; // Distance the boss slashes past the player
+    public float slashCooldown = 3f; // Cooldown duration for the slash
     public int damageAmount = 1; // Damage amount when the boss slashes past the player
 
     private Transform player; // Reference to the player's transform
     private bool isCooldown = false; // Flag to indicate if the boss is in cooldown after slashing
     public Animator animator; // Reference to the Animator component
-    private static readonly int HoodedEnemyAttack = Animator.StringToHash("HoodedEnemyAttack");
+    private static readonly int FinalBossAttack = Animator.StringToHash("FinalBossAttack");
     private static readonly int HoodedEnemyRunning = Animator.StringToHash("HoodedEnemyRunning");
-    private static readonly int HoodedEnemyUnCloaked = Animator.StringToHash("HoodedEnemyUnCloaked");
+    private static readonly int FinalBossUncloaking = Animator.StringToHash("FinalBossUncloaking");
+    private static readonly int FinalBossSlash = Animator.StringToHash("FinalBossSlash");
 
     void Start()
     {
@@ -22,7 +25,7 @@ public class FinalBoss : MonoBehaviour
         animator = GetComponent<Animator>();
 
         // Set a transition to hooded enemy uncloaked on awake
-        animator.SetTrigger(HoodedEnemyUnCloaked);
+        animator.SetTrigger(FinalBossUncloaking);
     }
 
     void Update()
@@ -36,14 +39,16 @@ public class FinalBoss : MonoBehaviour
         // Check if the player is within attack range
         if (Vector3.Distance(transform.position, player.position) <= attackRange)
         {
-            // Trigger attack animation and initiate attack
-            animator.SetTrigger(HoodedEnemyAttack);
-            StartSlash();
+            // If not in cooldown, start the slash
+            if (!isCooldown)
+            {
+                StartSlash();
+            }
         }
         else
         {
             // Player is out of attack range, reset attack animation trigger
-            animator.SetBool(HoodedEnemyAttack, false);
+            animator.SetBool(FinalBossAttack, false);
         }
     }
 
@@ -51,6 +56,18 @@ public class FinalBoss : MonoBehaviour
     {
         // Calculate direction towards the player
         Vector3 direction = (player.position - transform.position).normalized;
+
+        // Flip the sprite if needed
+        if (direction.x < 0)
+        {
+            // If the player is to the left, flip the sprite
+            transform.localScale = new Vector3(-1f, 1f, 1f);
+        }
+        else if (direction.x > 0)
+        {
+            // If the player is to the right, ensure sprite faces right
+            transform.localScale = new Vector3(1f, 1f, 1f);
+        }
 
         // Move the boss towards the player
         transform.Translate(direction * (moveSpeed * Time.deltaTime));
@@ -68,40 +85,22 @@ public class FinalBoss : MonoBehaviour
         }
     }
 
-    void OnTriggerEnter(Collider other)
+    void StartSlash()
     {
-        // Check if collided with the player while slashing
-        if (other.CompareTag("Player"))
-        {
-            // Deal damage to the player
-            DealDamage(other.gameObject);
-        }
-    }
+        // Calculate direction towards the player
+        Vector3 direction = (player.position - transform.position).normalized;
 
-    void DealDamage(GameObject target)
-    {
-        // Check if the target has a health component
-        PlayerHealth health = target.GetComponent<PlayerHealth>();
-        if (health != null)
-        {
-            // Deal damage to the target
-            health.TakeDamage(damageAmount);
-        }
-    }
+        // Trigger the slash animation
+        animator.SetTrigger(FinalBossAttack);
 
-    public void StartSlash()
-    {
         // Move the boss quickly past the player
-        transform.Translate(Vector3.right * moveSpeed * Time.deltaTime);
+        transform.position += direction * slashDistance;
 
         // Enter cooldown after slashing
         isCooldown = true;
 
         // Set a cooldown period before the boss can slash again
-        Invoke("ResetCooldown", 1f);
-
-        // Trigger the "Slash" parameter to transition to the slashing animation
-        animator.SetTrigger(HoodedEnemyAttack);
+        Invoke("ResetCooldown", slashCooldown);
     }
 
     void ResetCooldown()

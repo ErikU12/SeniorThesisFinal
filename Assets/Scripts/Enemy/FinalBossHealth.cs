@@ -15,6 +15,7 @@ public class FinalBossHealth : MonoBehaviour
     internal int currentHealth;
     private bool isFlashing = false;
     private bool isFastMode = false;
+    private bool hasDied = false; // Flag to prevent multiple calls to Die()
     private SpriteRenderer spriteRenderer;
 
     void Start()
@@ -53,10 +54,12 @@ public class FinalBossHealth : MonoBehaviour
 
         if (currentHealth <= 0)
         {
+            Debug.Log("Boss is dead!"); // Add debug log
             Die();
         }
         else if (currentHealth <= maxHealth / 2 && !isFlashing)
         {
+            Debug.Log("Boss health is low!"); // Add debug log
             // Start flashing effect if boss health is low
             isFlashing = true;
             StartCoroutine(FlashEffect());
@@ -66,6 +69,18 @@ public class FinalBossHealth : MonoBehaviour
     // Method to handle boss death
     void Die()
     {
+        // Check if the boss has already died
+        if (hasDied)
+        {
+            Debug.LogWarning("Die() method called multiple times!");
+            return;
+        }
+
+        Debug.Log("Boss is dying!"); // Add debug log
+
+        // Set the flag to indicate that the boss has died
+        hasDied = true;
+
         // Play death animation
         animator.SetTrigger(RedEyeDeath);
 
@@ -79,6 +94,7 @@ public class FinalBossHealth : MonoBehaviour
         // Spawn the death prefab at the specified location
         if (deathPrefab != null && spawnLocation != null)
         {
+            Debug.Log("Spawning death prefab!"); // Add debug log
             Instantiate(deathPrefab, spawnLocation.position, Quaternion.identity);
         }
 
@@ -95,6 +111,7 @@ public class FinalBossHealth : MonoBehaviour
             Arrow arrow = other.GetComponent<Arrow>();
             if (arrow != null)
             {
+                Debug.Log("Boss hit by a bullet!"); // Add debug log
                 TakeDamage(1); // Adjust damage as needed
             }
 
@@ -103,7 +120,9 @@ public class FinalBossHealth : MonoBehaviour
         }
         else if (other.CompareTag("FlameShield"))
         {
+            Debug.Log("Boss hit by Flameshield!"); // Add debug log
             TakeDamage(3); // Apply 3 damage when colliding with Flameshield
         }
     }
 }
+
