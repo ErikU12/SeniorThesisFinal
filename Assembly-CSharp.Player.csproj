@@ -86,6 +86,9 @@
     <Compile Include="Assets\Scripts\Other\ElevatorPlatform.cs" />
     <Compile Include="Assets\Scripts\Other\Checkpoint.cs" />
     <Compile Include="Assets\Scripts\Player\ArrowSpawner.cs" />
+    <Compile Include="Assets\Scripts\ImmunetoDamage.cs" />
+    <Compile Include="Assets\Scripts\LaserDeflect2.cs" />
+    <Compile Include="Assets\Scripts\FadeIn.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples _ Extras\Scripts\EnvMapAnimator.cs" />
     <Compile Include="Assets\Scripts\Enemy\LaserEnemy.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples _ Extras\Scripts\TMPro_InstructionOverlay.cs" />
@@ -104,9 +107,11 @@
     <Compile Include="Assets\Scripts\Other\FallLose.cs" />
     <Compile Include="Assets\Scripts\Other\Ladder.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples _ Extras\Scripts\SimpleScript.cs" />
+    <Compile Include="Assets\Scripts\Enemy\FinalBossPhase1.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples _ Extras\Scripts\TMP_TextEventCheck.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyReact.cs" />
     <Compile Include="Assets\Scripts\Player\ArrowTransparent.cs" />
+    <Compile Include="Assets\Scripts\SceneTransitionButton.cs" />
     <Compile Include="Assets\Scripts\Enemy\ArrowDraw.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples _ Extras\Scripts\WarpTextExample.cs" />
     <Compile Include="Assets\Scripts\Other\ResetGame.cs" />
@@ -126,7 +131,9 @@
     <Compile Include="Assets\Scripts\Player\Projectile.cs" />
     <Compile Include="Assets\Scripts\Other\Txt.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples _ Extras\Scripts\TMP_TextSelector_B.cs" />
+    <Compile Include="Assets\Scripts\LaserPassthrough.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples _ Extras\Scripts\VertexJitter.cs" />
+    <Compile Include="Assets\Scripts\SceneTransition.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples _ Extras\Scripts\TMP_FrameRateCounter.cs" />
     <Compile Include="Assets\Scripts\Enemy\Spawner.cs" />
     <Compile Include="Assets\Scripts\Enemy\WolfHealth.cs" />
