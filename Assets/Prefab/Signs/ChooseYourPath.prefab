@@ -113,7 +113,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1454237496135875936, guid: 181b11b1540f91a4cae7d7a669460dd0, type: 3}
       propertyPath: m_text
-      value: Choose Your Path
+      value: The Wind arrow is blessed by Fujin
+      objectReference: {fileID: 0}
+    - target: {fileID: 1454237496135875936, guid: 181b11b1540f91a4cae7d7a669460dd0, type: 3}
+      propertyPath: m_fontSize
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1454237496135875936, guid: 181b11b1540f91a4cae7d7a669460dd0, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 5591630260707921793, guid: 181b11b1540f91a4cae7d7a669460dd0, type: 3}
       propertyPath: m_Name
@@ -198,6 +206,10 @@ PrefabInstance:
     - target: {fileID: 7113541569937554149, guid: 181b11b1540f91a4cae7d7a669460dd0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8831471863080414482, guid: 181b11b1540f91a4cae7d7a669460dd0, type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

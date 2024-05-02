@@ -173,8 +173,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 3
   currentHealth: 3
-  damagedColor: {r: 1, g: 0.5, b: 0, a: 1}
-  criticalColor: {r: 1, g: 0, b: 0, a: 1}
+  playerSpriteRenderer: {fileID: 0}
+  fullHealthSprite: {fileID: 0}
+  damagedSprite: {fileID: 0}
+  criticalSprite: {fileID: 0}
+  deadSprite: {fileID: 0}
+  damageSound: {fileID: 0}
+  invincibleDuration: 2
+  knockbackForce: 10
+  knockbackDuration: 0.5
+  laserKnockbackForce: 5
 --- !u!114 &3341256750304273530
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -236,9 +244,21 @@ MonoBehaviour:
   enemyRange: 5
   spawnDelay: 0.5
   spawnOffset: {x: 0, y: -0.5}
-  bulletCountText: {fileID: 0}
   animator: {fileID: 2641600685803999242}
   bulletSpawnSound: {fileID: 0}
+  currentArrowIndex: 0
+  playerSpriteRenderer: {fileID: 0}
+  tenArrowSprite: {fileID: 0}
+  nineArrowsprite: {fileID: 0}
+  eightArrowSprite: {fileID: 0}
+  sevenArrowSprite: {fileID: 0}
+  sixArrowSprite: {fileID: 0}
+  fiveArrowSprite: {fileID: 0}
+  fourArrowSprite: {fileID: 0}
+  threeArrowSprite: {fileID: 0}
+  twoArrowSprite: {fileID: 0}
+  oneArrowSprite: {fileID: 0}
+  zeroArrowSprite: {fileID: 0}
 --- !u!114 &5091522185321260072
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -257,6 +277,9 @@ MonoBehaviour:
   minJumpForce: 2
   maxJumpTime: 0.2
   jumpCooldown: 0.2
+  climbSpeed: 3
+  audioSource: {fileID: 0}
+  runningSound: {fileID: 0}
 --- !u!114 &790869774551778936
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -271,6 +294,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   knockbackForce: 10
   knockbackDuration: 0.5
+  invincibleDuration: 2
 --- !u!95 &2641600685803999242
 Animator:
   serializedVersion: 5
@@ -305,6 +329,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefabToSpawn: {fileID: 8408728955079237747, guid: b0acfc8039939d3459fb58e90c59e673, type: 3}
+  spawnSound: {fileID: 0}
+  flameShieldSpawnSound: {fileID: 0}
   spawnRadius: 2
   despawnTime: 2
   playerLayer:
@@ -377,6 +403,8 @@ MonoBehaviour:
   immunityDuration: 1
   meleeCooldown: 30
   immuneAnimation: {fileID: 7400000, guid: cfaefd3574d71d64ab1fe2fd0c9349c8, type: 2}
+  meleeSound: {fileID: 0}
+  knockbackForce: 10
 --- !u!114 &7413020118839056289
 MonoBehaviour:
   m_ObjectHideFlags: 0
