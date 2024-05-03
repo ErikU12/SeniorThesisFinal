@@ -25,7 +25,7 @@ public class FinalBossPhase1 : MonoBehaviour
     private int teleportCount = 0;
     private float lastTeleportTime;
     private Transform playerTransform; // Reference to the player's transform
-    private BossHealth bossHealth; // Reference to the BossHealth component
+    private FinalBossHealth finalbossHealth; // Reference to the BossHealth component
 
     private bool isLowHealth = false; // Flag to indicate low health mode
     private bool isTeleporting = false; // Flag to indicate if boss is currently teleporting
@@ -42,10 +42,10 @@ public class FinalBossPhase1 : MonoBehaviour
         playerTransform = GameObject.FindGameObjectWithTag("Player").transform;
 
         // Get the BossHealth component
-        bossHealth = GetComponent<BossHealth>();
+        finalbossHealth = GetComponent<FinalBossHealth>();
 
         // Start teleporting if player is in range and boss health is not zero
-        if (playerTransform != null && Vector3.Distance(transform.position, playerTransform.position) <= detectionRange && bossHealth.currentHealth > 0)
+        if (playerTransform != null && Vector3.Distance(transform.position, playerTransform.position) <= detectionRange && finalbossHealth.currentHealth > 0)
         {
             TeleportToNextPoint();
         }
@@ -54,7 +54,7 @@ public class FinalBossPhase1 : MonoBehaviour
     void Update()
     {
         // Check if player is in range, boss health is not zero, and it's time to teleport again
-        if (!isTeleporting && bossHealth.currentHealth > 0 && playerTransform != null && Vector3.Distance(transform.position, playerTransform.position) <= detectionRange &&
+        if (!isTeleporting && finalbossHealth.currentHealth > 0 && playerTransform != null && Vector3.Distance(transform.position, playerTransform.position) <= detectionRange &&
             Time.time - lastTeleportTime >= (isLowHealth ? teleportInterval / 2 : teleportInterval))
         {
             // Reset last teleport time
@@ -65,7 +65,7 @@ public class FinalBossPhase1 : MonoBehaviour
         }
 
         // Check for low health
-        if (bossHealth.currentHealth <= 5 && !isLowHealth)
+        if (finalbossHealth.currentHealth <= 5 && !isLowHealth)
         {
             // Activate low health mode
             isLowHealth = true;

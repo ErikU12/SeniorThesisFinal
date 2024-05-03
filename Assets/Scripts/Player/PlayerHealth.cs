@@ -97,6 +97,10 @@ public class PlayerHealth : MonoBehaviour
             knockbackDirection = (transform.position - collision.transform.position).normalized;
             rb.velocity = knockbackDirection * laserKnockbackForce;
         }
+        else if (!isInvincible && collision.gameObject.CompareTag("Water")) 
+        {
+            TakeDamage(100); // Deal 100 damage on collision with water
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D other)

@@ -28,6 +28,8 @@ TagManager:
   - Shield
   - ShieldHitbox
   - Crate
+  - Lava
+  - Water
   layers:
   - Default
   - TransparentFX

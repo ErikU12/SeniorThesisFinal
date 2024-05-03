@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
-public class FinalBossHealth : MonoBehaviour
+public class FinalBossHealthPhase2 : MonoBehaviour
 {
     public int maxHealth = 20; // Increase max health for the final boss
     public float flashInterval = 0.5f; // Interval for flashing effect
@@ -118,5 +118,3 @@ public class FinalBossHealth : MonoBehaviour
         }
     }
 }
-
-
