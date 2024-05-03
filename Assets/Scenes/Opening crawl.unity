@@ -161,12 +161,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: At one point in history there was a massive war. Our hero was a solider
-    in that war. It has been years since then and our hero has become bitter and
-    old. He still visits the monument of his general daily to pay respects. This
-    all changes one day when a strange obelisk lands near by. He must find out what
-    it is and why it has landed there. What secrets will he find? What horrors will
-    he discover? Will he even survive?!
+  m_text: "At one point \n\nin history \n\nthere was a massive war. \n\nOur hero
+    was \n\na solider in \n\nthat war. \n\nIt has been years since then and our hero
+    has become bitter and old. He still visits the monument of his general daily
+    to pay respects. This all changes one day when a strange obelisk lands near by.
+    He must find out what it is and why it has landed there. What secrets will he
+    find? What horrors will he discover? Will he even survive?!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 81546b586d0c7b14da7474a9759bf98e, type: 2}
   m_sharedMaterial: {fileID: 3495109996248955174, guid: 81546b586d0c7b14da7474a9759bf98e, type: 2}
@@ -193,8 +193,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 12
-  m_fontSizeBase: 12
+  m_fontSize: 7
+  m_fontSizeBase: 7
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -229,7 +229,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: -38.391212}
+  m_margin: {x: 0, y: 0, z: 10.308596, w: -38.391212}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   _SortingLayer: 0
@@ -296,7 +296,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -3.7199998, y: 89.11}
+  m_AnchoredPosition: {x: 5.1, y: 1.7}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &494599722
