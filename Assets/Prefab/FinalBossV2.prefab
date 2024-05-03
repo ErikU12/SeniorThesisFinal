@@ -135,7 +135,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &5506578234560313514
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -195,5 +195,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 10
   attackRange: 2
+  slashDistance: 3
+  slashCooldown: 3
   damageAmount: 1
-  animator: {fileID: 8996644758565259878}
+  teleportAndFirePoints: []
+  teleportDelay: 1.5
+  fireballPrefab: {fileID: 0}
+  fireballSound: {fileID: 0}

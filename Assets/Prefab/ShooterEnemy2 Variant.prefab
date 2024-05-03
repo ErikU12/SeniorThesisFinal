@@ -152,6 +152,7 @@ MonoBehaviour:
   stoppingDistance: 5
   animator: {fileID: 5494524962957784195}
   projectileSpeed: 10
+  shootSound: {fileID: 8300000, guid: 29c09d77fbf7c4eb6ac1ccdacb824eb6, type: 3}
 --- !u!114 &1722720583010707205
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -166,6 +167,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 1
   animator: {fileID: 5494524962957784195}
+  deathSound: {fileID: 8300000, guid: a98f2f9464a75405fb7ccc9036b0cd30, type: 3}
 --- !u!114 &4956302904722786748
 MonoBehaviour:
   m_ObjectHideFlags: 0

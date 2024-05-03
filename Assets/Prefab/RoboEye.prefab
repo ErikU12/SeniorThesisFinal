@@ -164,6 +164,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 1
   animator: {fileID: 4561811808868342838}
+  deathSound: {fileID: 8300000, guid: a98f2f9464a75405fb7ccc9036b0cd30, type: 3}
 --- !u!95 &4561811808868342838
 Animator:
   serializedVersion: 5

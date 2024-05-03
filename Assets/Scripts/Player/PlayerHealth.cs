@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -15,6 +16,7 @@ public class PlayerHealth : MonoBehaviour
     public float knockbackForce = 10f; 
     public float knockbackDuration = 0.5f; 
     public float laserKnockbackForce = 5f; 
+    public Animator playerAnimator; // Reference to the Animator component for the player
 
     private Rigidbody2D rb;
     private Vector3 respawnPoint; 
@@ -24,7 +26,8 @@ public class PlayerHealth : MonoBehaviour
     private bool isKnockedBack = false; 
     private float knockbackTimer = 0f; 
     private Vector2 knockbackDirection; 
-    private ArrowSpawner arrowSpawner; 
+    private ArrowSpawner arrowSpawner;
+    private static readonly int PlayerDeath = Animator.StringToHash("PlayerDeath");
 
     private void Start()
     {
@@ -67,13 +70,52 @@ public class PlayerHealth : MonoBehaviour
         {
             if (!collidedWithCheckpoint)
             {
-                SceneManager.LoadScene("GameOver");
+                // Play death animation
+                playerAnimator.SetTrigger(PlayerDeath);
+
+                // Wait until the death animation finishes playing
+                float deathAnimationLength = GetAnimationLength(playerAnimator, "PlayerDeath");
+                StartCoroutine(WaitForDeathAnimation(deathAnimationLength));
             }
             else
             {
                 Respawn();
             }
         }
+    }
+
+    private IEnumerator WaitForDeathAnimation(float duration)
+    {
+        yield return new WaitForSeconds(duration);
+
+        // Load the "GameOver" scene
+        SceneManager.LoadScene("GameOver");
+    }
+
+    private float GetAnimationLength(Animator animator, string triggerName)
+    {
+        float length = 0f;
+
+        // Get the AnimatorController attached to the Animator component
+        RuntimeAnimatorController animatorController = animator.runtimeAnimatorController;
+
+        // Check if the AnimatorController exists
+        if (animatorController != null)
+        {
+            // Iterate over all the animations in the AnimatorController
+            foreach (AnimationClip clip in animatorController.animationClips)
+            {
+                // Find the animation clip with the specified trigger name
+                if (clip.name.Equals(triggerName))
+                {
+                    // Get the length of the animation clip
+                    length = clip.length;
+                    break;
+                }
+            }
+        }
+
+        return length;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

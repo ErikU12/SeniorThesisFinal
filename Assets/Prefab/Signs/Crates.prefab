@@ -27,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 3050101109362270144}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 59.3, y: 23.1, z: -1}
+  m_LocalPosition: {x: 59.3, y: 22.91, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -117,11 +117,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1454237496135875936, guid: 181b11b1540f91a4cae7d7a669460dd0, type: 3}
       propertyPath: m_fontSize
-      value: 12
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1454237496135875936, guid: 181b11b1540f91a4cae7d7a669460dd0, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 81546b586d0c7b14da7474a9759bf98e, type: 2}
+    - target: {fileID: 1454237496135875936, guid: 181b11b1540f91a4cae7d7a669460dd0, type: 3}
       propertyPath: m_fontSizeBase
-      value: 12
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1454237496135875936, guid: 181b11b1540f91a4cae7d7a669460dd0, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 3495109996248955174, guid: 81546b586d0c7b14da7474a9759bf98e, type: 2}
+    - target: {fileID: 1454237496135875936, guid: 181b11b1540f91a4cae7d7a669460dd0, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5136640390931222134, guid: 181b11b1540f91a4cae7d7a669460dd0, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 4.6
       objectReference: {fileID: 0}
     - target: {fileID: 5591630260707921793, guid: 181b11b1540f91a4cae7d7a669460dd0, type: 3}
       propertyPath: m_Name
@@ -193,7 +209,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7113541569937554149, guid: 181b11b1540f91a4cae7d7a669460dd0, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.01
+      value: -0.3
       objectReference: {fileID: 0}
     - target: {fileID: 7113541569937554149, guid: 181b11b1540f91a4cae7d7a669460dd0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x

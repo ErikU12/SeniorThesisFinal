@@ -11,11 +11,14 @@ public class BlasterEnemy : MonoBehaviour
     public float stoppingDistance = 1f; // Distance from the player to stop moving
     public Animator animator; // Reference to the Animator component
     public float projectileSpeed = 10f; // Speed of the projectile
+    public AudioClip shootSound; // Sound effect for shooting
+
     private static readonly int Shoot = Animator.StringToHash("Shoot");
     private static readonly int ShooterEnemy2Run = Animator.StringToHash("ShooterEnemy2Run");
 
     private Transform playerTransform; // Reference to the player's transform
     private bool isShooting = false; // Flag to track if the enemy is shooting
+    private AudioSource audioSource; // Reference to the AudioSource component
 
     void Start()
     {
@@ -24,6 +27,13 @@ public class BlasterEnemy : MonoBehaviour
         if (playerTransform == null)
         {
             Debug.LogError("Player not found. Make sure the player has the 'Player' tag.");
+        }
+
+        // Add AudioSource component to the BlasterEnemy object if it doesn't exist
+        audioSource = GetComponent<AudioSource>();
+        if (audioSource == null)
+        {
+            audioSource = gameObject.AddComponent<AudioSource>();
         }
     }
 
@@ -99,6 +109,12 @@ public class BlasterEnemy : MonoBehaviour
             rb.velocity = direction * projectileSpeed;
         }
 
+        // Play shoot sound if assigned
+        if (audioSource != null && shootSound != null)
+        {
+            audioSource.PlayOneShot(shootSound);
+        }
+
         // Destroy the bullet after its lifetime
         Destroy(bullet, bulletLifetime);
 
@@ -111,6 +127,7 @@ public class BlasterEnemy : MonoBehaviour
         isShooting = false;
     }
 }
+
 
 
 

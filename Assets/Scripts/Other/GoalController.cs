@@ -22,7 +22,7 @@ public class GoalController2 : MonoBehaviour
             }
 
            
-            SceneManager.LoadScene("GameWin");
+            SceneManager.LoadScene("Ending crawl");
         }
     }
 

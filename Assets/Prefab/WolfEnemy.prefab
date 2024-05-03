@@ -167,6 +167,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 1
   animator: {fileID: 5597789721595824674}
+  deathSound: {fileID: 8300000, guid: a98f2f9464a75405fb7ccc9036b0cd30, type: 3}
 --- !u!61 &8989540790577872892
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -238,7 +239,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &3890968608864567102
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -316,3 +317,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 1
   animator: {fileID: 5597789721595824674}
+  deathSound: {fileID: 0}
