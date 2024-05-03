@@ -5802,7 +5802,7 @@ GameObject:
   - component: {fileID: 119258810}
   m_Layer: 0
   m_Name: InfectedRock (13)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18900,7 +18900,7 @@ GameObject:
   - component: {fileID: 390843234}
   m_Layer: 0
   m_Name: InfectedRock (18)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26149,7 +26149,7 @@ GameObject:
   - component: {fileID: 568121350}
   m_Layer: 0
   m_Name: InfectedRock (53)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -69493,7 +69493,7 @@ GameObject:
   - component: {fileID: 1505097344}
   m_Layer: 0
   m_Name: InfectedRock (17)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -69623,7 +69623,7 @@ GameObject:
   - component: {fileID: 1507244588}
   m_Layer: 0
   m_Name: InfectedRock (54)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -91176,7 +91176,7 @@ GameObject:
   - component: {fileID: 1902880998}
   m_Layer: 0
   m_Name: InfectedRock (14)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -99452,7 +99452,7 @@ GameObject:
   - component: {fileID: 2091098623}
   m_Layer: 0
   m_Name: InfectedRock (16)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
