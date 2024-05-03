@@ -4,11 +4,15 @@
     <list default="true" id="3f799f25-77f4-46d6-81db-4f7f940d2bd9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SeniorThesis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SeniorThesis/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Hooded Figure-Sheet (1)_0 1.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Hooded Figure-Sheet (1)_0 1.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/FinalBossV2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/FinalBossV2.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Ending crawl.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Ending crawl.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameOver.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameOver.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameWin.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameWin.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/FinalBoss.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/FinalBoss.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/FinalBossHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/FinalBossHealth.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Opening crawl.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Opening crawl.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TutorialRedo.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TutorialRedo.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Other/ResetGame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Other/ResetGame.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Press_Start_2P SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Press_Start_2P SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -155,6 +159,8 @@
       <workItem from="1714603942933" duration="638000" />
       <workItem from="1714627322592" duration="1636000" />
       <workItem from="1714629514989" duration="633000" />
+      <workItem from="1714665922385" duration="5453000" />
+      <workItem from="1714698734500" duration="1306000" />
     </task>
     <servers />
   </component>
