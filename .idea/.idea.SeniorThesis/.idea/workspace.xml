@@ -4,14 +4,61 @@
     <list default="true" id="3f799f25-77f4-46d6-81db-4f7f940d2bd9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SeniorThesis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SeniorThesis/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Player.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/FinalBossV2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/FinalBossV2.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/RoboEye.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/RoboEye.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/ShieldEnemy Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/ShieldEnemy Variant.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/ShooterEnemy 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/ShooterEnemy 1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/ShooterEnemy2 Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/ShooterEnemy2 Variant.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Signs/ArrowClick.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Signs/ArrowClick.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Signs/Blaster.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Signs/Blaster.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Signs/Checkpoint.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Signs/Checkpoint.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Signs/ChooseYourPath.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Signs/ChooseYourPath.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Signs/Crates.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Signs/Crates.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Signs/DoubleJump.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Signs/DoubleJump.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Signs/FinalBoss.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Signs/FinalBoss.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Signs/FireShield.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Signs/FireShield.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Signs/HallofDanger.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Signs/HallofDanger.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Signs/IceShield.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Signs/IceShield.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Signs/IceShieldSlow.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Signs/IceShieldSlow.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Signs/LightningArrow.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Signs/LightningArrow.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Signs/Medkits.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Signs/Medkits.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Signs/Melee.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Signs/Melee.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Signs/Movement.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Signs/Movement.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Signs/Platforming.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Signs/Platforming.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Signs/ScrollWheel.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Signs/ScrollWheel.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Signs/Skeleton1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Signs/Skeleton1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Signs/Skeleton2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Signs/Skeleton2.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Signs/Sniper.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Signs/Sniper.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Signs/Soldier.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Signs/Soldier.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Signs/Vampire.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Signs/Vampire.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Signs/WindArrows.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Signs/WindArrows.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Signs/Wolves.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Signs/Wolves.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Signs/Zeus.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Signs/Zeus.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/WolfEnemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/WolfEnemy.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Ending crawl.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Ending crawl.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameOver.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameOver.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameWin.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameWin.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/HomeScreen.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/HomeScreen.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Opening crawl.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Opening crawl.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/TutorialRedo.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TutorialRedo.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Other/ResetGame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Other/ResetGame.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/Blaster.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/Blaster.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/BlasterHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/BlasterHealth.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/BossHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/BossHealth.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/FinalBossHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/FinalBossHealth.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/RoboEyeHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/RoboEyeHealth.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/SkellyHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/SkellyHealth.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/Sniper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/Sniper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/SniperHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/SniperHealth.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/WolfHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/WolfHealth.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Other/GoalController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Other/GoalController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerHealth.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples _ Extras/Resources/Fonts _ Materials/Anton SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples _ Extras/Resources/Fonts _ Materials/Anton SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples _ Extras/Resources/Fonts _ Materials/Roboto-Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples _ Extras/Resources/Fonts _ Materials/Roboto-Bold SDF.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Press_Start_2P SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Press_Start_2P SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts _ Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts _ Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
     </list>
@@ -161,6 +208,8 @@
       <workItem from="1714629514989" duration="633000" />
       <workItem from="1714665922385" duration="5453000" />
       <workItem from="1714698734500" duration="1306000" />
+      <workItem from="1714702813281" duration="10420000" />
+      <workItem from="1714715828812" duration="5791000" />
     </task>
     <servers />
   </component>

@@ -8,6 +8,7 @@ namespace Enemy
         public Animator animator; // Reference to the Animator component
         private static readonly int ShooterEnemyDeath = Animator.StringToHash("ShooterEnemyDeath");
         private int _currentHealth;
+        public AudioClip deathSound; // AudioClip for death sound effect
 
         private void Start()
         {
@@ -32,6 +33,12 @@ namespace Enemy
             if (animator != null)
             {
                 animator.SetTrigger(ShooterEnemyDeath);
+
+                // Play death sound effect if AudioClip is assigned
+                if (deathSound != null)
+                {
+                    AudioSource.PlayClipAtPoint(deathSound, transform.position);
+                }
 
                 // Delay destruction of the object until after the animation finishes
                 float animationLength = animator.GetCurrentAnimatorStateInfo(0).length;

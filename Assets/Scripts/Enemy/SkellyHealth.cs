@@ -6,6 +6,7 @@ public class SkellyHealth : MonoBehaviour
     public Animator animator; // Reference to the Animator component
     private static readonly int ShieldDeath = Animator.StringToHash("ShieldDeath");
     private int _currentHealth;
+    public AudioClip deathSound; // AudioClip for death sound effect
 
     private void Start()
     {
@@ -30,6 +31,12 @@ public class SkellyHealth : MonoBehaviour
         if (animator != null)
         {
             animator.SetTrigger(ShieldDeath);
+
+            // Play death sound effect if AudioClip is assigned
+            if (deathSound != null)
+            {
+                AudioSource.PlayClipAtPoint(deathSound, transform.position);
+            }
 
             // Delay destruction of the object until after the animation finishes
             float animationLength = animator.GetCurrentAnimatorStateInfo(0).length;
@@ -80,4 +87,6 @@ public class SkellyHealth : MonoBehaviour
         }
     }
 }
+
+
 

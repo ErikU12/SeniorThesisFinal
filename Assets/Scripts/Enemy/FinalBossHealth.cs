@@ -10,7 +10,9 @@ public class FinalBossHealth : MonoBehaviour
     public GameObject deathPrefab; // Prefab to spawn upon boss death
     public Transform spawnLocation; // Location to spawn the death prefab
     public Animator animator; // Reference to the Animator component
-    private static readonly int RedEyeDeath = Animator.StringToHash("RedEyeDeath");
+    public AudioSource audioSource; // Reference to the AudioSource component for death sound
+    public AudioClip deathSound; // AudioClip for death sound effect
+    private static readonly int FinalBossDeath = Animator.StringToHash("FinalBossDeath");
 
     internal int currentHealth;
     private bool isFlashing = false;
@@ -22,6 +24,7 @@ public class FinalBossHealth : MonoBehaviour
     {
         currentHealth = maxHealth;
         spriteRenderer = GetComponent<SpriteRenderer>();
+        audioSource = GetComponent<AudioSource>(); // Get the AudioSource component attached to this GameObject
     }
 
     void Update()
@@ -52,7 +55,7 @@ public class FinalBossHealth : MonoBehaviour
     {
         currentHealth -= damage;
 
-        if (currentHealth <= 0)
+        if (currentHealth <= 0 && !hasDied) // Check if the boss has not already died
         {
             Debug.Log("Boss is dead!"); // Add debug log
             Die();
@@ -69,20 +72,19 @@ public class FinalBossHealth : MonoBehaviour
     // Method to handle boss death
     void Die()
     {
-        // Check if the boss has already died
-        if (hasDied)
-        {
-            Debug.LogWarning("Die() method called multiple times!");
-            return;
-        }
-
-        Debug.Log("Boss is dying!"); // Add debug log
-
         // Set the flag to indicate that the boss has died
         hasDied = true;
 
+        Debug.Log("Boss is dying!"); // Add debug log
+
         // Play death animation
-        animator.SetTrigger(RedEyeDeath);
+        animator.SetTrigger(FinalBossDeath);
+
+        // Play death sound effect if AudioClip is assigned
+        if (audioSource != null && deathSound != null)
+        {
+            audioSource.PlayOneShot(deathSound);
+        }
 
         // Invoke method to spawn the death prefab after a delay
         Invoke("SpawnDeathPrefab", 2.0f); // Adjust the delay as needed
@@ -125,4 +127,5 @@ public class FinalBossHealth : MonoBehaviour
         }
     }
 }
+
 

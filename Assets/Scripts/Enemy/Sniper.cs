@@ -11,6 +11,8 @@ public class SniperEnemy : MonoBehaviour
     public float stoppingDistance = 5f; // Distance from the player to stop moving
     public float projectileSpeed = 10f; // Speed of the projectile
     public Animator animator; // Reference to the Animator component
+    public AudioClip shootSound; // Sound effect for shooting
+
     private static readonly int Shoot = Animator.StringToHash("Shoot");
     private static readonly int ShooterEnemyRun = Animator.StringToHash("ShooterEnemyRun");
 
@@ -22,10 +24,9 @@ public class SniperEnemy : MonoBehaviour
     {
         playerTransform = GameObject.FindGameObjectWithTag("Player").transform;
         audioSource = GetComponent<AudioSource>();
-
-        if (playerTransform == null)
+        if (audioSource == null)
         {
-            Debug.LogError("Player not found. Make sure the player has the 'Player' tag.");
+            audioSource = gameObject.AddComponent<AudioSource>();
         }
     }
 
@@ -86,6 +87,7 @@ public class SniperEnemy : MonoBehaviour
             }
         }
     }
+
     void ShootAtPlayer(float distanceToPlayer)
     {
         // Trigger the shooting animation
@@ -105,10 +107,10 @@ public class SniperEnemy : MonoBehaviour
             rb.velocity = direction * projectileSpeed;
         }
 
-        // Play shoot sound
-       // if (audioSource != null && projectile.GetComponent<Projectile>() != null && projectile.GetComponent<Projectile>().shootSound != null)
+        // Play shoot sound if assigned
+        if (audioSource != null && shootSound != null)
         {
-           // audioSource.PlayOneShot(projectile.GetComponent<Projectile>().shootSound);
+            audioSource.PlayOneShot(shootSound);
         }
 
         // Reset the shooting flag after the shooting interval
@@ -120,7 +122,4 @@ public class SniperEnemy : MonoBehaviour
         isShooting = false;
     }
 }
-
-
-
 

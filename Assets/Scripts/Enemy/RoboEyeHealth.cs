@@ -7,6 +7,7 @@ public class RoboEyeHealth : MonoBehaviour
     public Animator animator; // Reference to the Animator component
     private static readonly int RoboEyeDeath = Animator.StringToHash("RoboEyeDeath");
     private int _currentHealth;
+    public AudioClip deathSound; // AudioClip for death sound effect
 
     private void Start()
     {
@@ -30,11 +31,15 @@ public class RoboEyeHealth : MonoBehaviour
         // Play death animation
         if (animator != null)
         {
-            animator.SetBool(RoboEyeDeath,true);
+            animator.SetBool(RoboEyeDeath, true);
+
+            // Play death sound effect if AudioClip is assigned
+            if (deathSound != null)
+            {
+                AudioSource.PlayClipAtPoint(deathSound, transform.position);
+            }
 
             // Delay destruction of the object until after the animation finishes
-            // float animationLength = animator.GetCurrentAnimatorStateInfo(0).length;
-            // Debug.Log("DESTROY TIME: " + animationLength);
             StartCoroutine(DestroyAfterAnimation());
         }
         else
@@ -46,11 +51,11 @@ public class RoboEyeHealth : MonoBehaviour
 
     private IEnumerator DestroyAfterAnimation()
     {
-        yield return null;//new WaitForSeconds(0.25f);
-        float animationLength = animator.GetCurrentAnimatorStateInfo(0).length;
-        Debug.Log("DESTROY TIME: " + animationLength);
+        yield return null;
+
         // Wait for the animation to finish playing
-        yield return new WaitForSeconds(animationLength);// - 0.25f
+        float animationLength = animator.GetCurrentAnimatorStateInfo(0).length;
+        yield return new WaitForSeconds(animationLength);
 
         // Destroy the enemy GameObject after the animation finishes
         Destroy(gameObject);

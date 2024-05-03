@@ -262,6 +262,7 @@ MonoBehaviour:
   chargeDuration: 1
   knockbackForce: 10
   knockbackDuration: 0.5
+  detectionRange: 5
   equippedHitbox: {fileID: 0}
   hitboxOffset: {x: 0, y: 0, z: 0}
 --- !u!114 &4431287766477095844
@@ -278,6 +279,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 1
   animator: {fileID: 4695831841076711327}
+  deathSound: {fileID: 8300000, guid: a98f2f9464a75405fb7ccc9036b0cd30, type: 3}
 --- !u!114 &1757974712166212721
 MonoBehaviour:
   m_ObjectHideFlags: 0
