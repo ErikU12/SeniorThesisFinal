@@ -73,6 +73,7 @@
     <Compile Include="Assets\Scripts\Other\ObeliskCamera.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples _ Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\Scripts\Player\FlipSprite.cs" />
+    <Compile Include="Assets\Scripts\Crate.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyHealth.cs" />
     <Compile Include="Assets\Scripts\Player\CameraController.cs" />
     <Compile Include="Assets\Scripts\Enemy\Sniper.cs" />
