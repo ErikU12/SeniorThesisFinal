@@ -117,6 +117,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7793883294741279510, guid: 17f8ad3c25dd44342b7b64de41bd3467, type: 3}
       insertIndex: -1
       addedObject: {fileID: 5560767267460215767}
+    - targetCorrespondingSourceObject: {fileID: 7793883294741279510, guid: 17f8ad3c25dd44342b7b64de41bd3467, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1764406618830626050}
   m_SourcePrefab: {fileID: 100100000, guid: 17f8ad3c25dd44342b7b64de41bd3467, type: 3}
 --- !u!1 &5061273013409133127 stripped
 GameObject:
@@ -137,7 +140,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 1
   knockbackForce: 100
-  spawnSound: {fileID: 8300000, guid: 367b69ea89a364843a5af791cdabf741, type: 3}
   collisionSound: {fileID: 8300000, guid: 367b69ea89a364843a5af791cdabf741, type: 3}
 --- !u!198 &4379428406395628419
 ParticleSystem:
@@ -4937,3 +4939,18 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
+--- !u!114 &1764406618830626050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5061273013409133127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8c4d52a8fb39284aa8ac5706b25bf84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 1
+  destroySound: {fileID: 0}
+  soundOffset: 0.1

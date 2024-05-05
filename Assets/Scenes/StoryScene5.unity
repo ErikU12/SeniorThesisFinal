@@ -201,8 +201,8 @@ Transform:
   m_GameObject: {fileID: 532124694}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.0351, y: -0.0185, z: 0}
-  m_LocalScale: {x: 4.2662, y: 2.3843, z: 1}
+  m_LocalPosition: {x: 0.0471, y: 0.1118, z: 0}
+  m_LocalScale: {x: 4.9941177, y: 2.446513, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -473,8 +473,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.412, y: 0.0002}
-  m_SizeDelta: {x: 16.5078, y: 9.9757}
+  m_AnchoredPosition: {x: -0.309, y: 0.1942}
+  m_SizeDelta: {x: 19.037, y: 10.3637}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2049975077
 GameObject:
@@ -509,7 +509,7 @@ MonoBehaviour:
   fadeOutDuration: 1.5
   fadeOutDelay: 3
   fadeImage: {fileID: 1373653597}
-  sceneToLoad: {fileID: 102900000, guid: 43e03afe3b53d444dabd44ecfa04ac7e, type: 3}
+  sceneToLoadName: StoryScene6
 --- !u!4 &2049975079
 Transform:
   m_ObjectHideFlags: 0

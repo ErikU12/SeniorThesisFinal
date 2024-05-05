@@ -170,7 +170,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fc712d37a2bc564cac2bbf739d2b678, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: {fileID: 102900000, guid: bd46508d4eddce94181e284f8e2d6316, type: 3}
+  sceneToLoadName: Opening crawl
   fadeImage: {fileID: 1192945834}
   fadeOutDuration: 1.5
 --- !u!114 &244497476
@@ -502,7 +502,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fc712d37a2bc564cac2bbf739d2b678, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: {fileID: 102900000, guid: c8f1b16c63b2e394da5a358536f45500, type: 3}
+  sceneToLoadName: Opening crawl
   fadeImage: {fileID: 1192945834}
   fadeOutDuration: 1.5
 --- !u!114 &528361832
@@ -517,10 +517,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7b2762538503844bae9d5a2b5a772c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeInDuration: 1.5
-  fadeOutDuration: 1.5
-  fadeImage: {fileID: 1192945834}
-  sceneToLoad: {fileID: 102900000, guid: bd46508d4eddce94181e284f8e2d6316, type: 3}
 --- !u!1 &619631747
 GameObject:
   m_ObjectHideFlags: 0
@@ -685,8 +681,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.26, y: -0.0024000003}
-  m_SizeDelta: {x: 16.5078, y: 9.9757}
+  m_AnchoredPosition: {x: 0.0984, y: -0.0022}
+  m_SizeDelta: {x: 21.2216, y: 11.3598}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1222955176
 GameObject:
@@ -942,7 +938,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fc712d37a2bc564cac2bbf739d2b678, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: {fileID: 0}
+  sceneToLoadName: 
   fadeImage: {fileID: 0}
   fadeOutDuration: 1.5
 --- !u!114 &1326598826

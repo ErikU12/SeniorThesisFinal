@@ -1,12 +1,11 @@
 using System.Collections;
-using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class StartButton : MonoBehaviour
 {
-    public SceneAsset sceneToLoad; // The scene to load (set in the Inspector)
+    public string sceneToLoadName; // The name of the scene to load
     public GameObject fadeImage; // Reference to the UI image for fading
     public float fadeOutDuration = 1.5f; // Duration of the fade out effect
 
@@ -23,14 +22,14 @@ public class StartButton : MonoBehaviour
 
     private void StartFadeOutAndLoadScene()
     {
-        if (sceneToLoad != null)
+        if (!string.IsNullOrEmpty(sceneToLoadName))
         {
             // Start the fade out process
             StartCoroutine(FadeOutAndLoadScene());
         }
         else
         {
-            Debug.LogError("Scene to load is not assigned!");
+            Debug.LogError("Scene to load name is not assigned!");
         }
     }
 
@@ -52,7 +51,7 @@ public class StartButton : MonoBehaviour
             }
 
             // Load the specified scene after fade out completes
-            SceneManager.LoadScene(sceneToLoad.name);
+            SceneManager.LoadScene(sceneToLoadName);
         }
         else
         {

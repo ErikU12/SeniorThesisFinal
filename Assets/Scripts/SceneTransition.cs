@@ -1,5 +1,4 @@
 using System.Collections;
-using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -9,7 +8,7 @@ public class SceneFade : MonoBehaviour
     public float fadeOutDuration = 1.5f; // Duration of the fade out effect
     public float fadeOutDelay = 5f; // Delay before starting the fade out
     public GameObject fadeImage; // Reference to the UI image for fading
-    public SceneAsset sceneToLoad; // Reference to the scene to transition to
+    public string sceneToLoadName; // Name of the scene to transition to
 
     private void Start()
     {
@@ -65,10 +64,11 @@ public class SceneFade : MonoBehaviour
             }
 
             // Load the next scene after fade out completes
-            SceneManager.LoadScene(sceneToLoad.name);
+            SceneManager.LoadScene(sceneToLoadName);
         }
     }
 }
+
 
 
 

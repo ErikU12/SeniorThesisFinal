@@ -195,8 +195,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.412, y: 0.0002}
-  m_SizeDelta: {x: 16.5078, y: 9.9757}
+  m_AnchoredPosition: {x: -0.0762, y: -0.4845}
+  m_SizeDelta: {x: 20.4093, y: 11.994}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &830688420
 GameObject:
@@ -368,8 +368,8 @@ Transform:
   m_GameObject: {fileID: 1837910583}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.0204, y: -0.0463, z: 0}
-  m_LocalScale: {x: 4.1239, y: 2.2273, z: 1}
+  m_LocalPosition: {x: -0.1521, y: 0.1254, z: 0}
+  m_LocalScale: {x: 4.6768007, y: 2.303705, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -410,8 +410,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.2722, y: -0.0143}
-  m_SizeDelta: {x: 16.4713, y: 9.9754}
+  m_AnchoredPosition: {x: -0.0136, y: -0.0143}
+  m_SizeDelta: {x: 17.043, y: 9.9754}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1899612478
 MonoBehaviour:
@@ -509,7 +509,7 @@ MonoBehaviour:
   fadeOutDuration: 1.5
   fadeOutDelay: 3
   fadeImage: {fileID: 365156006}
-  sceneToLoad: {fileID: 102900000, guid: d9423223f6499e5469e671f806353246, type: 3}
+  sceneToLoadName: StoryScene2
 --- !u!4 &2057777571
 Transform:
   m_ObjectHideFlags: 0

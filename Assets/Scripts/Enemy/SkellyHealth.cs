@@ -1,3 +1,5 @@
+
+
 using UnityEngine;
 
 public class SkellyHealth : MonoBehaviour
@@ -87,6 +89,3 @@ public class SkellyHealth : MonoBehaviour
         }
     }
 }
-
-
-

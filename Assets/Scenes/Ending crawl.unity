@@ -156,7 +156,7 @@ MonoBehaviour:
   fadeOutDuration: 1.5
   fadeOutDelay: 42
   fadeImage: {fileID: 1893432129}
-  sceneToLoad: {fileID: 102900000, guid: 9d0e730c3bfe4c043beab7dfe4646d94, type: 3}
+  sceneToLoadName: GameWin
 --- !u!4 &835315484
 Transform:
   m_ObjectHideFlags: 0
@@ -567,8 +567,8 @@ Transform:
   m_GameObject: {fileID: 1060248117}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.4014626, y: -3.0304794, z: 5}
-  m_LocalScale: {x: 3.2960699, y: 2.67542, z: 3.2960699}
+  m_LocalPosition: {x: -2.2945, y: -3.0997, z: 5}
+  m_LocalScale: {x: 3.6019452, y: 2.6620429, z: 3.2960699}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -709,8 +709,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.412, y: 0.0002}
-  m_SizeDelta: {x: 16.5078, y: 9.9757}
+  m_AnchoredPosition: {x: -0.70070016, y: 0.49269974}
+  m_SizeDelta: {x: 17.8725, y: 11.7187}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1893432131
 MonoBehaviour:

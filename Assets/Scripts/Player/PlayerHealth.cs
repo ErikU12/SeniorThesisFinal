@@ -149,7 +149,7 @@ public class PlayerHealth : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Potion"))
         {
-            IncreaseHealth(1);
+            IncreaseHealth(2);
             Destroy(other.gameObject); 
         }
         else if (other.gameObject.CompareTag("Checkpoint"))

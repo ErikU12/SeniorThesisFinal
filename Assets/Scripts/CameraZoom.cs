@@ -10,10 +10,12 @@ public class CameraZoom : MonoBehaviour
     public float startZoomDistance = 10f; // Distance at which the zoom effect starts
 
     private Camera mainCamera; // Reference to the main camera
+    private float originalOrthographicSize; // Original orthographic size of the camera
 
     private void Start()
     {
         mainCamera = Camera.main;
+        originalOrthographicSize = mainCamera.orthographicSize; // Store the original orthographic size
     }
 
     private void Update()
@@ -31,4 +33,11 @@ public class CameraZoom : MonoBehaviour
             mainCamera.orthographicSize = Mathf.Lerp(mainCamera.orthographicSize, targetOrthographicSize, zoomSpeed * Time.deltaTime);
         }
     }
+
+    // Method to reset the camera to its original position
+    public void ResetCameraPosition()
+    {
+        mainCamera.orthographicSize = originalOrthographicSize; // Reset the orthographic size
+    }
 }
+
